@@ -1,0 +1,50 @@
+name: Paivita aletutka
+
+on:
+  workflow_dispatch:
+    inputs:
+      min_discount:
+        description: "Tallennettava minimi-alennus %"
+        required: false
+        default: "50"
+      max_pages_karkkainen:
+        description: "Kärkkäisen sivumäärä per osasto (1 sivu = 48 tuotetta)"
+        required: false
+        default: "15"
+  schedule:
+    - cron: "0 */6 * * *" # Päivittyy automaattisesti 6 tunnin välein
+
+permissions:
+  contents: write
+
+jobs:
+  scrape:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Hae repo
+        uses: actions/checkout@v4
+
+      - name: Asenna Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Asenna riippuvuudet
+        run: |
+          pip install requests beautifulsoup4 playwright
+          playwright install chromium
+
+      - name: Aja scrape.py
+        env:
+          MIN_DISCOUNT: ${{ github.event.inputs.min_discount || '50' }}
+          MAX_PAGES_KARKKAINEN: ${{ github.event.inputs.max_pages_karkkainen || '15' }}
+        run: python scrape.py
+
+      - name: Tallenna deals.json repoon
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add deals.json
+          git diff --staged --quiet || git commit -m "Päivitä deals.json"
+          git push
+          
