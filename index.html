@@ -3,18 +3,15 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Ale-tutka: EMC24 & Kärkkäinen</title>
+  <title>Ale-tutka</title>
   <style>
     :root {
       --bg: #0f172a;
       --card: #1e293b;
       --text: #f8fafc;
       --muted: #94a3b8;
-      --accent: #38bdf8;
       --danger: #ef4444;
       --ok: #22c55e;
-      --emc: #0ea5e9;
-      --kark: #f59e0b;
     }
     * { box-sizing: border-box; }
     body {
@@ -48,9 +45,10 @@
     .row { display: flex; gap: 8px; align-items: center; }
     .row input[type="checkbox"] { width: auto; transform: scale(1.2); }
     #status {
-      font-size: 0.82rem;
+      font-size: 0.8rem;
       color: var(--muted);
       margin-bottom: 12px;
+      line-height: 1.4;
     }
     .grid {
       display: grid;
@@ -91,14 +89,18 @@
       position: absolute;
       top: 8px;
       right: 8px;
-      color: #0f172a;
       font-weight: 800;
-      font-size: 0.7rem;
+      font-size: 0.68rem;
       padding: 3px 6px;
       border-radius: 6px;
+      background: #475569;
+      color: #fff;
     }
-    .shop-EMC24 { background: var(--emc); color: #fff; }
-    .shop-Kärkkäinen { background: var(--kark); color: #0f172a; }
+    .shop-EMC24 { background: #0ea5e9; color: #fff; }
+    .shop-Kärkkäinen { background: #f59e0b; color: #0f172a; }
+    .shop-Tuontitukku { background: #10b981; color: #0f172a; }
+    .shop-Proshop { background: #8b5cf6; color: #fff; }
+    .shop-Verkkokauppa { background: #e11d48; color: #fff; }
     .info { padding: 10px; display: flex; flex-direction: column; gap: 6px; flex: 1; }
     .title { font-size: 0.84rem; line-height: 1.25; flex: 1; }
     .prices { display: flex; align-items: baseline; gap: 6px; flex-wrap: wrap; }
@@ -107,20 +109,23 @@
   </style>
 </head>
 <body>
-  <h1>Ale-tutka: EMC24 & Kärkkäinen</h1>
+  <h1>Ale-tutka</h1>
 
   <div class="controls">
     <div>
       <label for="shop">Kauppa</label>
       <select id="shop">
-        <option value="ALL">Kaikki</option>
+        <option value="ALL">Kaikki kaupat</option>
         <option value="EMC24">EMC24</option>
         <option value="Kärkkäinen">Kärkkäinen</option>
+        <option value="Tuontitukku">Tuontitukku</option>
+        <option value="Proshop">Proshop</option>
+        <option value="Verkkokauppa.com">Verkkokauppa.com</option>
       </select>
     </div>
     <div>
       <label for="minDisc">Min. alennus (%)</label>
-      <input id="minDisc" type="number" value="60" min="1" max="99" />
+      <input id="minDisc" type="number" value="80" min="1" max="99" />
     </div>
     <div>
       <label for="maxPrice">Max hinta (€)</label>
@@ -136,7 +141,7 @@
     </div>
     <div class="full">
       <label for="search">Hakusana</label>
-      <input id="search" type="text" placeholder="esim. kypärä, makita, rengas..." />
+      <input id="search" type="text" placeholder="esim. kypärä, makita, ssd..." />
     </div>
     <div class="full row">
       <input id="inStockOnly" type="checkbox" checked />
@@ -160,6 +165,11 @@
       status: document.getElementById("status"),
       results: document.getElementById("results"),
     };
+
+    function shopClass(name) {
+      if (name.startsWith("Verkkokauppa")) return "shop-Verkkokauppa";
+      return `shop-${name}`;
+    }
 
     function render() {
       const shop = els.shop.value;
@@ -188,15 +198,19 @@
         ? new Date(rawData.updated_at).toLocaleString("fi-FI")
         : "ei tietoa";
 
+      const breakdown = Object.entries(rawData.counts || {})
+        .filter(([k]) => k !== "total")
+        .map(([k, v]) => `${k}: ${v}`)
+        .join(" | ");
+
       els.status.textContent =
-        `Näytetään ${list.length} / ${rawData.items.length} tuotetta ` +
-        `(EMC24: ${rawData.counts.EMC24 ?? 0}, Kärkkäinen: ${rawData.counts["Kärkkäinen"] ?? 0}) • Päivitetty: ${updated}`;
+        `Näytetään ${list.length} / ${rawData.items.length} tuotetta (${breakdown}) • Päivitetty: ${updated}`;
 
       els.results.innerHTML = list.map(item => `
         <a class="card" href="${item.link}" target="_blank" rel="noopener">
           <div class="img-wrap">
             <span class="badge">-${item.disc}%</span>
-            <span class="shop-tag shop-${item.shop}">${item.shop}</span>
+            <span class="shop-tag ${shopClass(item.shop)}">${item.shop}</span>
             ${item.img ? `<img src="${item.img}" loading="lazy" alt="">` : ""}
           </div>
           <div class="info">
