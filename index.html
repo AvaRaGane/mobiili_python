@@ -1,10 +1,9 @@
-
 <!DOCTYPE html>
 <html lang="fi">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>EMC24 Ale-tutka</title>
+  <title>Ale-tutka: EMC24 & Kärkkäinen</title>
   <style>
     :root {
       --bg: #0f172a;
@@ -14,6 +13,8 @@
       --accent: #38bdf8;
       --danger: #ef4444;
       --ok: #22c55e;
+      --emc: #0ea5e9;
+      --kark: #f59e0b;
     }
     * { box-sizing: border-box; }
     body {
@@ -23,7 +24,7 @@
       color: var(--text);
       padding: 14px;
     }
-    h1 { font-size: 1.3rem; margin: 0 0 12px; }
+    h1 { font-size: 1.25rem; margin: 0 0 10px; }
     .controls {
       background: var(--card);
       padding: 12px;
@@ -33,7 +34,8 @@
       gap: 10px;
       margin-bottom: 12px;
     }
-    label { font-size: 0.8rem; color: var(--muted); display: block; margin-bottom: 4px; }
+    .full { grid-column: 1 / -1; }
+    label { font-size: 0.78rem; color: var(--muted); display: block; margin-bottom: 4px; }
     input, select {
       width: 100%;
       padding: 8px;
@@ -43,24 +45,12 @@
       color: var(--text);
       font-size: 0.95rem;
     }
-    .full { grid-column: 1 / -1; }
     .row { display: flex; gap: 8px; align-items: center; }
     .row input[type="checkbox"] { width: auto; transform: scale(1.2); }
-    button {
-      padding: 12px;
-      border: none;
-      border-radius: 10px;
-      font-weight: 700;
-      font-size: 1rem;
-      cursor: pointer;
-    }
-    #startBtn { background: var(--accent); color: #0f172a; flex: 1; }
-    #stopBtn { background: var(--danger); color: white; display: none; }
     #status {
-      font-size: 0.85rem;
+      font-size: 0.82rem;
       color: var(--muted);
       margin-bottom: 12px;
-      min-height: 1.2em;
     }
     .grid {
       display: grid;
@@ -85,11 +75,7 @@
       align-items: center;
       justify-content: center;
     }
-    .img-wrap img {
-      max-width: 100%;
-      max-height: 100%;
-      object-fit: contain;
-    }
+    .img-wrap img { max-width: 100%; max-height: 100%; object-fit: contain; }
     .badge {
       position: absolute;
       top: 8px;
@@ -97,22 +83,41 @@
       background: var(--danger);
       color: #fff;
       font-weight: 800;
-      font-size: 0.85rem;
-      padding: 4px 7px;
+      font-size: 0.82rem;
+      padding: 3px 6px;
       border-radius: 6px;
     }
+    .shop-tag {
+      position: absolute;
+      top: 8px;
+      right: 8px;
+      color: #0f172a;
+      font-weight: 800;
+      font-size: 0.7rem;
+      padding: 3px 6px;
+      border-radius: 6px;
+    }
+    .shop-EMC24 { background: var(--emc); color: #fff; }
+    .shop-Kärkkäinen { background: var(--kark); color: #0f172a; }
     .info { padding: 10px; display: flex; flex-direction: column; gap: 6px; flex: 1; }
-    .title { font-size: 0.85rem; line-height: 1.25; flex: 1; }
+    .title { font-size: 0.84rem; line-height: 1.25; flex: 1; }
     .prices { display: flex; align-items: baseline; gap: 6px; flex-wrap: wrap; }
     .sale { font-size: 1.05rem; font-weight: 800; color: var(--ok); }
-    .reg { font-size: 0.8rem; color: var(--muted); text-decoration: line-through; }
-    .stock { font-size: 0.72rem; color: var(--muted); }
+    .reg { font-size: 0.78rem; color: var(--muted); text-decoration: line-through; }
   </style>
 </head>
 <body>
-  <h1>EMC24 Ale-tutka</h1>
+  <h1>Ale-tutka: EMC24 & Kärkkäinen</h1>
 
   <div class="controls">
+    <div>
+      <label for="shop">Kauppa</label>
+      <select id="shop">
+        <option value="ALL">Kaikki</option>
+        <option value="EMC24">EMC24</option>
+        <option value="Kärkkäinen">Kärkkäinen</option>
+      </select>
+    </div>
     <div>
       <label for="minDisc">Min. alennus (%)</label>
       <input id="minDisc" type="number" value="60" min="1" max="99" />
@@ -125,140 +130,105 @@
       <label for="sortBy">Järjestys</label>
       <select id="sortBy">
         <option value="disc">Suurin alennus %</option>
-        <option value="price">Halvin ensin</option>
+        <option value="priceAsc">Halvin ensin</option>
+        <option value="priceDesc">Kallein ensin</option>
       </select>
     </div>
-    <div class="row" style="padding-top: 18px;">
-      <input id="inStockOnly" type="checkbox" checked />
-      <label for="inStockOnly" style="margin:0; color:var(--text);">Vain varastossa</label>
+    <div class="full">
+      <label for="search">Hakusana</label>
+      <input id="search" type="text" placeholder="esim. kypärä, makita, rengas..." />
     </div>
     <div class="full row">
-      <button id="startBtn">Hae tarjoukset</button>
-      <button id="stopBtn">Pysäytä</button>
+      <input id="inStockOnly" type="checkbox" checked />
+      <label for="inStockOnly" style="margin:0; color:var(--text);">Näytä vain varastossa olevat</label>
     </div>
   </div>
 
-  <div id="status">Valmis hakuun.</div>
+  <div id="status">Ladataan tarjouksia...</div>
   <div id="results" class="grid"></div>
 
   <script>
-    const PROXIES = [
-      url => url, // 1. Kokeile ensin suoraan
-      url => `https://corsproxy.io/?${encodeURIComponent(url)}`,
-      url => `https://api.allorigins.win/raw?url=${encodeURIComponent(url)}`
-    ];
+    let rawData = { items: [], updated_at: null, counts: {} };
 
-    let activeProxyIndex = 0;
-    let stopFlag = false;
-    let allFound = [];
-
-    const startBtn = document.getElementById("startBtn");
-    const stopBtn = document.getElementById("stopBtn");
-    const statusEl = document.getElementById("status");
-    const resultsEl = document.getElementById("results");
-
-    async function fetchJsonWithFallback(targetUrl) {
-      for (let i = activeProxyIndex; i < PROXIES.length; i++) {
-        try {
-          const res = await fetch(PROXIES[i](targetUrl));
-          if (!res.ok) throw new Error(`HTTP ${res.status}`);
-          const data = await res.json();
-          activeProxyIndex = i;
-          return data;
-        } catch (err) {
-          console.warn(`Reitti ${i} epäonnistui:`, err);
-        }
-      }
-      throw new Error("Kaikki yhteystavat estetty (CORS / proxy-rajoitus).");
-    }
+    const els = {
+      shop: document.getElementById("shop"),
+      minDisc: document.getElementById("minDisc"),
+      maxPrice: document.getElementById("maxPrice"),
+      sortBy: document.getElementById("sortBy"),
+      search: document.getElementById("search"),
+      inStockOnly: document.getElementById("inStockOnly"),
+      status: document.getElementById("status"),
+      results: document.getElementById("results"),
+    };
 
     function render() {
-      const sortBy = document.getElementById("sortBy").value;
-      const sorted = [...allFound].sort((a, b) =>
-        sortBy === "price" ? a.sale - b.sale : b.disc - a.disc
-      );
+      const shop = els.shop.value;
+      const minDisc = Number(els.minDisc.value) || 0;
+      const maxPrice = els.maxPrice.value ? Number(els.maxPrice.value) : Infinity;
+      const q = els.search.value.trim().toLowerCase();
+      const inStockOnly = els.inStockOnly.checked;
+      const sortBy = els.sortBy.value;
 
-      resultsEl.innerHTML = sorted.map(item => `
+      let list = rawData.items.filter(item => {
+        if (shop !== "ALL" && item.shop !== shop) return false;
+        if (item.disc < minDisc) return false;
+        if (item.sale > maxPrice) return false;
+        if (inStockOnly && !item.inStock) return false;
+        if (q && !item.name.toLowerCase().includes(q)) return false;
+        return true;
+      });
+
+      list.sort((a, b) => {
+        if (sortBy === "priceAsc") return a.sale - b.sale;
+        if (sortBy === "priceDesc") return b.sale - a.sale;
+        return b.disc - a.disc || a.sale - b.sale;
+      });
+
+      const updated = rawData.updated_at
+        ? new Date(rawData.updated_at).toLocaleString("fi-FI")
+        : "ei tietoa";
+
+      els.status.textContent =
+        `Näytetään ${list.length} / ${rawData.items.length} tuotetta ` +
+        `(EMC24: ${rawData.counts.EMC24 ?? 0}, Kärkkäinen: ${rawData.counts["Kärkkäinen"] ?? 0}) • Päivitetty: ${updated}`;
+
+      els.results.innerHTML = list.map(item => `
         <a class="card" href="${item.link}" target="_blank" rel="noopener">
           <div class="img-wrap">
             <span class="badge">-${item.disc}%</span>
+            <span class="shop-tag shop-${item.shop}">${item.shop}</span>
             ${item.img ? `<img src="${item.img}" loading="lazy" alt="">` : ""}
           </div>
           <div class="info">
             <div class="title">${item.name}</div>
             <div class="prices">
               <span class="sale">${item.sale.toFixed(2)} €</span>
-              <span class="reg">${item.reg.toFixed(2)} €</span>
+              ${item.reg > item.sale ? `<span class="reg">${item.reg.toFixed(2)} €</span>` : ""}
             </div>
-            <div class="stock">${item.inStock ? "Varastossa" : "Loppu / tilaustuote"}</div>
           </div>
         </a>
       `).join("");
     }
 
-    document.getElementById("sortBy").addEventListener("change", render);
-    stopBtn.addEventListener("click", () => { stopFlag = true; });
-
-    startBtn.addEventListener("click", async () => {
-      stopFlag = false;
-      allFound = [];
-      resultsEl.innerHTML = "";
-      startBtn.disabled = true;
-      stopBtn.style.display = "block";
-
-      const minDisc = Number(document.getElementById("minDisc").value) || 60;
-      const maxPriceRaw = document.getElementById("maxPrice").value;
-      const maxPrice = maxPriceRaw ? Number(maxPriceRaw) : Infinity;
-      const inStockOnly = document.getElementById("inStockOnly").checked;
-
-      let page = 1;
-      try {
-        while (!stopFlag) {
-          statusEl.textContent = `Haetaan sivua ${page}... (löydetty ${allFound.length} kpl)`;
-          const apiUrl = `https://www.emc24.fi/wp-json/wc/store/v1/products?on_sale=true&per_page=100&page=${page}`;
-          const products = await fetchJsonWithFallback(apiUrl);
-
-          if (!Array.isArray(products) || products.length === 0) break;
-
-          for (const p of products) {
-            const prices = p.prices || {};
-            const minor = 10 ** Number(prices.currency_minor_unit ?? 2);
-            const reg = Number(prices.regular_price || 0) / minor;
-            const sale = Number(prices.sale_price || prices.price || 0) / minor;
-            const inStock = Boolean(p.is_in_stock);
-
-            if (reg > 0 && sale > 0 && sale < reg) {
-              const disc = Math.round((1 - sale / reg) * 100);
-              if (disc >= minDisc && sale <= maxPrice && (!inStockOnly || inStock)) {
-                allFound.push({
-                  disc,
-                  name: p.name,
-                  sale,
-                  reg,
-                  inStock,
-                  link: p.permalink,
-                  img: p.images?.[0]?.thumbnail || p.images?.[0]?.src || ""
-                });
-              }
-            }
-          }
-
-          render();
-          if (products.length < 100) break;
-          page++;
-          await new Promise(r => setTimeout(r, 350));
-        }
-
-        statusEl.textContent = stopFlag
-          ? `Pysäytetty sivulla ${page}. Löydetty ${allFound.length} tuotetta.`
-          : `Valmis! Käyty läpi ${page} sivua, löydetty ${allFound.length} tuotetta (≥ ${minDisc} %).`;
-      } catch (err) {
-        statusEl.textContent = `Virhe: ${err.message}`;
-      } finally {
-        startBtn.disabled = false;
-        stopBtn.style.display = "none";
+    Object.values(els).forEach(el => {
+      if (el.tagName === "INPUT" || el.tagName === "SELECT") {
+        el.addEventListener("input", render);
+        el.addEventListener("change", render);
       }
     });
+
+    fetch(`./deals.json?t=${Date.now()}`)
+      .then(r => {
+        if (!r.ok) throw new Error("deals.json puuttuu vielä — aja GitHub Action ensin!");
+        return r.json();
+      })
+      .then(data => {
+        rawData = data;
+        render();
+      })
+      .catch(err => {
+        els.status.textContent = `Virhe: ${err.message}`;
+      });
   </script>
 </body>
 </html>
