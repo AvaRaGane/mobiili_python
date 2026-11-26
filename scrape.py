@@ -10,7 +10,7 @@ from bs4 import BeautifulSoup
 from playwright.sync_api import sync_playwright
 
 MIN_DISCOUNT_SAVE = int(os.getenv("MIN_DISCOUNT", "50"))
-MAX_PAGES_KARKKAINEN = int(os.getenv("MAX_PAGES_KARKKAINEN", "15"))
+MAX_PAGES_PER_SECTION = int(os.getenv("MAX_PAGES_KARKKAINEN", "10"))
 
 HEADERS = {
     "User-Agent": (
@@ -38,7 +38,6 @@ def scrape_emc24() -> list[dict]:
     items = []
     seen = set()
 
-    # 1. Kokeile WooCommerce Store API
     page = 1
     api_ok = False
     while page <= 80:
@@ -88,7 +87,6 @@ def scrape_emc24() -> list[dict]:
         print(f"[EMC24] API valmis: {len(items)} tuotetta")
         return items
 
-    # 2. Varavaihtoehto: Outlet HTML -sivut
     print("[EMC24] Siirrytään Outlet HTML -hakuun...")
     for p_num in range(1, 50):
         url = f"https://www.emc24.fi/tuote-osasto/outlet/page/{p_num}/"
@@ -141,13 +139,112 @@ def scrape_emc24() -> list[dict]:
     return items
 
 
-def scrape_karkkainen() -> list[dict]:
-    items = []
-    seen = set()
-    base_urls = [
-        "https://www.karkkainen.com/verkkokauppa/outlet-tuotteet",
-        "https://www.karkkainen.com/verkkokauppa/black-friday",
+def extract_cards_from_page(page, link_selector: str) -> list[dict]:
+    return page.evaluate(
+        """(sel) => {
+            const results = [];
+            const anchors = Array.from(document.querySelectorAll(sel));
+            const cardSet = new Set();
+
+            for (const a of anchors) {
+                const card = a.closest('article, li, [class*="product"], [class*="Product"], [class*="card"], [class*="Card"], [class*="item"], [class*="Item"]') || a.parentElement;
+                if (!card || cardSet.has(card)) continue;
+                const text = (card.innerText || '').trim();
+                if (!text.includes('€')) continue;
+                cardSet.add(card);
+
+                const href = a.href || '';
+                const imgEl = card.querySelector('img');
+                const img = imgEl ? (imgEl.currentSrc || imgEl.src || imgEl.getAttribute('data-src') || '') : '';
+                const titleEl = card.querySelector('h2, h3, h4, [class*="name"], [class*="Name"], [class*="title"], [class*="Title"]');
+                const name = titleEl ? titleEl.innerText.trim() : (a.getAttribute('title') || text.split('\\n')[0] || '').trim();
+
+                results.push({ href, name, img, text });
+            }
+            return results;
+        }""",
+        link_selector,
+    )
+
+
+def parse_extracted_items(extracted: list[dict], shop_name: str, base_domain: str, seen: set) -> list[dict]:
+    found = []
+    for raw in extracted:
+        link = urljoin(base_domain, raw["href"])
+        if not raw["name"] or not link or link in seen:
+            continue
+
+        text = raw["text"].replace("\xa0", " ")
+        price_matches = re.findall(r"(\d[\d\s]*[.,]\d{2})\s*€", text)
+        prices = sorted(set(parse_price(pm) for pm in price_matches if parse_price(pm) > 0))
+
+        disc_match = re.search(r"-\s*(\d{1,2})\s*%", text)
+        disc = int(disc_match.group(1)) if disc_match else 0
+
+        sale, reg = 0.0, 0.0
+        if len(prices) >= 2:
+            sale = prices[0]
+            reg = prices[-1]
+            if disc == 0 and reg > sale:
+                disc = round((1 - sale / reg) * 100)
+        elif len(prices) == 1 and disc > 0:
+            sale = prices[0]
+            reg = round(sale / (1 - disc / 100), 2)
+
+        if disc >= MIN_DISCOUNT_SAVE and sale > 0:
+            seen.add(link)
+            in_stock = not bool(re.search(r"loppu|ei saatavilla|sold out", text, re.I))
+            found.append({
+                "shop": shop_name,
+                "name": raw["name"][:140],
+                "disc": disc,
+                "sale": round(sale, 2),
+                "reg": round(reg, 2),
+                "inStock": in_stock,
+                "link": link,
+                "img": raw["img"],
+            })
+    return found
+
+
+def scrape_playwright_shops() -> dict[str, list[dict]]:
+    shop_configs = [
+        {
+            "name": "Kärkkäinen",
+            "domain": "https://www.karkkainen.com",
+            "selector": 'a[href*="/verkkokauppa/"]',
+            "urls": [
+                ("https://www.karkkainen.com/verkkokauppa/outlet-tuotteet", "offset", 48),
+                ("https://www.karkkainen.com/verkkokauppa/black-friday", "offset", 48),
+            ],
+        },
+        {
+            "name": "Tuontitukku",
+            "domain": "https://www.tuontitukku.fi",
+            "selector": 'a[href*="/p/"]',
+            "urls": [
+                ("https://www.tuontitukku.fi/koti-ja-toimisto/poistokori-outlet/c/280/", "page", 1),
+            ],
+        },
+        {
+            "name": "Proshop",
+            "domain": "https://www.proshop.fi",
+            "selector": 'a[href*="/"]',
+            "urls": [
+                ("https://www.proshop.fi/Black-Friday", "pn", 1),
+            ],
+        },
+        {
+            "name": "Verkkokauppa.com",
+            "domain": "https://www.verkkokauppa.com",
+            "selector": 'a[href*="/fi/product/"]',
+            "urls": [
+                ("https://www.verkkokauppa.com/fi/blackfriday", "page", 1),
+            ],
+        },
     ]
+
+    results_by_shop = {cfg["name"]: [] for cfg in shop_configs}
 
     with sync_playwright() as p:
         browser = p.chromium.launch(headless=True)
@@ -158,115 +255,71 @@ def scrape_karkkainen() -> list[dict]:
         )
         page = context.new_page()
 
-        for base_url in base_urls:
-            for page_idx in range(MAX_PAGES_KARKKAINEN):
-                offset = page_idx * 48
-                url = base_url if offset == 0 else f"{base_url}?offset={offset}"
-                print(f"[Kärkkäinen] Haetaan: {url}")
-                try:
-                    page.goto(url, wait_until="domcontentloaded", timeout=35000)
-                    page.wait_for_timeout(2500)
+        for cfg in shop_configs:
+            shop = cfg["name"]
+            seen = set()
 
-                    # Poimi tuotekortit suoraan DOM:sta yleisellä JS-skriptillä
-                    extracted = page.evaluate("""() => {
-                        const results = [];
-                        const anchors = Array.from(document.querySelectorAll('a[href*="/verkkokauppa/"]'));
-                        const cardSet = new Set();
+            for base_url, param_name, step in cfg["urls"]:
+                for idx in range(MAX_PAGES_PER_SECTION):
+                    if idx == 0:
+                        url = base_url
+                    elif param_name == "offset":
+                        url = f"{base_url}?offset={idx * step}"
+                    else:
+                        sep = "&" if "?" in base_url else "?"
+                        url = f"{base_url}{sep}{param_name}={idx + 1}"
 
-                        for (const a of anchors) {
-                            const card = a.closest('article, li, [class*="product"], [class*="Product"], [class*="card"], [class*="Card"]') || a.parentElement;
-                            if (!card || cardSet.has(card)) continue;
-                            const text = (card.innerText || '').trim();
-                            if (!text.includes('€')) continue;
-                            cardSet.add(card);
+                    print(f"[{shop}] Haetaan: {url}")
+                    try:
+                        page.goto(url, wait_until="domcontentloaded", timeout=35000)
+                        page.wait_for_timeout(2500)
+                        # Rullaa kerran alas, jotta laiskasti latautuvat tuotteet/kuvat tulevat näkyviin
+                        page.evaluate("window.scrollTo(0, document.body.scrollHeight / 2)")
+                        page.wait_for_timeout(800)
 
-                            const href = a.href || '';
-                            const imgEl = card.querySelector('img');
-                            const img = imgEl ? (imgEl.currentSrc || imgEl.src || imgEl.getAttribute('data-src') || '') : '';
-                            const titleEl = card.querySelector('h2, h3, h4, [class*="name"], [class*="Name"], [class*="title"], [class*="Title"]');
-                            const name = titleEl ? titleEl.innerText.trim() : (a.getAttribute('title') || text.split('\\n')[0] || '').trim();
+                        extracted = extract_cards_from_page(page, cfg["selector"])
+                        if not extracted:
+                            print(f"[{shop}] Ei tuotteita sivulla {idx + 1}, lopetetaan osio.")
+                            break
 
-                            results.push({ href, name, img, text });
-                        }
-                        return results;
-                    }""")
-
-                    if not extracted:
-                        print(f"[Kärkkäinen] Ei tuotteita sivulla offset={offset}, lopetetaan osio.")
+                        new_items = parse_extracted_items(extracted, shop, cfg["domain"], seen)
+                        results_by_shop[shop].extend(new_items)
+                        print(f"[{shop}] Löydetty {len(new_items)} uutta ≥{MIN_DISCOUNT_SAVE}% tuotetta (yht. {len(results_by_shop[shop])})")
+                    except Exception as e:
+                        print(f"[{shop}] Virhe sivulla {url}: {e}")
                         break
-
-                    found_on_page = 0
-                    for raw in extracted:
-                        link = urljoin("https://www.karkkainen.com", raw["href"])
-                        if not raw["name"] or link in seen:
-                            continue
-
-                        text = raw["text"].replace("\xa0", " ")
-                        # Etsi kaikki eurohinnat kortista
-                        price_matches = re.findall(r"(\d[\d\s]*[.,]\d{2})\s*€", text)
-                        prices = sorted(set(parse_price(pm) for pm in price_matches if parse_price(pm) > 0))
-
-                        disc_match = re.search(r"-\s*(\d{1,2})\s*%", text)
-                        disc = int(disc_match.group(1)) if disc_match else 0
-
-                        sale, reg = 0.0, 0.0
-                        if len(prices) >= 2:
-                            sale = prices[0]
-                            reg = prices[-1]
-                            if disc == 0 and reg > sale:
-                                disc = round((1 - sale / reg) * 100)
-                        elif len(prices) == 1 and disc > 0:
-                            sale = prices[0]
-                            reg = round(sale / (1 - disc / 100), 2)
-
-                        if disc >= MIN_DISCOUNT_SAVE and sale > 0:
-                            seen.add(link)
-                            found_on_page += 1
-                            in_stock = not bool(re.search(r"loppu|ei saatavilla", text, re.I))
-                            items.append({
-                                "shop": "Kärkkäinen",
-                                "name": raw["name"][:140],
-                                "disc": disc,
-                                "sale": round(sale, 2),
-                                "reg": round(reg, 2),
-                                "inStock": in_stock,
-                                "link": link,
-                                "img": raw["img"],
-                            })
-
-                    print(f"[Kärkkäinen] Löydetty {found_on_page} uutta ≥{MIN_DISCOUNT_SAVE}% tuotetta (yht. {len(items)})")
-                except Exception as e:
-                    print(f"[Kärkkäinen] Virhe sivulla {url}: {e}")
-                    break
 
         browser.close()
 
-    print(f"[Kärkkäinen] Valmis: {len(items)} tuotetta")
-    return items
+    return results_by_shop
 
 
 def main():
     emc_items = scrape_emc24()
-    kark_items = scrape_karkkainen()
+    pw_results = scrape_playwright_shops()
 
-    all_items = emc_items + kark_items
+    all_items = list(emc_items)
+    counts = {"EMC24": len(emc_items)}
+
+    for shop_name, items in pw_results.items():
+        all_items.extend(items)
+        counts[shop_name] = len(items)
+
     all_items.sort(key=lambda x: (-x["disc"], x["sale"]))
+    counts["total"] = len(all_items)
 
     payload = {
         "updated_at": datetime.now(timezone.utc).isoformat(),
-        "counts": {
-            "EMC24": len(emc_items),
-            "Kärkkäinen": len(kark_items),
-            "total": len(all_items),
-        },
+        "counts": counts,
         "items": all_items,
     }
 
     with open("deals.json", "w", encoding="utf-8") as f:
         json.dump(payload, f, ensure_ascii=False, indent=2)
 
-    print(f"Tallennettu deals.json: yhteensä {len(all_items)} tuotetta.")
+    print(f"Tallennettu deals.json: {counts}")
 
 
 if __name__ == "__main__":
     main()
+    
