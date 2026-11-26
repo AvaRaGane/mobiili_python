@@ -3,14 +3,14 @@ import os
 import re
 import time
 from datetime import datetime, timezone
-from urllib.parse import urljoin
+from urllib.parse import urljoin, urlsplit, urlunsplit
 
 import requests
 from bs4 import BeautifulSoup
 from playwright.sync_api import sync_playwright
 
 MIN_DISCOUNT_SAVE = int(os.getenv("MIN_DISCOUNT", "50"))
-MAX_PAGES_PER_SECTION = int(os.getenv("MAX_PAGES_KARKKAINEN", "10"))
+MAX_PAGES_PER_SECTION = int(os.getenv("MAX_PAGES_KARKKAINEN", "15"))
 
 HEADERS = {
     "User-Agent": (
@@ -19,6 +19,12 @@ HEADERS = {
     ),
     "Accept-Language": "fi-FI,fi;q=0.9,en;q=0.8",
 }
+
+
+def clean_url(url: str) -> str:
+    """Poistaa ?-parametrit ja #-ankkurit, jotta sama tuote ei tule tuplana."""
+    parts = urlsplit(url)
+    return urlunsplit((parts.scheme, parts.netloc, parts.path.rstrip("/"), "", ""))
 
 
 def parse_price(text: str) -> float:
@@ -61,8 +67,8 @@ def scrape_emc24() -> list[dict]:
                 sale = int(prices.get("sale_price") or prices.get("price") or 0) / minor
                 if reg > 0 and 0 < sale < reg:
                     disc = round((1 - sale / reg) * 100)
-                    link = p.get("permalink", "")
-                    if disc >= MIN_DISCOUNT_SAVE and link not in seen:
+                    link = clean_url(p.get("permalink", ""))
+                    if disc >= MIN_DISCOUNT_SAVE and link and link not in seen:
                         seen.add(link)
                         imgs = p.get("images") or []
                         items.append({
@@ -116,7 +122,7 @@ def scrape_emc24() -> list[dict]:
                 link_el = card.select_one("a[href]")
                 title_el = card.select_one("h2, .woocommerce-loop-product__title")
                 img_el = card.select_one("img")
-                link = link_el["href"] if link_el else ""
+                link = clean_url(link_el["href"]) if link_el else ""
                 if not link or link in seen:
                     continue
                 seen.add(link)
@@ -150,7 +156,7 @@ def extract_cards_from_page(page, link_selector: str) -> list[dict]:
                 const card = a.closest('article, li, [class*="product"], [class*="Product"], [class*="card"], [class*="Card"], [class*="item"], [class*="Item"]') || a.parentElement;
                 if (!card || cardSet.has(card)) continue;
                 const text = (card.innerText || '').trim();
-                if (!text.includes('€')) continue;
+                if (!text.includes('€') && !text.includes('EUR')) continue;
                 cardSet.add(card);
 
                 const href = a.href || '';
@@ -167,11 +173,14 @@ def extract_cards_from_page(page, link_selector: str) -> list[dict]:
     )
 
 
-def parse_extracted_items(extracted: list[dict], shop_name: str, base_domain: str, seen: set) -> list[dict]:
+def parse_extracted_items(extracted: list[dict], shop_name: str, base_domain: str, seen_links: set, seen_names: set) -> list[dict]:
     found = []
     for raw in extracted:
-        link = urljoin(base_domain, raw["href"])
-        if not raw["name"] or not link or link in seen:
+        link = clean_url(urljoin(base_domain, raw["href"]))
+        name = raw["name"][:140].strip()
+        name_key = name.lower()
+
+        if not name or not link or link in seen_links or name_key in seen_names:
             continue
 
         text = raw["text"].replace("\xa0", " ")
@@ -192,11 +201,12 @@ def parse_extracted_items(extracted: list[dict], shop_name: str, base_domain: st
             reg = round(sale / (1 - disc / 100), 2)
 
         if disc >= MIN_DISCOUNT_SAVE and sale > 0:
-            seen.add(link)
+            seen_links.add(link)
+            seen_names.add(name_key)
             in_stock = not bool(re.search(r"loppu|ei saatavilla|sold out", text, re.I))
             found.append({
                 "shop": shop_name,
-                "name": raw["name"][:140],
+                "name": name,
                 "disc": disc,
                 "sale": round(sale, 2),
                 "reg": round(reg, 2),
@@ -221,7 +231,7 @@ def scrape_playwright_shops() -> dict[str, list[dict]]:
         {
             "name": "Tuontitukku",
             "domain": "https://www.tuontitukku.fi",
-            "selector": 'a[href*="/p/"]',
+            "selector": 'a[href*="/p/"], a[href*="/tuote/"], article a[href]',
             "urls": [
                 ("https://www.tuontitukku.fi/koti-ja-toimisto/poistokori-outlet/c/280/", "page", 1),
             ],
@@ -257,9 +267,11 @@ def scrape_playwright_shops() -> dict[str, list[dict]]:
 
         for cfg in shop_configs:
             shop = cfg["name"]
-            seen = set()
+            seen_links = set()
+            seen_names = set()
 
             for base_url, param_name, step in cfg["urls"]:
+                empty_streak = 0
                 for idx in range(MAX_PAGES_PER_SECTION):
                     if idx == 0:
                         url = base_url
@@ -273,18 +285,25 @@ def scrape_playwright_shops() -> dict[str, list[dict]]:
                     try:
                         page.goto(url, wait_until="domcontentloaded", timeout=35000)
                         page.wait_for_timeout(2500)
-                        # Rullaa kerran alas, jotta laiskasti latautuvat tuotteet/kuvat tulevat näkyviin
                         page.evaluate("window.scrollTo(0, document.body.scrollHeight / 2)")
                         page.wait_for_timeout(800)
 
                         extracted = extract_cards_from_page(page, cfg["selector"])
-                        if not extracted:
-                            print(f"[{shop}] Ei tuotteita sivulla {idx + 1}, lopetetaan osio.")
+                        if idx == 0 and not extracted:
+                            print(f"[{shop} DEBUG] Title: {page.title()!r} | URL: {page.url}")
                             break
 
-                        new_items = parse_extracted_items(extracted, shop, cfg["domain"], seen)
+                        new_items = parse_extracted_items(extracted, shop, cfg["domain"], seen_links, seen_names)
                         results_by_shop[shop].extend(new_items)
-                        print(f"[{shop}] Löydetty {len(new_items)} uutta ≥{MIN_DISCOUNT_SAVE}% tuotetta (yht. {len(results_by_shop[shop])})")
+                        print(f"[{shop}] Kortteja: {len(extracted)}, uusia ≥{MIN_DISCOUNT_SAVE}%: {len(new_items)} (yht. {len(results_by_shop[shop])})")
+
+                        if len(new_items) == 0:
+                            empty_streak += 1
+                            if empty_streak >= 2:
+                                print(f"[{shop}] 2 tyhjää sivua peräkkäin, lopetetaan osio.")
+                                break
+                        else:
+                            empty_streak = 0
                     except Exception as e:
                         print(f"[{shop}] Virhe sivulla {url}: {e}")
                         break
@@ -322,4 +341,3 @@ def main():
 
 if __name__ == "__main__":
     main()
-    
