@@ -1,1 +1,264 @@
 
+<!DOCTYPE html>
+<html lang="fi">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>EMC24 Ale-tutka</title>
+  <style>
+    :root {
+      --bg: #0f172a;
+      --card: #1e293b;
+      --text: #f8fafc;
+      --muted: #94a3b8;
+      --accent: #38bdf8;
+      --danger: #ef4444;
+      --ok: #22c55e;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: system-ui, -apple-system, sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      padding: 14px;
+    }
+    h1 { font-size: 1.3rem; margin: 0 0 12px; }
+    .controls {
+      background: var(--card);
+      padding: 12px;
+      border-radius: 12px;
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 10px;
+      margin-bottom: 12px;
+    }
+    label { font-size: 0.8rem; color: var(--muted); display: block; margin-bottom: 4px; }
+    input, select {
+      width: 100%;
+      padding: 8px;
+      border-radius: 8px;
+      border: 1px solid #334155;
+      background: #0f172a;
+      color: var(--text);
+      font-size: 0.95rem;
+    }
+    .full { grid-column: 1 / -1; }
+    .row { display: flex; gap: 8px; align-items: center; }
+    .row input[type="checkbox"] { width: auto; transform: scale(1.2); }
+    button {
+      padding: 12px;
+      border: none;
+      border-radius: 10px;
+      font-weight: 700;
+      font-size: 1rem;
+      cursor: pointer;
+    }
+    #startBtn { background: var(--accent); color: #0f172a; flex: 1; }
+    #stopBtn { background: var(--danger); color: white; display: none; }
+    #status {
+      font-size: 0.85rem;
+      color: var(--muted);
+      margin-bottom: 12px;
+      min-height: 1.2em;
+    }
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
+      gap: 10px;
+    }
+    .card {
+      background: var(--card);
+      border-radius: 12px;
+      overflow: hidden;
+      display: flex;
+      flex-direction: column;
+      text-decoration: none;
+      color: inherit;
+      border: 1px solid #334155;
+    }
+    .img-wrap {
+      position: relative;
+      background: #fff;
+      height: 140px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    .img-wrap img {
+      max-width: 100%;
+      max-height: 100%;
+      object-fit: contain;
+    }
+    .badge {
+      position: absolute;
+      top: 8px;
+      left: 8px;
+      background: var(--danger);
+      color: #fff;
+      font-weight: 800;
+      font-size: 0.85rem;
+      padding: 4px 7px;
+      border-radius: 6px;
+    }
+    .info { padding: 10px; display: flex; flex-direction: column; gap: 6px; flex: 1; }
+    .title { font-size: 0.85rem; line-height: 1.25; flex: 1; }
+    .prices { display: flex; align-items: baseline; gap: 6px; flex-wrap: wrap; }
+    .sale { font-size: 1.05rem; font-weight: 800; color: var(--ok); }
+    .reg { font-size: 0.8rem; color: var(--muted); text-decoration: line-through; }
+    .stock { font-size: 0.72rem; color: var(--muted); }
+  </style>
+</head>
+<body>
+  <h1>EMC24 Ale-tutka</h1>
+
+  <div class="controls">
+    <div>
+      <label for="minDisc">Min. alennus (%)</label>
+      <input id="minDisc" type="number" value="60" min="1" max="99" />
+    </div>
+    <div>
+      <label for="maxPrice">Max hinta (€)</label>
+      <input id="maxPrice" type="number" placeholder="Ei rajaa" min="1" />
+    </div>
+    <div>
+      <label for="sortBy">Järjestys</label>
+      <select id="sortBy">
+        <option value="disc">Suurin alennus %</option>
+        <option value="price">Halvin ensin</option>
+      </select>
+    </div>
+    <div class="row" style="padding-top: 18px;">
+      <input id="inStockOnly" type="checkbox" checked />
+      <label for="inStockOnly" style="margin:0; color:var(--text);">Vain varastossa</label>
+    </div>
+    <div class="full row">
+      <button id="startBtn">Hae tarjoukset</button>
+      <button id="stopBtn">Pysäytä</button>
+    </div>
+  </div>
+
+  <div id="status">Valmis hakuun.</div>
+  <div id="results" class="grid"></div>
+
+  <script>
+    const PROXIES = [
+      url => url, // 1. Kokeile ensin suoraan
+      url => `https://corsproxy.io/?${encodeURIComponent(url)}`,
+      url => `https://api.allorigins.win/raw?url=${encodeURIComponent(url)}`
+    ];
+
+    let activeProxyIndex = 0;
+    let stopFlag = false;
+    let allFound = [];
+
+    const startBtn = document.getElementById("startBtn");
+    const stopBtn = document.getElementById("stopBtn");
+    const statusEl = document.getElementById("status");
+    const resultsEl = document.getElementById("results");
+
+    async function fetchJsonWithFallback(targetUrl) {
+      for (let i = activeProxyIndex; i < PROXIES.length; i++) {
+        try {
+          const res = await fetch(PROXIES[i](targetUrl));
+          if (!res.ok) throw new Error(`HTTP ${res.status}`);
+          const data = await res.json();
+          activeProxyIndex = i;
+          return data;
+        } catch (err) {
+          console.warn(`Reitti ${i} epäonnistui:`, err);
+        }
+      }
+      throw new Error("Kaikki yhteystavat estetty (CORS / proxy-rajoitus).");
+    }
+
+    function render() {
+      const sortBy = document.getElementById("sortBy").value;
+      const sorted = [...allFound].sort((a, b) =>
+        sortBy === "price" ? a.sale - b.sale : b.disc - a.disc
+      );
+
+      resultsEl.innerHTML = sorted.map(item => `
+        <a class="card" href="${item.link}" target="_blank" rel="noopener">
+          <div class="img-wrap">
+            <span class="badge">-${item.disc}%</span>
+            ${item.img ? `<img src="${item.img}" loading="lazy" alt="">` : ""}
+          </div>
+          <div class="info">
+            <div class="title">${item.name}</div>
+            <div class="prices">
+              <span class="sale">${item.sale.toFixed(2)} €</span>
+              <span class="reg">${item.reg.toFixed(2)} €</span>
+            </div>
+            <div class="stock">${item.inStock ? "Varastossa" : "Loppu / tilaustuote"}</div>
+          </div>
+        </a>
+      `).join("");
+    }
+
+    document.getElementById("sortBy").addEventListener("change", render);
+    stopBtn.addEventListener("click", () => { stopFlag = true; });
+
+    startBtn.addEventListener("click", async () => {
+      stopFlag = false;
+      allFound = [];
+      resultsEl.innerHTML = "";
+      startBtn.disabled = true;
+      stopBtn.style.display = "block";
+
+      const minDisc = Number(document.getElementById("minDisc").value) || 60;
+      const maxPriceRaw = document.getElementById("maxPrice").value;
+      const maxPrice = maxPriceRaw ? Number(maxPriceRaw) : Infinity;
+      const inStockOnly = document.getElementById("inStockOnly").checked;
+
+      let page = 1;
+      try {
+        while (!stopFlag) {
+          statusEl.textContent = `Haetaan sivua ${page}... (löydetty ${allFound.length} kpl)`;
+          const apiUrl = `https://www.emc24.fi/wp-json/wc/store/v1/products?on_sale=true&per_page=100&page=${page}`;
+          const products = await fetchJsonWithFallback(apiUrl);
+
+          if (!Array.isArray(products) || products.length === 0) break;
+
+          for (const p of products) {
+            const prices = p.prices || {};
+            const minor = 10 ** Number(prices.currency_minor_unit ?? 2);
+            const reg = Number(prices.regular_price || 0) / minor;
+            const sale = Number(prices.sale_price || prices.price || 0) / minor;
+            const inStock = Boolean(p.is_in_stock);
+
+            if (reg > 0 && sale > 0 && sale < reg) {
+              const disc = Math.round((1 - sale / reg) * 100);
+              if (disc >= minDisc && sale <= maxPrice && (!inStockOnly || inStock)) {
+                allFound.push({
+                  disc,
+                  name: p.name,
+                  sale,
+                  reg,
+                  inStock,
+                  link: p.permalink,
+                  img: p.images?.[0]?.thumbnail || p.images?.[0]?.src || ""
+                });
+              }
+            }
+          }
+
+          render();
+          if (products.length < 100) break;
+          page++;
+          await new Promise(r => setTimeout(r, 350));
+        }
+
+        statusEl.textContent = stopFlag
+          ? `Pysäytetty sivulla ${page}. Löydetty ${allFound.length} tuotetta.`
+          : `Valmis! Käyty läpi ${page} sivua, löydetty ${allFound.length} tuotetta (≥ ${minDisc} %).`;
+      } catch (err) {
+        statusEl.textContent = `Virhe: ${err.message}`;
+      } finally {
+        startBtn.disabled = false;
+        stopBtn.style.display = "none";
+      }
+    });
+  </script>
+</body>
+</html>
