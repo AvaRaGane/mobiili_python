@@ -254,7 +254,6 @@ def scrape_playwright_shops() -> dict[str, list[dict]]:
         },
     ]
 
-
     results_by_shop = {cfg["name"]: [] for cfg in shop_configs}
 
     with sync_playwright() as p:
@@ -342,3 +341,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+            
