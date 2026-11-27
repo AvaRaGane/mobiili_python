@@ -30,7 +30,7 @@ def clean_url(url: str) -> str:
 def parse_price(text: str) -> float:
     if not text:
         return 0.0
-    m = re.search(r"(\d[\d\s]*[.,]\d{2}|\d+)", text.replace("\xa0", " "))
+    m = re.search(r"(\d[\d\s]*[.,]\d{2}|\d[\d\s]*)", text.replace("\xa0", " "))
     if not m:
         return 0.0
     val = m.group(1).replace(" ", "").replace(",", ".")
@@ -156,7 +156,7 @@ def extract_cards_from_page(page, link_selector: str) -> list[dict]:
                 const card = a.closest('article, li, [class*="product"], [class*="Product"], [class*="card"], [class*="Card"], [class*="item"], [class*="Item"]') || a.parentElement;
                 if (!card || cardSet.has(card)) continue;
                 const text = (card.innerText || '').trim();
-                if (!text.includes('€') && !text.includes('EUR')) continue;
+                if (!text.includes('€') && !text.includes('EUR') && !text.includes(',-')) continue;
                 cardSet.add(card);
 
                 const href = a.href || '';
@@ -184,23 +184,39 @@ def parse_extracted_items(extracted: list[dict], shop_name: str, base_domain: st
             continue
 
         text = raw["text"].replace("\xa0", " ")
-        price_matches = re.findall(r"(\d[\d\s]*[.,]\d{2})\s*€", text)
-        if not price_matches:
-            price_matches = re.findall(r"(\d[\d\s]*)\s*€", text)
-        prices = sorted(set(parse_price(pm) for pm in price_matches if parse_price(pm) > 0))
 
+        # Etsi hinnat muodoista: 19,90 €, 199 €, 199,-
+        price_matches = re.findall(r"(\d[\d\s]*[.,]\d{2})\s*€|(\d[\d\s]*)\s*(?:€|,-)", text)
+        prices = []
+        for m1, m2 in price_matches:
+            val = parse_price(m1 or m2)
+            if val > 0:
+                prices.append(val)
+        prices = sorted(set(prices))
+
+        # Etsi myös "Säästä XX €" tai "-XX %"
         disc_match = re.search(r"-\s*(\d{1,2})\s*%", text)
         disc = int(disc_match.group(1)) if disc_match else 0
 
+        save_match = re.search(r"säästä\s*(\d[\d\s]*(?:[.,]\d{2})?)", text, re.I)
+        saved_eur = parse_price(save_match.group(1)) if save_match else 0.0
+
         sale, reg = 0.0, 0.0
         if len(prices) >= 2:
+            # Jos "Säästä X €" oli mukana hinnoissa, suodatetaan se tarvittaessa
             sale = prices[0]
             reg = prices[-1]
+            if saved_eur > 0 and abs(sale - saved_eur) < 0.05 and len(prices) >= 3:
+                sale = prices[1]
             if disc == 0 and reg > sale:
                 disc = round((1 - sale / reg) * 100)
-        elif len(prices) == 1 and disc > 0:
+        elif len(prices) == 1:
             sale = prices[0]
-            reg = round(sale / (1 - disc / 100), 2)
+            if disc > 0:
+                reg = round(sale / (1 - disc / 100), 2)
+            elif saved_eur > 0:
+                reg = round(sale + saved_eur, 2)
+                disc = round((saved_eur / reg) * 100)
 
         if disc >= MIN_DISCOUNT_SAVE and sale > 0:
             seen_links.add(link)
@@ -258,24 +274,6 @@ def scrape_playwright_shops() -> dict[str, list[dict]]:
                 ("https://www.rusta.com/fi-fi/kampanja/black-week", "page", 1),
             ],
         },
-        {
-            "name": "Puuilo",
-            "domain": "https://www.puuilo.fi",
-            "selector": '.product-item-link, main a[href]',
-            "max_pages": MAX_PAGES_OTHERS,
-            "urls": [
-                ("https://www.puuilo.fi/tarjoukset", "p", 1),
-            ],
-        },
-        {
-            "name": "Gigantti",
-            "domain": "https://www.gigantti.fi",
-            "selector": 'a[href*="/product/"], main a[href]',
-            "max_pages": MAX_PAGES_OTHERS,
-            "urls": [
-                ("https://www.gigantti.fi/kampanja/black-friday", "page", 1),
-            ],
-        },
     ]
 
     results_by_shop = {cfg["name"]: [] for cfg in shop_configs}
@@ -321,6 +319,10 @@ def scrape_playwright_shops() -> dict[str, list[dict]]:
                         new_items = parse_extracted_items(extracted, shop, cfg["domain"], seen_links, seen_names)
                         results_by_shop[shop].extend(new_items)
                         print(f"[{shop}] Kortteja: {len(extracted)}, uusia ≥{MIN_DISCOUNT_SAVE}%: {len(new_items)} (yht. {len(results_by_shop[shop])})")
+
+                        if idx == 0 and extracted and len(new_items) == 0:
+                            sample = extracted[0]["text"].replace("\n", " | ")[:160]
+                            print(f"[{shop} SAMPLE] {sample}")
 
                         if len(new_items) == 0:
                             empty_streak += 1
