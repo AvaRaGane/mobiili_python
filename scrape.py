@@ -10,7 +10,8 @@ from bs4 import BeautifulSoup
 from playwright.sync_api import sync_playwright
 
 MIN_DISCOUNT_SAVE = int(os.getenv("MIN_DISCOUNT", "50"))
-MAX_PAGES_PER_SECTION = int(os.getenv("MAX_PAGES_KARKKAINEN", "15"))
+MAX_PAGES_KARKKAINEN = int(os.getenv("MAX_PAGES_KARKKAINEN", "15"))
+MAX_PAGES_OTHERS = 8
 
 HEADERS = {
     "User-Agent": (
@@ -22,7 +23,6 @@ HEADERS = {
 
 
 def clean_url(url: str) -> str:
-    """Poistaa ?-parametrit ja #-ankkurit, jotta sama tuote ei tule tuplana."""
     parts = urlsplit(url)
     return urlunsplit((parts.scheme, parts.netloc, parts.path.rstrip("/"), "", ""))
 
@@ -185,6 +185,8 @@ def parse_extracted_items(extracted: list[dict], shop_name: str, base_domain: st
 
         text = raw["text"].replace("\xa0", " ")
         price_matches = re.findall(r"(\d[\d\s]*[.,]\d{2})\s*€", text)
+        if not price_matches:
+            price_matches = re.findall(r"(\d[\d\s]*)\s*€", text)
         prices = sorted(set(parse_price(pm) for pm in price_matches if parse_price(pm) > 0))
 
         disc_match = re.search(r"-\s*(\d{1,2})\s*%", text)
@@ -223,33 +225,55 @@ def scrape_playwright_shops() -> dict[str, list[dict]]:
             "name": "Kärkkäinen",
             "domain": "https://www.karkkainen.com",
             "selector": 'a[href*="/verkkokauppa/"]',
+            "max_pages": MAX_PAGES_KARKKAINEN,
             "urls": [
                 ("https://www.karkkainen.com/verkkokauppa/outlet-tuotteet", "offset", 48),
                 ("https://www.karkkainen.com/verkkokauppa/black-friday", "offset", 48),
             ],
         },
         {
-            "name": "Tuontitukku",
-            "domain": "https://www.tuontitukku.fi",
-            "selector": 'main a[href], #main a[href], [class*="product"] a[href], a[href]',
-            "urls": [
-                ("https://www.tuontitukku.fi/koti-ja-toimisto/poistokori-outlet/c/280/", "page", 1),
-            ],
-        },
-        {
-            "name": "Tokmanni",
-            "domain": "https://www.tokmanni.fi",
-            "selector": 'main a[href], .product-item-link, a[href]',
-            "urls": [
-                ("https://www.tokmanni.fi/tarjoukset", "p", 1),
-            ],
-        },
-        {
             "name": "Verkkokauppa.com",
             "domain": "https://www.verkkokauppa.com",
             "selector": 'a[href*="/fi/product/"]',
+            "max_pages": 3,
             "urls": [
                 ("https://www.verkkokauppa.com/fi/blackfriday", "page", 1),
+            ],
+        },
+        {
+            "name": "Jula",
+            "domain": "https://www.jula.fi",
+            "selector": 'a[href*="/catalog/"], main a[href]',
+            "max_pages": MAX_PAGES_OTHERS,
+            "urls": [
+                ("https://www.jula.fi/tarjoukset/black-friday/", "page", 1),
+            ],
+        },
+        {
+            "name": "Rusta",
+            "domain": "https://www.rusta.com",
+            "selector": 'a[href*="/fi-fi/"], main a[href]',
+            "max_pages": MAX_PAGES_OTHERS,
+            "urls": [
+                ("https://www.rusta.com/fi-fi/kampanja/black-week", "page", 1),
+            ],
+        },
+        {
+            "name": "Puuilo",
+            "domain": "https://www.puuilo.fi",
+            "selector": '.product-item-link, main a[href]',
+            "max_pages": MAX_PAGES_OTHERS,
+            "urls": [
+                ("https://www.puuilo.fi/tarjoukset", "p", 1),
+            ],
+        },
+        {
+            "name": "Gigantti",
+            "domain": "https://www.gigantti.fi",
+            "selector": 'a[href*="/product/"], main a[href]',
+            "max_pages": MAX_PAGES_OTHERS,
+            "urls": [
+                ("https://www.gigantti.fi/kampanja/black-friday", "page", 1),
             ],
         },
     ]
@@ -269,10 +293,11 @@ def scrape_playwright_shops() -> dict[str, list[dict]]:
             shop = cfg["name"]
             seen_links = set()
             seen_names = set()
+            max_pages = cfg.get("max_pages", MAX_PAGES_OTHERS)
 
             for base_url, param_name, step in cfg["urls"]:
                 empty_streak = 0
-                for idx in range(MAX_PAGES_PER_SECTION):
+                for idx in range(max_pages):
                     if idx == 0:
                         url = base_url
                     elif param_name == "offset":
@@ -341,4 +366,4 @@ def main():
 
 if __name__ == "__main__":
     main()
-            
+    
