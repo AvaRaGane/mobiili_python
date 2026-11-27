@@ -218,7 +218,7 @@ def parse_extracted_items(extracted: list[dict], shop_name: str, base_domain: st
 
 
 def scrape_playwright_shops() -> dict[str, list[dict]]:
-    shop_configs = [
+        shop_configs = [
         {
             "name": "Kärkkäinen",
             "domain": "https://www.karkkainen.com",
@@ -231,17 +231,17 @@ def scrape_playwright_shops() -> dict[str, list[dict]]:
         {
             "name": "Tuontitukku",
             "domain": "https://www.tuontitukku.fi",
-            "selector": 'a[href*="/p/"], a[href*="/tuote/"], article a[href]',
+            "selector": 'main a[href], #main a[href], [class*="product"] a[href], a[href]',
             "urls": [
                 ("https://www.tuontitukku.fi/koti-ja-toimisto/poistokori-outlet/c/280/", "page", 1),
             ],
         },
         {
-            "name": "Proshop",
-            "domain": "https://www.proshop.fi",
-            "selector": 'a[href*="/"]',
+            "name": "Tokmanni",
+            "domain": "https://www.tokmanni.fi",
+            "selector": 'main a[href], .product-item-link, a[href]',
             "urls": [
-                ("https://www.proshop.fi/Black-Friday", "pn", 1),
+                ("https://www.tokmanni.fi/tarjoukset", "p", 1),
             ],
         },
         {
@@ -253,6 +253,7 @@ def scrape_playwright_shops() -> dict[str, list[dict]]:
             ],
         },
     ]
+
 
     results_by_shop = {cfg["name"]: [] for cfg in shop_configs}
 
