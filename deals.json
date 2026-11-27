@@ -1,12 +1,12 @@
 {
-  "updated_at": "2026-11-27T06:01:06.037066+00:00",
+  "updated_at": "2026-11-27T06:25:13.338404+00:00",
   "counts": {
     "EMC24": 1114,
+    "Moposport": 114,
+    "Hi5Bikes": 0,
     "Kärkkäinen": 47,
-    "Verkkokauppa.com": 7,
-    "Booztlet": 1,
-    "Matsmart": 0,
-    "total": 1169
+    "Verkkokauppa.com": 9,
+    "total": 1284
   },
   "items": [
     {
@@ -18,6 +18,16 @@
       "inStock": true,
       "link": "https://www.emc24.fi/tuote/klan-verkkovirtalaturi-kahdelle-12volt-2ah-akulle",
       "img": "https://www.emc24.fi/wp-content/uploads/2020/09/K-CHARGER-12VOLT-2Ah-300x300.jpg"
+    },
+    {
+      "shop": "Moposport",
+      "name": "TARRA, LORIS",
+      "disc": 96,
+      "sale": 0.09,
+      "reg": 2.04,
+      "inStock": true,
+      "link": "https://moposport.fi/tarra-loris",
+      "img": "https://moposport.fi/wp-content/uploads/2020/08/73890-150x150.jpg"
     },
     {
       "shop": "EMC24",
@@ -90,6 +100,46 @@
       "img": "https://www.emc24.fi/wp-content/uploads/2022/10/j2190-001_3-e1671542583105-300x300.jpg"
     },
     {
+      "shop": "Moposport",
+      "name": "HELD Rune XXS avokypärä, mu/beige nahkainen",
+      "disc": 92,
+      "sale": 9.99,
+      "reg": 118.99,
+      "inStock": false,
+      "link": "https://moposport.fi/held-rune-xxs-avokypara-mu-beige-nahkainen",
+      "img": "https://moposport.fi/wp-content/uploads/2025/06/UI7680-011-XXS-150x150.jpg"
+    },
+    {
+      "shop": "Moposport",
+      "name": "Takaiskunvaimennin",
+      "disc": 92,
+      "sale": 19.99,
+      "reg": 250.8,
+      "inStock": false,
+      "link": "https://moposport.fi/takaiskunvaimennin",
+      "img": ""
+    },
+    {
+      "shop": "Moposport",
+      "name": "TARRA-ARKKI, KAASARIT",
+      "disc": 91,
+      "sale": 0.19,
+      "reg": 2.04,
+      "inStock": true,
+      "link": "https://moposport.fi/tarra-arkki-kaasarit",
+      "img": "https://moposport.fi/wp-content/uploads/2020/08/73816-150x150.jpg"
+    },
+    {
+      "shop": "Moposport",
+      "name": "TARRA, PÄÄKALLO",
+      "disc": 91,
+      "sale": 0.19,
+      "reg": 2.04,
+      "inStock": true,
+      "link": "https://moposport.fi/tarra-paakallo",
+      "img": "https://moposport.fi/wp-content/uploads/2020/08/73517-150x150.jpg"
+    },
+    {
       "shop": "EMC24",
       "name": "BMW Make Life A Ride naisten t-paita",
       "disc": 91,
@@ -110,6 +160,16 @@
       "img": "https://www.emc24.fi/wp-content/uploads/2023/01/1-300x300.png"
     },
     {
+      "shop": "Moposport",
+      "name": "Ajohanskat, sini-valkoinen",
+      "disc": 90,
+      "sale": 2.0,
+      "reg": 20.49,
+      "inStock": true,
+      "link": "https://moposport.fi/ajohanskat-sini-valkoinen",
+      "img": "https://moposport.fi/wp-content/uploads/2025/12/610-3012-WEB-150x150.jpg"
+    },
+    {
       "shop": "EMC24",
       "name": "RUKKA Kimb-R pitkät alushousut, musta",
       "disc": 90,
@@ -118,6 +178,26 @@
       "inStock": true,
       "link": "https://www.emc24.fi/tuote/rukka-kimb-r-pitkat-alushousut-musta",
       "img": "https://www.emc24.fi/wp-content/uploads/2020/04/70177-969-Rukka-alushousut-300x300.png"
+    },
+    {
+      "shop": "Moposport",
+      "name": "TARRA-ARKKI, KROMI RACING",
+      "disc": 88,
+      "sale": 0.49,
+      "reg": 4.04,
+      "inStock": true,
+      "link": "https://moposport.fi/tarra-arkki-kromi-racing",
+      "img": "https://moposport.fi/wp-content/uploads/2020/08/73762-150x150.jpg"
+    },
+    {
+      "shop": "Moposport",
+      "name": "Etujarruvaijeri, Honda XR75",
+      "disc": 88,
+      "sale": 1.99,
+      "reg": 16.0,
+      "inStock": true,
+      "link": "https://moposport.fi/etujarruvaijeri-hon-xr75-80-81",
+      "img": "https://moposport.fi/wp-content/uploads/2020/08/45450-152-970-150x150.jpg"
     },
     {
       "shop": "EMC24",
@@ -170,6 +250,96 @@
       "img": "https://www.emc24.fi/wp-content/uploads/2024/05/41Qktw-m8KL._AC_SX679_-300x300.jpg"
     },
     {
+      "shop": "Moposport",
+      "name": "TARRA-ARKKI, BIONIC",
+      "disc": 86,
+      "sale": 0.29,
+      "reg": 2.04,
+      "inStock": true,
+      "link": "https://moposport.fi/tarra-arkki-bionic",
+      "img": "https://moposport.fi/wp-content/uploads/2020/08/73897-150x150.jpg"
+    },
+    {
+      "shop": "Moposport",
+      "name": "TARRA, NAAMA",
+      "disc": 86,
+      "sale": 0.29,
+      "reg": 2.04,
+      "inStock": true,
+      "link": "https://moposport.fi/tarra-naama",
+      "img": "https://moposport.fi/wp-content/uploads/2020/08/73842-150x150.jpg"
+    },
+    {
+      "shop": "Moposport",
+      "name": "TARRA-ARKKI, SILMÄT",
+      "disc": 86,
+      "sale": 0.29,
+      "reg": 2.04,
+      "inStock": true,
+      "link": "https://moposport.fi/tarra-arkki-silmat",
+      "img": "https://moposport.fi/wp-content/uploads/2020/08/73548-150x150.jpg"
+    },
+    {
+      "shop": "Moposport",
+      "name": "TARRA-ARKKI, SHARK/EAGLE/SCULLS",
+      "disc": 86,
+      "sale": 0.29,
+      "reg": 2.04,
+      "inStock": true,
+      "link": "https://moposport.fi/tarra-arkki-shark-eagle-sculls",
+      "img": "https://moposport.fi/wp-content/uploads/2020/08/73542-150x150.jpg"
+    },
+    {
+      "shop": "Moposport",
+      "name": "Tarra, viikatemies",
+      "disc": 86,
+      "sale": 0.29,
+      "reg": 2.04,
+      "inStock": true,
+      "link": "https://moposport.fi/tarra-viikatemies",
+      "img": "https://moposport.fi/wp-content/uploads/2020/08/73530-150x150.jpg"
+    },
+    {
+      "shop": "Moposport",
+      "name": "TARRA-ARKKI, SILMÄMUNAT",
+      "disc": 86,
+      "sale": 0.29,
+      "reg": 2.04,
+      "inStock": true,
+      "link": "https://moposport.fi/tarra-arkki-silmamunat-2",
+      "img": "https://moposport.fi/wp-content/uploads/2020/08/73526V-150x150.jpg"
+    },
+    {
+      "shop": "Moposport",
+      "name": "TARRA-ARKKI, SILMÄMUNAT",
+      "disc": 86,
+      "sale": 0.29,
+      "reg": 2.04,
+      "inStock": true,
+      "link": "https://moposport.fi/tarra-arkki-silmamunat",
+      "img": "https://moposport.fi/wp-content/uploads/2020/08/73526-150x150.jpg"
+    },
+    {
+      "shop": "Moposport",
+      "name": "Nahkahousu Legend, musta, miesten reisitaskuilla",
+      "disc": 86,
+      "sale": 29.99,
+      "reg": 218.99,
+      "inStock": true,
+      "link": "https://moposport.fi/nahkahousu-legend-musta-miesten-reisitaskuilla",
+      "img": "https://moposport.fi/wp-content/uploads/2023/01/UI83600-001-46-150x150.jpg"
+    },
+    {
+      "shop": "Moposport",
+      "name": "Rengas, 90/65-6.5&#8243; Slick T41",
+      "disc": 85,
+      "sale": 10.0,
+      "reg": 65.99,
+      "inStock": false,
+      "link": "https://moposport.fi/rengas-90-65-6-5-slick-t41",
+      "img": "https://moposport.fi/wp-content/uploads/2024/10/M088014-T41-150x150.jpg"
+    },
+    {
       "shop": "EMC24",
       "name": "Malossi MULTIVARI Mhr Malossi Piaggio X7, X8, X9, Mp3",
       "disc": 85,
@@ -178,6 +348,16 @@
       "inStock": true,
       "link": "https://www.emc24.fi/tuote/malossi-multivari-mhr-malossi-piaggio-x7-x8-x9-mp3",
       "img": "https://www.emc24.fi/wp-content/uploads/2020/01/p4-5111397-300x300.jpg"
+    },
+    {
+      "shop": "Moposport",
+      "name": "TARRA-ARKKI, SUSI",
+      "disc": 84,
+      "sale": 0.49,
+      "reg": 3.04,
+      "inStock": true,
+      "link": "https://moposport.fi/tarra-arkki-kissa",
+      "img": "https://moposport.fi/wp-content/uploads/2020/08/73901-150x150.jpg"
     },
     {
       "shop": "EMC24",
@@ -208,6 +388,16 @@
       "inStock": true,
       "link": "https://www.emc24.fi/tuote/parts-kaasuvaijeri-peugeot-xps-enduro-mh-ryz-2006",
       "img": "https://www.emc24.fi/wp-content/uploads/2018/07/0234051000041-60x60-1.webp"
+    },
+    {
+      "shop": "Moposport",
+      "name": "Avokypärä, Held Rune mattamusta",
+      "disc": 84,
+      "sale": 9.99,
+      "reg": 60.99,
+      "inStock": true,
+      "link": "https://moposport.fi/avokypara-held-rune-mattamusta",
+      "img": "https://moposport.fi/wp-content/uploads/2020/08/656-016XXL-150x150.jpg"
     },
     {
       "shop": "EMC24",
@@ -248,6 +438,46 @@
       "inStock": true,
       "link": "https://www.karkkainen.com/verkkokauppa/timco-21-3-1x90mm-2000kpl-kirkas-konenaula-runkonaula",
       "img": "https://img.karkkainen.com/images/e_trim:4/c_pad%2Cf_auto%2Ch_234%2Cq_auto%2Cw_234/v1/tuotekuvat/6438014083445/timco-21-kirkas-naula-3-1x90mm-2000kpl.jpg"
+    },
+    {
+      "shop": "Moposport",
+      "name": "TARRA, PÄÄKALLO",
+      "disc": 82,
+      "sale": 0.19,
+      "reg": 1.04,
+      "inStock": true,
+      "link": "https://moposport.fi/tarra-paakallo-2",
+      "img": "https://moposport.fi/wp-content/uploads/2020/08/73525-150x150.jpg"
+    },
+    {
+      "shop": "Moposport",
+      "name": "TARRA-ARKKI, LEPAKOT",
+      "disc": 82,
+      "sale": 0.19,
+      "reg": 1.04,
+      "inStock": true,
+      "link": "https://moposport.fi/tarra-arkki-lepakot",
+      "img": "https://moposport.fi/wp-content/uploads/2020/08/73520-150x150.jpg"
+    },
+    {
+      "shop": "Moposport",
+      "name": "Tarra-arkki, pääkallot",
+      "disc": 82,
+      "sale": 0.19,
+      "reg": 1.04,
+      "inStock": true,
+      "link": "https://moposport.fi/tarra-arkki-paakallot",
+      "img": "https://moposport.fi/wp-content/uploads/2020/08/73504-150x150.jpg"
+    },
+    {
+      "shop": "Moposport",
+      "name": "Naisten ajofarkut Wrap Musta",
+      "disc": 82,
+      "sale": 14.99,
+      "reg": 84.99,
+      "inStock": true,
+      "link": "https://moposport.fi/naisten-ajofarkut-wrap-musta",
+      "img": "https://moposport.fi/wp-content/uploads/2025/01/DU720-53870300-3-150x150.jpg"
     },
     {
       "shop": "EMC24",
@@ -400,6 +630,16 @@
       "img": ""
     },
     {
+      "shop": "Moposport",
+      "name": "TARRA, HÄRKÄ",
+      "disc": 76,
+      "sale": 0.49,
+      "reg": 2.04,
+      "inStock": true,
+      "link": "https://moposport.fi/tarra-harka-2",
+      "img": "https://moposport.fi/wp-content/uploads/2020/08/73830-150x150.jpg"
+    },
+    {
       "shop": "EMC24",
       "name": "Motrix KATERUUVI-/NASTASARJA mönkijöihin / ATV:n",
       "disc": 76,
@@ -470,6 +710,36 @@
       "img": "https://www.emc24.fi/wp-content/uploads/2020/09/50500791-300x300.jpg"
     },
     {
+      "shop": "Moposport",
+      "name": "TARRA-ARKKI, PANTTERIT",
+      "disc": 75,
+      "sale": 0.99,
+      "reg": 4.04,
+      "inStock": true,
+      "link": "https://moposport.fi/tarra-arkki-pantterit-2",
+      "img": "https://moposport.fi/wp-content/uploads/2020/08/73912-150x150.jpg"
+    },
+    {
+      "shop": "Moposport",
+      "name": "TARRA-ARKKI, SINISET TRIBAALI TERÄT",
+      "disc": 75,
+      "sale": 0.99,
+      "reg": 4.04,
+      "inStock": true,
+      "link": "https://moposport.fi/tarra-arkki-siniset-tribaali-terat",
+      "img": "https://moposport.fi/wp-content/uploads/2020/08/73902-150x150.jpg"
+    },
+    {
+      "shop": "Moposport",
+      "name": "Tarra-arkki, kromi Honda ruutuliput",
+      "disc": 75,
+      "sale": 0.99,
+      "reg": 4.04,
+      "inStock": true,
+      "link": "https://moposport.fi/tarra-arkki-kromi-honda-ruutuliput",
+      "img": "https://moposport.fi/wp-content/uploads/2020/08/73793-150x150.jpg"
+    },
+    {
       "shop": "EMC24",
       "name": "HD Here&#8217;s some money -juhlakortti",
       "disc": 75,
@@ -478,6 +748,16 @@
       "inStock": true,
       "link": "https://www.emc24.fi/tuote/hd-heres-some-money-juhlakortti",
       "img": "https://www.emc24.fi/wp-content/uploads/2023/08/HDL-20084_main-01.default-300x300.jpg"
+    },
+    {
+      "shop": "Moposport",
+      "name": "TARRA-ARKKI, PÄÄKALLOT LIEKIT",
+      "disc": 75,
+      "sale": 1.99,
+      "reg": 8.09,
+      "inStock": true,
+      "link": "https://moposport.fi/tarra-arkki-paakallot-liekit",
+      "img": "https://moposport.fi/wp-content/uploads/2020/08/735327-150x150.jpg"
     },
     {
       "shop": "Kärkkäinen",
@@ -510,6 +790,36 @@
       "img": "https://static.verkcdn.com/kuvastin/w:118/h:90/rt:fit/q:80/exar:1/sh:0.5/t:1/plain/images/3/2_1008581-1000x1000.jpg"
     },
     {
+      "shop": "Moposport",
+      "name": "Ajolasit, PowerBomb US of A &#8211; True Gold linssi",
+      "disc": 75,
+      "sale": 14.99,
+      "reg": 59.99,
+      "inStock": true,
+      "link": "https://moposport.fi/ajolasit-powerbomb-us-of-a-true-gold-linssi",
+      "img": "https://moposport.fi/wp-content/uploads/2023/07/675-21006-1-150x150.jpg"
+    },
+    {
+      "shop": "Moposport",
+      "name": "Ajolasit, PowerBomb Rocket &#8211; oranssi, hopea peililinssi",
+      "disc": 75,
+      "sale": 14.99,
+      "reg": 59.99,
+      "inStock": true,
+      "link": "https://moposport.fi/ajolasit-powerbomb-rocket-oranssi-hopea-peililinssi",
+      "img": "https://moposport.fi/wp-content/uploads/2023/07/675-21004-1-150x150.jpg"
+    },
+    {
+      "shop": "Moposport",
+      "name": "Ajolasit, PowerBomb Rocket &#8211; Sininen, Sininen peililinssi",
+      "disc": 75,
+      "sale": 14.99,
+      "reg": 59.99,
+      "inStock": true,
+      "link": "https://moposport.fi/ajolasit-powerbomb-rocket-sininen-sininen-peililinssi",
+      "img": "https://moposport.fi/wp-content/uploads/2023/07/675-21002-1-150x150.jpg"
+    },
+    {
       "shop": "EMC24",
       "name": "Piaggio Vespa S50, S125, S150 2007-13 COUNTER SHIELD Shiny Black [94]",
       "disc": 75,
@@ -518,6 +828,26 @@
       "inStock": true,
       "link": "https://www.emc24.fi/tuote/piaggio-vespa-s50-s125-s150-2007-13-counter-shield-shiny-black-94",
       "img": "https://www.emc24.fi/wp-content/uploads/2026/09/6571180090-300x300.jpg"
+    },
+    {
+      "shop": "Moposport",
+      "name": "Umpikypärä, EXO-2000 Air, Bautista Replica",
+      "disc": 75,
+      "sale": 99.99,
+      "reg": 405.99,
+      "inStock": true,
+      "link": "https://moposport.fi/umpikypara-exo-2000-air-bautista-replica",
+      "img": "https://moposport.fi/wp-content/uploads/2020/08/36-238-50-XS-150x150.jpg"
+    },
+    {
+      "shop": "Moposport",
+      "name": "TARRA-ARKKI, PANTTERI",
+      "disc": 74,
+      "sale": 0.79,
+      "reg": 3.04,
+      "inStock": true,
+      "link": "https://moposport.fi/tarra-arkki-pantteri",
+      "img": "https://moposport.fi/wp-content/uploads/2020/08/738053-150x150.jpg"
     },
     {
       "shop": "EMC24",
@@ -548,6 +878,36 @@
       "inStock": true,
       "link": "https://www.emc24.fi/tuote/509-kingpin-varalinssit",
       "img": "https://www.emc24.fi/wp-content/uploads/2022/10/Nayttokuva-2024-10-16-162851-300x300.png"
+    },
+    {
+      "shop": "Moposport",
+      "name": "HELD H-R2 Ride S kypärä, musta/valko",
+      "disc": 74,
+      "sale": 129.99,
+      "reg": 499.99,
+      "inStock": true,
+      "link": "https://moposport.fi/held-h-r2-ride-s-kypara-musta-valko",
+      "img": "https://moposport.fi/wp-content/uploads/2024/08/UI7822-014-S-150x150.jpg"
+    },
+    {
+      "shop": "Moposport",
+      "name": "HELD H-R2 Ride M kypärä, musta/valko",
+      "disc": 74,
+      "sale": 129.99,
+      "reg": 499.99,
+      "inStock": false,
+      "link": "https://moposport.fi/held-h-r2-ride-m-kypara-musta-valko",
+      "img": "https://moposport.fi/wp-content/uploads/2024/08/UI7822-014-M-150x150.jpg"
+    },
+    {
+      "shop": "Moposport",
+      "name": "HELD H-R2 Ride S kypärä, musta/valko/puna",
+      "disc": 74,
+      "sale": 129.99,
+      "reg": 499.99,
+      "inStock": true,
+      "link": "https://moposport.fi/held-h-r2-ride-s-kypara-musta-valko-puna",
+      "img": "https://moposport.fi/wp-content/uploads/2024/08/UI7822-002-S-150x150.jpg"
     },
     {
       "shop": "EMC24",
@@ -600,6 +960,16 @@
       "img": "https://www.emc24.fi/wp-content/uploads/2026/02/Nayttokuva-2026-02-13-153222-300x300.png"
     },
     {
+      "shop": "Moposport",
+      "name": "SATULA, QT21 HARTET",
+      "disc": 72,
+      "sale": 19.99,
+      "reg": 70.99,
+      "inStock": true,
+      "link": "https://moposport.fi/satula-qt21-hartet-jincheng",
+      "img": "https://moposport.fi/wp-content/uploads/2020/08/45100-A5200-150x150.jpg"
+    },
+    {
       "shop": "EMC24",
       "name": "Mikuni TYHJÄKÄYNTISUUTIN VM28/486-62.5",
       "disc": 71,
@@ -630,6 +1000,16 @@
       "img": "https://www.emc24.fi/wp-content/uploads/2026/11/ncs-00393-3-300x300.jpg"
     },
     {
+      "shop": "Moposport",
+      "name": "Tupet, 801 valkoinen/ fluori keltainen",
+      "disc": 71,
+      "sale": 5.0,
+      "reg": 17.49,
+      "inStock": false,
+      "link": "https://moposport.fi/tupet-801-valkoinen-fluori-keltainen-progrip",
+      "img": "https://moposport.fi/wp-content/uploads/2020/08/PG801WFY-150x150.jpg"
+    },
+    {
       "shop": "EMC24",
       "name": "SCHUBERTH Hengitysohjain C2",
       "disc": 71,
@@ -638,6 +1018,16 @@
       "inStock": true,
       "link": "https://www.emc24.fi/tuote/schuberth-hengitysohjain-c2",
       "img": "https://www.emc24.fi/wp-content/uploads/2020/10/511-700-60-300x300.jpg"
+    },
+    {
+      "shop": "Moposport",
+      "name": "Naisten ajofarkut Wrap Sininen",
+      "disc": 71,
+      "sale": 24.99,
+      "reg": 84.99,
+      "inStock": true,
+      "link": "https://moposport.fi/naisten-ajofarkut-wrap-sininen",
+      "img": "https://moposport.fi/wp-content/uploads/2025/01/DU720-53870351-2-150x150.jpg"
     },
     {
       "shop": "EMC24",
@@ -660,6 +1050,16 @@
       "img": "https://www.emc24.fi/wp-content/uploads/2024/05/p4-075051-300x300.jpg"
     },
     {
+      "shop": "Moposport",
+      "name": "Contact Clean &amp; Protect 250ml",
+      "disc": 70,
+      "sale": 2.39,
+      "reg": 7.99,
+      "inStock": false,
+      "link": "https://moposport.fi/crc-contact-clean-protect-250ml",
+      "img": "https://moposport.fi/wp-content/uploads/2024/04/CRC-33413-150x150.jpg"
+    },
+    {
       "shop": "Kärkkäinen",
       "name": "Rukka Pets Twist kaulapanta",
       "disc": 70,
@@ -667,7 +1067,17 @@
       "reg": 4.47,
       "inStock": true,
       "link": "https://www.karkkainen.com/verkkokauppa/rukka-pets-twist-kaulapanta",
-      "img": "https://img.karkkainen.com/images/e_trim:4/c_pad%2Cf_auto%2Ch_234%2Cq_auto%2Cw_234/v1/tuotekuvat/6413910740944/rukka-pets-twist-xs-punainen-kaulapanta.jpg"
+      "img": "https://img.karkkainen.com/images/e_trim:4/c_pad%2Cf_auto%2Ch_234%2Cq_auto%2Cw_234/v1/tuotekuvat/6413910740906/rukka-pets-twist-xs-turkoosi-kaulapanta.jpg"
+    },
+    {
+      "shop": "Moposport",
+      "name": "Lankarullat / Huoltopukkiadapterit M10x1.25",
+      "disc": 70,
+      "sale": 5.0,
+      "reg": 16.49,
+      "inStock": true,
+      "link": "https://moposport.fi/lankarullat-huoltopukkiadapterit-m10x1-25",
+      "img": "https://moposport.fi/wp-content/uploads/2020/08/750-174-150x150.jpg"
     },
     {
       "shop": "EMC24",
@@ -760,6 +1170,16 @@
       "img": "https://www.emc24.fi/wp-content/uploads/2022/06/REDLINE-300x300.jpg"
     },
     {
+      "shop": "Moposport",
+      "name": "HELD H-R2 Ride XS kypärä, mattamusta",
+      "disc": 69,
+      "sale": 129.99,
+      "reg": 419.99,
+      "inStock": true,
+      "link": "https://moposport.fi/held-h-r2-ride-xs-kypara-mattamusta",
+      "img": ""
+    },
+    {
       "shop": "EMC24",
       "name": "Tuulilasin O-RENGAS neliöprofiili, &#8221;Arctic Cat&#8221;-malli",
       "disc": 68,
@@ -788,6 +1208,16 @@
       "inStock": true,
       "link": "https://www.emc24.fi/tuote/prox-etupyoran-laakerisarja-kx80-100-86-97",
       "img": "https://www.emc24.fi/wp-content/uploads/2026/11/4d0601f571db8132fd2ecc3b82826d7af74c7349_400_23_S111077-300x300.jpg"
+    },
+    {
+      "shop": "Moposport",
+      "name": "Vaihteistoöljy, Gear Synt 70W90 LS synteettinen GL5 1l",
+      "disc": 68,
+      "sale": 4.99,
+      "reg": 15.49,
+      "inStock": true,
+      "link": "https://moposport.fi/vaihteistooljy-gear-synt-70w90-ls-synteettinen-gl5-1l-gro",
+      "img": "https://moposport.fi/wp-content/uploads/2020/08/722-386-81-150x150.jpg"
     },
     {
       "shop": "EMC24",
@@ -970,6 +1400,56 @@
       "img": "https://www.emc24.fi/wp-content/uploads/2026/11/96001-06020-00-300x300.webp"
     },
     {
+      "shop": "Moposport",
+      "name": "Vaijerilukko 65cm, värilajitelma",
+      "disc": 67,
+      "sale": 0.99,
+      "reg": 2.99,
+      "inStock": true,
+      "link": "https://moposport.fi/vaijerilukko-65cm-varilajitelma",
+      "img": "https://moposport.fi/wp-content/uploads/2022/05/781-185-65-150x150.jpg"
+    },
+    {
+      "shop": "Moposport",
+      "name": "Tarrasarja, Mopo Sport in colors II",
+      "disc": 67,
+      "sale": 0.99,
+      "reg": 3.04,
+      "inStock": true,
+      "link": "https://moposport.fi/tarrasarja-mopo-sport-in-colors-ii",
+      "img": "https://moposport.fi/wp-content/uploads/2020/08/MPR-1009-150x150.jpg"
+    },
+    {
+      "shop": "Moposport",
+      "name": "Avaimenperä, vaahtis Suzuki",
+      "disc": 67,
+      "sale": 1.0,
+      "reg": 2.99,
+      "inStock": true,
+      "link": "https://moposport.fi/avaimenpera-vaahtis-suzuki",
+      "img": "https://moposport.fi/wp-content/uploads/2020/08/730-044-1-150x150.jpg"
+    },
+    {
+      "shop": "Moposport",
+      "name": "Monitoimityökalu, Superkortti 46",
+      "disc": 67,
+      "sale": 1.99,
+      "reg": 6.09,
+      "inStock": true,
+      "link": "https://moposport.fi/monitoimityokalu-superkortti-46",
+      "img": "https://moposport.fi/wp-content/uploads/2024/02/780-0539-1-150x150.jpg"
+    },
+    {
+      "shop": "Moposport",
+      "name": "Varastokoukku, M-koko, 2 kpl",
+      "disc": 67,
+      "sale": 1.99,
+      "reg": 6.09,
+      "inStock": true,
+      "link": "https://moposport.fi/varastokoukut-m-koko-2-kpl",
+      "img": "https://moposport.fi/wp-content/uploads/2020/12/780-271-M-150x150.jpg"
+    },
+    {
       "shop": "EMC24",
       "name": "NGK SYTYTYSTULPPA CMR6H",
       "disc": 67,
@@ -988,6 +1468,36 @@
       "inStock": true,
       "link": "https://www.emc24.fi/tuote/all-balls-a-varren-pallonivel-alempi-ylempi-kawasaki-useat-mallit",
       "img": "https://www.emc24.fi/wp-content/uploads/2023/01/42-1033-300x300.jpg"
+    },
+    {
+      "shop": "Moposport",
+      "name": "Tarra, liekkikallo",
+      "disc": 66,
+      "sale": 0.69,
+      "reg": 2.04,
+      "inStock": true,
+      "link": "https://moposport.fi/tarra-liekkikallo",
+      "img": "https://moposport.fi/wp-content/uploads/2020/08/73527-150x150.jpg"
+    },
+    {
+      "shop": "Moposport",
+      "name": "TUPET, CROSSI MUSTA",
+      "disc": 65,
+      "sale": 3.99,
+      "reg": 11.49,
+      "inStock": true,
+      "link": "https://moposport.fi/tupet-crossi-musta",
+      "img": "https://moposport.fi/wp-content/uploads/2020/08/235-315-1-150x150.jpg"
+    },
+    {
+      "shop": "Moposport",
+      "name": "SATULA, QT20 SUDOKU",
+      "disc": 65,
+      "sale": 24.99,
+      "reg": 70.99,
+      "inStock": true,
+      "link": "https://moposport.fi/satula-qt20-sudoku-jincheng",
+      "img": "https://moposport.fi/wp-content/uploads/2020/08/67603020-150x150.jpg"
     },
     {
       "shop": "Kärkkäinen",
@@ -1018,6 +1528,26 @@
       "inStock": true,
       "link": "https://www.karkkainen.com/verkkokauppa/bandago-jr-rgb-pelituoli",
       "img": "https://img.karkkainen.com/images/e_trim:4/c_pad%2Cf_auto%2Ch_234%2Cq_auto%2Cw_234/v1/tuotekuvat/6438014408606_1/bandago-rgb-junior-pelituoli.jpg"
+    },
+    {
+      "shop": "Moposport",
+      "name": "LAZER Cross TT Line XS kypärä, mattamusta/harmaa",
+      "disc": 65,
+      "sale": 59.99,
+      "reg": 168.99,
+      "inStock": false,
+      "link": "https://moposport.fi/lazer-cross-tt-line-xs-kypara-mattamusta-harmaa",
+      "img": "https://moposport.fi/wp-content/uploads/2024/01/UIMLE046015181S-150x150.jpg"
+    },
+    {
+      "shop": "Moposport",
+      "name": "LAZER Cross TT Line XS kypärä, mattamusta",
+      "disc": 65,
+      "sale": 59.99,
+      "reg": 168.99,
+      "inStock": false,
+      "link": "https://moposport.fi/lazer-cross-tt-line-xs-kypara-mattamusta",
+      "img": "https://moposport.fi/wp-content/uploads/2024/01/UIMLE046000M11S-150x150.jpg"
     },
     {
       "shop": "EMC24",
@@ -1130,14 +1660,14 @@
       "img": "https://www.emc24.fi/wp-content/uploads/2018/08/p4-1450368028111037-300x247.jpg"
     },
     {
-      "shop": "Booztlet",
-      "name": "*Ehdot ovat voimassa. Lue lisää.",
+      "shop": "Moposport",
+      "name": "Varastokoukku, L-koko, 2 kpl",
       "disc": 63,
-      "sale": 5.49,
-      "reg": 15.0,
+      "sale": 2.99,
+      "reg": 8.09,
       "inStock": true,
-      "link": "https://www.booztlet.com/fi/fi/trustpilot",
-      "img": "https://resources.booztcdn.com/extra_small/1011895-1792570033-spotwomenfi.jpg"
+      "link": "https://moposport.fi/varastokoukut-l-koko-2-kpl",
+      "img": "https://moposport.fi/wp-content/uploads/2020/12/780-271-L-150x150.jpg"
     },
     {
       "shop": "EMC24",
@@ -1300,6 +1830,16 @@
       "img": "https://img.karkkainen.com/images/e_trim:4/c_pad%2Cf_auto%2Ch_234%2Cq_auto%2Cw_234/v1/tuotekuvat/6438014289441_1/arctic-bright-slim-180w-led-lisavalo.jpg"
     },
     {
+      "shop": "Moposport",
+      "name": "Umpikypärä, Revenge musta/harmaa XL",
+      "disc": 62,
+      "sale": 49.99,
+      "reg": 132.99,
+      "inStock": false,
+      "link": "https://moposport.fi/umpikypara-revenge-musta-harmaa-xl",
+      "img": ""
+    },
+    {
       "shop": "EMC24",
       "name": "Matkatavaroiden kiinnityslenkki",
       "disc": 61,
@@ -1308,6 +1848,16 @@
       "inStock": true,
       "link": "https://www.emc24.fi/tuote/luggage-loop",
       "img": "https://www.emc24.fi/wp-content/uploads/2026/11/25160-000_01_1500_blank_jpg_bd68b282-ccc2-4553-b6e1-b02ef63f4c33-300x300.jpg"
+    },
+    {
+      "shop": "Moposport",
+      "name": "Suurennuslasi",
+      "disc": 61,
+      "sale": 1.99,
+      "reg": 5.09,
+      "inStock": true,
+      "link": "https://moposport.fi/suurennuslasi",
+      "img": "https://moposport.fi/wp-content/uploads/2023/03/7848-2623S-150x150.jpg"
     },
     {
       "shop": "EMC24",
@@ -1428,6 +1978,16 @@
       "inStock": true,
       "link": "https://www.emc24.fi/tuote/harley-davidson-clutch-cable-touring-2009-13",
       "img": "https://www.emc24.fi/wp-content/uploads/2026/09/38667-08A-300x300.png"
+    },
+    {
+      "shop": "Moposport",
+      "name": "Umpikypärä, Rafale Z-line mattamusta, L",
+      "disc": 61,
+      "sale": 59.99,
+      "reg": 152.99,
+      "inStock": false,
+      "link": "https://moposport.fi/umpikypara-rafale-z-line-mattamusta-l",
+      "img": "https://moposport.fi/wp-content/uploads/2022/02/642-LZR-ZL-L-150x150.jpg"
     },
     {
       "shop": "EMC24",
@@ -3620,6 +4180,16 @@
       "img": "https://www.emc24.fi/wp-content/uploads/2022/04/SPPC380-98.avif"
     },
     {
+      "shop": "Moposport",
+      "name": "ETUJARRUVAIJERI, Q7",
+      "disc": 60,
+      "sale": 1.99,
+      "reg": 4.99,
+      "inStock": true,
+      "link": "https://moposport.fi/etujarruvaijeri-q7-jincheng",
+      "img": "https://moposport.fi/wp-content/uploads/2020/08/58100-A0300-1-150x150.jpg"
+    },
+    {
       "shop": "EMC24",
       "name": "MAINT COVER PLUG (BK-001U)",
       "disc": 60,
@@ -4278,6 +4848,16 @@
       "inStock": true,
       "link": "https://www.emc24.fi/tuote/fr-stop-sw-cord-comp-2",
       "img": "https://www.emc24.fi/wp-content/uploads/2024/01/sym-logo-1000x1000-1-300x300.png"
+    },
+    {
+      "shop": "Moposport",
+      "name": "Multilube Pro 500ml",
+      "disc": 60,
+      "sale": 3.99,
+      "reg": 9.99,
+      "inStock": false,
+      "link": "https://moposport.fi/multilube-pro-500ml-crc",
+      "img": "https://moposport.fi/wp-content/uploads/2020/08/5412386703164-1-150x150.jpg"
     },
     {
       "shop": "EMC24",
@@ -5240,6 +5820,26 @@
       "img": "https://www.emc24.fi/wp-content/uploads/2019/04/25-1720a-300x300.jpg"
     },
     {
+      "shop": "Moposport",
+      "name": "6-66, Marine yleisöljy 5L",
+      "disc": 60,
+      "sale": 19.99,
+      "reg": 49.99,
+      "inStock": true,
+      "link": "https://moposport.fi/6-66-marine-yleisoljy-5l",
+      "img": "https://moposport.fi/wp-content/uploads/2023/09/CRC-1030072-150x150.jpg"
+    },
+    {
+      "shop": "Verkkokauppa.com",
+      "name": "Bosch TSM6A011W kahvimylly, valkoinen",
+      "disc": 60,
+      "sale": 19.99,
+      "reg": 49.99,
+      "inStock": true,
+      "link": "https://www.verkkokauppa.com/fi/product/996478/Bosch-TSM6A011W-kahvimylly-valkoinen",
+      "img": "https://static.verkcdn.com/kuvastin/w:208/h:128/rt:fit/q:80/exar:1/sh:0.5/t:1/plain/images/53/2_996478-904x1942.jpg"
+    },
+    {
       "shop": "EMC24",
       "name": "Chiaravalli KETJUHAMMASRATAS taka 2145THF &#8211; 45, BMW 1000 HP4 2013-15",
       "disc": 60,
@@ -5788,6 +6388,16 @@
       "inStock": true,
       "link": "https://www.emc24.fi/tuote/domino-kytkinkahva-derbi-drd-gpr-nude-2",
       "img": "https://www.emc24.fi/wp-content/uploads/2018/08/p4-3530-04-300x170.jpg"
+    },
+    {
+      "shop": "Moposport",
+      "name": "LAZER Bayamo Pretty Girl XS kypärä, musta/fuxia",
+      "disc": 60,
+      "sale": 39.99,
+      "reg": 99.0,
+      "inStock": false,
+      "link": "https://moposport.fi/lazer-bayamo-pretty-girl-xs-kypara-musta-fuxia",
+      "img": "https://moposport.fi/wp-content/uploads/2025/09/MLE038160XF1S-150x150.jpg"
     },
     {
       "shop": "EMC24",
@@ -7290,6 +7900,16 @@
       "img": "https://www.emc24.fi/wp-content/uploads/2026/11/HF567-Oil-Filter-2015_02_26-300x300.jpg"
     },
     {
+      "shop": "Moposport",
+      "name": "TUULIOHJAIN, YLÄ OIKEA 250-6",
+      "disc": 59,
+      "sale": 9.99,
+      "reg": 24.49,
+      "inStock": true,
+      "link": "https://moposport.fi/tuuliohjain-yla-oikea-250-6-jincheng",
+      "img": "https://moposport.fi/wp-content/uploads/2020/08/47151-M0500-150x150.jpg"
+    },
+    {
       "shop": "EMC24",
       "name": "Alkuperäinen VARIAATTORINHIHNA Aprilia, Piaggio, Vespa GTS 300 HPE/Super HPE E4/E5 (835&#215;22,6&#215;13) (1A009598)",
       "disc": 59,
@@ -7350,6 +7970,16 @@
       "img": "https://www.emc24.fi/wp-content/uploads/2021/01/SM-07354-300x300.jpg"
     },
     {
+      "shop": "Verkkokauppa.com",
+      "name": "ProCaster BH05 aktiiviset vastamelukuulokkeet, musta",
+      "disc": 58,
+      "sale": 24.99,
+      "reg": 59.99,
+      "inStock": true,
+      "link": "https://www.verkkokauppa.com/fi/product/1028156/ProCaster-BH05-aktiiviset-vastamelukuulokkeet-musta",
+      "img": "https://static.verkcdn.com/kuvastin/w:118/h:90/rt:fit/q:80/exar:1/sh:0.5/t:1/plain/images/69/2_953807-1249x1779.jpg"
+    },
+    {
       "shop": "EMC24",
       "name": "DRAG SPECIALTIES FRONT BRAKE LINE STAINLESS STEEL 1984-99 FXST (Oem# 45206-97B) (119cm)",
       "disc": 58,
@@ -7398,6 +8028,26 @@
       "inStock": true,
       "link": "https://www.emc24.fi/tuote/exh-muffler-cello",
       "img": "https://www.emc24.fi/wp-content/uploads/2024/01/18000-A9A-000-300x300.jpg"
+    },
+    {
+      "shop": "Moposport",
+      "name": "Pyörän monitoimityökalu",
+      "disc": 57,
+      "sale": 3.99,
+      "reg": 9.19,
+      "inStock": true,
+      "link": "https://moposport.fi/pyoran-monitoimityokalu",
+      "img": "https://moposport.fi/wp-content/uploads/2024/05/780-2009-150x150.jpg"
+    },
+    {
+      "shop": "Moposport",
+      "name": "Tankinsuojapala, GP-Modular 3D läpinäkyvä",
+      "disc": 57,
+      "sale": 4.99,
+      "reg": 11.49,
+      "inStock": true,
+      "link": "https://moposport.fi/tankinsuojapala-gp-modular-3d-lapinakyva",
+      "img": "https://moposport.fi/wp-content/uploads/2020/08/731878-150x150.jpg"
     },
     {
       "shop": "Kärkkäinen",
@@ -7460,6 +8110,16 @@
       "img": "https://static.verkcdn.com/kuvastin/w:118/h:90/rt:fit/q:80/exar:1/sh:0.5/t:1/plain/images/71/2_983258-1871x1688.jpg"
     },
     {
+      "shop": "Moposport",
+      "name": "Jatkojohto ulkokäyttöön IP44, 1-osainen, 5.0m",
+      "disc": 56,
+      "sale": 5.99,
+      "reg": 13.49,
+      "inStock": true,
+      "link": "https://moposport.fi/jatkojohto-ulkokayttoon-ip44-1-osainen-5-0m",
+      "img": "https://moposport.fi/wp-content/uploads/2023/01/780-UKJJ-1-50-150x150.jpg"
+    },
+    {
       "shop": "EMC24",
       "name": "JARRUPALASARJA (05-15235, 85-150), BRP &#8211; Lynx/Ski-Doo",
       "disc": 56,
@@ -7497,7 +8157,7 @@
       "reg": 79.0,
       "inStock": true,
       "link": "https://www.karkkainen.com/verkkokauppa/jbl-tune-730bt-langattomat-kuulokkeet",
-      "img": "https://img.karkkainen.com/images/e_trim:4/c_pad%2Cf_auto%2Ch_234%2Cq_auto%2Cw_234/v1/tuotekuvat/1200130029868/jbl-tune-730bt-kuulokkeet-beige.jpg"
+      "img": "https://img.karkkainen.com/images/e_trim:4/c_pad%2Cf_auto%2Ch_234%2Cq_auto%2Cw_234/v1/tuotekuvat/1200130029837/jbl-tune-730bt-kuulokkeet-black.jpg"
     },
     {
       "shop": "Kärkkäinen",
@@ -7518,6 +8178,16 @@
       "inStock": true,
       "link": "https://www.emc24.fi/tuote/hd-screamin-eagle-ohlins-remote-reservoir-rear-suspension-install-kit-54000321",
       "img": "https://www.emc24.fi/wp-content/uploads/2026/08/54000321-300x300.jpg"
+    },
+    {
+      "shop": "Moposport",
+      "name": "Umpikypärä, EXO-390, Hawk, Mattamusta/Harmaa, XS",
+      "disc": 56,
+      "sale": 49.99,
+      "reg": 112.99,
+      "inStock": false,
+      "link": "https://moposport.fi/umpikypara-exo-390-hawk-mattamusta-harmaa-xs-scorpion",
+      "img": "https://moposport.fi/wp-content/uploads/2020/08/39-264-211-XS-150x150.jpg"
     },
     {
       "shop": "EMC24",
@@ -7600,6 +8270,16 @@
       "img": "https://www.emc24.fi/wp-content/uploads/2024/09/KS111_Power-Hub-300x300.jpg"
     },
     {
+      "shop": "Moposport",
+      "name": "Umpikypärä, Bayamo Red Race",
+      "disc": 55,
+      "sale": 59.99,
+      "reg": 132.99,
+      "inStock": true,
+      "link": "https://moposport.fi/umpikypara-bayamo-red-race",
+      "img": "https://moposport.fi/wp-content/uploads/2020/08/642-LZRDRC-XS-150x150.jpg"
+    },
+    {
       "shop": "Kärkkäinen",
       "name": "FlexiSpot valkoinen 1200x600 mm sähköpöytä",
       "disc": 55,
@@ -7668,6 +8348,66 @@
       "inStock": true,
       "link": "https://www.karkkainen.com/verkkokauppa/innosanit-mattamusta-80-w-5-ripainen-pyyhekuivain",
       "img": "https://img.karkkainen.com/images/e_trim:4/c_pad%2Cf_auto%2Ch_234%2Cq_auto%2Cw_234/v1/tuotekuvat/6438014396705_1/innosanit-musta-5-ripainen-pyyhekuivain.jpg"
+    },
+    {
+      "shop": "Moposport",
+      "name": "Umpikypärä, Rafale Street musta-puna-valko",
+      "disc": 54,
+      "sale": 69.99,
+      "reg": 152.99,
+      "inStock": false,
+      "link": "https://moposport.fi/umpikypara-rafale-street-musta-puna-valko",
+      "img": "https://moposport.fi/wp-content/uploads/2021/08/642-LZRF-RD-XS-150x150.jpg"
+    },
+    {
+      "shop": "Moposport",
+      "name": "LAZER LZR MH-2 Visible XS avattava kypärä, musta/kelta",
+      "disc": 54,
+      "sale": 69.99,
+      "reg": 152.99,
+      "inStock": true,
+      "link": "https://moposport.fi/lazer-lzr-mh-2-visible-xs-avattava-kypara-musta-kelta",
+      "img": "https://moposport.fi/wp-content/uploads/2025/08/MZE800010121S-150x150.jpg"
+    },
+    {
+      "shop": "Moposport",
+      "name": "Umpikypärä, Rafale Hexa harmaa-punainen, XS",
+      "disc": 54,
+      "sale": 69.99,
+      "reg": 152.99,
+      "inStock": false,
+      "link": "https://moposport.fi/umpikypara-rafale-hexa-harmaa-punainen-xs",
+      "img": "https://moposport.fi/wp-content/uploads/2022/05/642-LZR-RFHXHP-XS-150x150.jpg"
+    },
+    {
+      "shop": "Moposport",
+      "name": "Crossikypärä, VX-16 EVO AIR Gem valko/sini",
+      "disc": 54,
+      "sale": 79.99,
+      "reg": 172.9,
+      "inStock": true,
+      "link": "https://moposport.fi/crossikypara-vx-16-evo-air-gem-valko-sini",
+      "img": "https://moposport.fi/wp-content/uploads/2023/01/649-2381-5-150x150.jpg"
+    },
+    {
+      "shop": "Moposport",
+      "name": "Crossikypärä, VX-16 EVO AIR Soul valko/punainen",
+      "disc": 54,
+      "sale": 79.99,
+      "reg": 172.9,
+      "inStock": true,
+      "link": "https://moposport.fi/crossikypara-vx-16-evo-air-soul-valko-punainen",
+      "img": "https://moposport.fi/wp-content/uploads/2023/01/649-2380-5-150x150.jpg"
+    },
+    {
+      "shop": "Moposport",
+      "name": "SCORPION VX-16 EVO AIR crossikypärä, Arhus, valko/sini/puna XXL",
+      "disc": 54,
+      "sale": 79.99,
+      "reg": 172.9,
+      "inStock": false,
+      "link": "https://moposport.fi/scorpion-vx-16-evo-air-crossikypara-arhus-valko-sini-puna-xxl-scorpion",
+      "img": "https://moposport.fi/wp-content/uploads/2020/08/46-266-222-07-150x150.jpg"
     },
     {
       "shop": "EMC24",
@@ -7800,6 +8540,16 @@
       "img": "https://www.emc24.fi/wp-content/uploads/2020/07/BR4HS-300x300.jpg"
     },
     {
+      "shop": "Moposport",
+      "name": "VISIIRI, YOUNG/TOP GUN KIRKAS",
+      "disc": 52,
+      "sale": 5.0,
+      "reg": 10.5,
+      "inStock": true,
+      "link": "https://moposport.fi/visiiri-young-top-gun-kirkas-suomy",
+      "img": "https://moposport.fi/wp-content/uploads/2020/08/653-011-150x150.jpg"
+    },
+    {
       "shop": "EMC24",
       "name": "Oxford Oximiser 900 akkulaturi",
       "disc": 52,
@@ -7850,6 +8600,166 @@
       "img": "https://img.karkkainen.com/images/e_trim:4/c_pad%2Cf_auto%2Ch_234%2Cq_auto%2Cw_234/v1/tuotekuvat/196222145145_1/madshus-endurace-skate-187-60-75-siteet.jpg"
     },
     {
+      "shop": "Moposport",
+      "name": "Polttoaineletku, halkaisija 4mm / 7mm kirkas",
+      "disc": 51,
+      "sale": 0.99,
+      "reg": 2.04,
+      "inStock": true,
+      "link": "https://moposport.fi/polttoaineletku-halkaisija-4mm-7mm-kirkas-rms",
+      "img": "https://moposport.fi/wp-content/uploads/2020/08/12-169-0039-150x150.jpg"
+    },
+    {
+      "shop": "Moposport",
+      "name": "Autoshampoo, 1 l",
+      "disc": 51,
+      "sale": 1.49,
+      "reg": 3.04,
+      "inStock": true,
+      "link": "https://moposport.fi/autoshampoo-1-l",
+      "img": "https://moposport.fi/wp-content/uploads/2020/12/799-513-1-150x150.jpg"
+    },
+    {
+      "shop": "Moposport",
+      "name": "Yleissakset, 25 cm",
+      "disc": 51,
+      "sale": 1.99,
+      "reg": 4.04,
+      "inStock": true,
+      "link": "https://moposport.fi/yleissakset-25-cm",
+      "img": "https://moposport.fi/wp-content/uploads/2023/05/MKL-2095-150x150.jpg"
+    },
+    {
+      "shop": "Moposport",
+      "name": "Vanneharja, 27 cm",
+      "disc": 51,
+      "sale": 1.99,
+      "reg": 4.04,
+      "inStock": true,
+      "link": "https://moposport.fi/vanneharja-27-cm-2",
+      "img": "https://moposport.fi/wp-content/uploads/2020/12/798-744-1-150x150.jpg"
+    },
+    {
+      "shop": "Moposport",
+      "name": "Tarrasarja, Taxi",
+      "disc": 51,
+      "sale": 1.99,
+      "reg": 4.04,
+      "inStock": true,
+      "link": "https://moposport.fi/tarrasarja-taxi",
+      "img": "https://moposport.fi/wp-content/uploads/2020/08/MPR-1008-1-150x150.jpg"
+    },
+    {
+      "shop": "Moposport",
+      "name": "TIIVISTESARJA, SYLINTERI DERBI SENDA H.39,88",
+      "disc": 51,
+      "sale": 1.99,
+      "reg": 4.04,
+      "inStock": true,
+      "link": "https://moposport.fi/tiivistesarja-sylinteri-der-senda-h-3988-metrakit",
+      "img": "https://moposport.fi/wp-content/uploads/2020/08/940D1610-150x150.jpg"
+    },
+    {
+      "shop": "Moposport",
+      "name": "Tarra-arkki, ES",
+      "disc": 51,
+      "sale": 1.99,
+      "reg": 4.04,
+      "inStock": true,
+      "link": "https://moposport.fi/tarra-arkki-es",
+      "img": "https://moposport.fi/wp-content/uploads/2020/08/MPR-1001-150x150.jpg"
+    },
+    {
+      "shop": "Moposport",
+      "name": "Suojalasit, kirkas linssi",
+      "disc": 51,
+      "sale": 2.49,
+      "reg": 5.09,
+      "inStock": true,
+      "link": "https://moposport.fi/suojalasit-kirkas-linssi",
+      "img": "https://moposport.fi/wp-content/uploads/2020/12/780-3596-1-150x150.jpg"
+    },
+    {
+      "shop": "Moposport",
+      "name": "Tarrasarja, Monkey Ryderz",
+      "disc": 51,
+      "sale": 2.49,
+      "reg": 5.09,
+      "inStock": true,
+      "link": "https://moposport.fi/tarrasarja-monkey-ryderz",
+      "img": "https://moposport.fi/wp-content/uploads/2020/08/MPR-1012-150x150.jpg"
+    },
+    {
+      "shop": "Moposport",
+      "name": "Mittapullo, 2t-öljylle 250ml",
+      "disc": 51,
+      "sale": 2.99,
+      "reg": 6.09,
+      "inStock": true,
+      "link": "https://moposport.fi/mittapullo-2t-oljylle-250ml-3",
+      "img": "https://moposport.fi/wp-content/uploads/2026/07/7837-1427-150x150.jpg"
+    },
+    {
+      "shop": "Moposport",
+      "name": "Tarra, Monkey kulta kohokuvio",
+      "disc": 51,
+      "sale": 2.99,
+      "reg": 6.09,
+      "inStock": true,
+      "link": "https://moposport.fi/tarra-monkey-kulta-kohokuvio",
+      "img": "https://moposport.fi/wp-content/uploads/2020/08/737761-150x150.jpg"
+    },
+    {
+      "shop": "Moposport",
+      "name": "Paristo, 1.5V LR03 AAA, 24kpl",
+      "disc": 51,
+      "sale": 3.99,
+      "reg": 8.09,
+      "inStock": true,
+      "link": "https://moposport.fi/paristo-1-5v-lr03-aaa-24kpl",
+      "img": "https://moposport.fi/wp-content/uploads/2023/05/LR03-PK24-T-150x150.jpg"
+    },
+    {
+      "shop": "Moposport",
+      "name": "Ensiapupakkaus, 28 osaa",
+      "disc": 51,
+      "sale": 4.99,
+      "reg": 10.19,
+      "inStock": true,
+      "link": "https://moposport.fi/ensiapupakkaus-28-osaa",
+      "img": "https://moposport.fi/wp-content/uploads/2023/05/715-0668-150x150.jpg"
+    },
+    {
+      "shop": "Moposport",
+      "name": "Spiraalilukko, 180cm",
+      "disc": 51,
+      "sale": 4.99,
+      "reg": 10.19,
+      "inStock": true,
+      "link": "https://moposport.fi/spiraalilukko-180cm",
+      "img": "https://moposport.fi/wp-content/uploads/2020/08/781-3506-150x150.jpg"
+    },
+    {
+      "shop": "Moposport",
+      "name": "U-lukko,",
+      "disc": 51,
+      "sale": 4.99,
+      "reg": 10.19,
+      "inStock": true,
+      "link": "https://moposport.fi/u-lukko-ming-tay",
+      "img": "https://moposport.fi/wp-content/uploads/2020/08/781-621-1-150x150.jpg"
+    },
+    {
+      "shop": "Moposport",
+      "name": "Venttiili, tubeless kulma alumiini, 2kpl",
+      "disc": 51,
+      "sale": 5.0,
+      "reg": 10.19,
+      "inStock": true,
+      "link": "https://moposport.fi/venttiili-tubeless-kulma-alumiini-2kpl",
+      "img": "https://moposport.fi/wp-content/uploads/2022/03/218-03A-150x150.jpg"
+    },
+    {
       "shop": "EMC24",
       "name": "SnoX Kuomunlukko Ski-Doo 600/900 ACE, 1200 4-TEC 2014-19 (OEM#517304919)",
       "disc": 51,
@@ -7880,6 +8790,16 @@
       "img": "https://www.emc24.fi/wp-content/uploads/2026/11/83485db173697581cdf8e70879c52b3579e61c2c_71_01176-300x300.jpg"
     },
     {
+      "shop": "Moposport",
+      "name": "TANKKILAUKKU, HSUCO OLYMPIC KLIPSU",
+      "disc": 51,
+      "sale": 9.99,
+      "reg": 20.49,
+      "inStock": true,
+      "link": "https://moposport.fi/tankkilaukku-hsuco-olympic-klipsu",
+      "img": "https://moposport.fi/wp-content/uploads/2020/08/701-TL2-150x150.jpg"
+    },
+    {
       "shop": "EMC24",
       "name": "KAPSELISARJA musta 4/110, 4/115 4kpl",
       "disc": 51,
@@ -7888,6 +8808,16 @@
       "inStock": true,
       "link": "https://www.emc24.fi/tuote/kapselisarja-musta-4-110-4-115-4kpl",
       "img": "https://www.emc24.fi/wp-content/uploads/2026/11/0d621070b5aa76a5332e1d1b07a0a2191942fdaf_74_098.jpg"
+    },
+    {
+      "shop": "Moposport",
+      "name": "Valomaski, Streetfighter DHH",
+      "disc": 51,
+      "sale": 15.0,
+      "reg": 30.49,
+      "inStock": true,
+      "link": "https://moposport.fi/valomaski-streetfighter-dhh",
+      "img": "https://moposport.fi/wp-content/uploads/2020/08/321-021-1-150x150.jpg"
     },
     {
       "shop": "EMC24",
@@ -8460,6 +9390,26 @@
       "img": "https://www.emc24.fi/wp-content/uploads/2021/05/268159_1-300x300.jpg"
     },
     {
+      "shop": "Moposport",
+      "name": "Paikkaussarja, tubeless rengas",
+      "disc": 50,
+      "sale": 3.99,
+      "reg": 7.99,
+      "inStock": true,
+      "link": "https://moposport.fi/paikkaussarja-tubeless-rengas-2",
+      "img": "https://moposport.fi/wp-content/uploads/2023/01/218-7783-1-150x150.jpg"
+    },
+    {
+      "shop": "Moposport",
+      "name": "Tupet, &#8221;Slim Grip&#8221; musta",
+      "disc": 50,
+      "sale": 3.99,
+      "reg": 7.99,
+      "inStock": true,
+      "link": "https://moposport.fi/tupet-slim-grip-musta-pro-sport",
+      "img": "https://moposport.fi/wp-content/uploads/2020/08/235-411-150x150.jpg"
+    },
+    {
       "shop": "EMC24",
       "name": "T4Tune Kaasukahva+Kahvakumit mustat, Sym Jet 14, Symphony ST",
       "disc": 50,
@@ -8730,6 +9680,66 @@
       "img": "https://img.karkkainen.com/images/e_trim:4/c_pad%2Cf_auto%2Ch_234%2Cq_auto%2Cw_234/v1/tuotekuvat/6416570035436/viikari-varisekoitus-puuhelmet.jpg"
     },
     {
+      "shop": "Moposport",
+      "name": "Trimmerisiima, Twisted 3mm x 15m Premium Nylon",
+      "disc": 50,
+      "sale": 4.99,
+      "reg": 9.99,
+      "inStock": true,
+      "link": "https://moposport.fi/trimmerisiima-twisted-3mm-x-15m-premium-nylon",
+      "img": "https://moposport.fi/wp-content/uploads/2025/03/77-1512105-150x150.jpg"
+    },
+    {
+      "shop": "Moposport",
+      "name": "Tiivistesarja, sylinteri Aprilia; Derbi Senda; Gilera 06- 50cc",
+      "disc": 50,
+      "sale": 4.99,
+      "reg": 9.99,
+      "inStock": true,
+      "link": "https://moposport.fi/tiivistesarja-sylinteri-aprilia-derbi-senda-gilera-06-50cc",
+      "img": "https://moposport.fi/wp-content/uploads/2020/08/120-201-2-150x150.jpg"
+    },
+    {
+      "shop": "Moposport",
+      "name": "Tarra, Monkey kulta kohokuvio",
+      "disc": 50,
+      "sale": 5.0,
+      "reg": 9.99,
+      "inStock": true,
+      "link": "https://moposport.fi/tarra-monkey-kulta-kohokuvio-2",
+      "img": "https://moposport.fi/wp-content/uploads/2023/05/737130-150x150.jpg"
+    },
+    {
+      "shop": "Moposport",
+      "name": "Jarrupalat, ATV Polaris, Linhai",
+      "disc": 50,
+      "sale": 5.0,
+      "reg": 9.99,
+      "inStock": true,
+      "link": "https://moposport.fi/jarrupalat-atv-polaris-linhai",
+      "img": "https://moposport.fi/wp-content/uploads/2023/05/201-S010-150x150.jpg"
+    },
+    {
+      "shop": "Moposport",
+      "name": "Imukaula, Yleismalli, Kiinnitys 37mm",
+      "disc": 50,
+      "sale": 5.0,
+      "reg": 9.99,
+      "inStock": true,
+      "link": "https://moposport.fi/imukaula-yleismalli-kiinnitys-37mm-2",
+      "img": "https://moposport.fi/wp-content/uploads/2022/02/163-2-150x150.jpg"
+    },
+    {
+      "shop": "Moposport",
+      "name": "PEILI, VASEN Q8/250-6",
+      "disc": 50,
+      "sale": 5.0,
+      "reg": 9.99,
+      "inStock": true,
+      "link": "https://moposport.fi/peili-vasen-q8-250-6-jincheng",
+      "img": "https://moposport.fi/wp-content/uploads/2020/08/56600-E0400-150x150.jpg"
+    },
+    {
       "shop": "EMC24",
       "name": "Scott Hustle ajolasien kasvosuoja, MX one size",
       "disc": 50,
@@ -8878,6 +9888,16 @@
       "inStock": true,
       "link": "https://www.emc24.fi/tuote/motul-insect-remover-hyonteisten-poistoaine-suihkepullossa-500ml",
       "img": "https://www.emc24.fi/wp-content/uploads/2022/11/Motul_110151_insect_remover_png-300x300.png"
+    },
+    {
+      "shop": "Moposport",
+      "name": "Bike Clean, pyöränpesuaine",
+      "disc": 50,
+      "sale": 6.49,
+      "reg": 12.99,
+      "inStock": true,
+      "link": "https://moposport.fi/pyoranpesuaine-1-l",
+      "img": "https://moposport.fi/wp-content/uploads/2023/09/CRC-33420-1-150x150.jpg"
     },
     {
       "shop": "EMC24",
@@ -9178,6 +10198,16 @@
       "inStock": true,
       "link": "https://www.emc24.fi/tuote/allballs-vetoakselin-suojakumisarja-19-5009-honda-polaris-yamaha",
       "img": "https://www.emc24.fi/wp-content/uploads/2023/01/19-5006A-300x300.jpg"
+    },
+    {
+      "shop": "Moposport",
+      "name": "Freepower MantaHD 5000 varavirtalähde, Led-näytöllä",
+      "disc": 50,
+      "sale": 9.99,
+      "reg": 19.99,
+      "inStock": false,
+      "link": "https://moposport.fi/freepower-mantahd-5000-varavirtalahde-led-naytolla",
+      "img": ""
     },
     {
       "shop": "EMC24",
@@ -10390,6 +11420,16 @@
       "img": "https://www.emc24.fi/wp-content/uploads/2022/07/cbtx12-fa-300x300.jpg"
     },
     {
+      "shop": "Moposport",
+      "name": "KAULUSPAITA, LYHYET HIHAT L PUNAINEN",
+      "disc": 50,
+      "sale": 29.99,
+      "reg": 59.99,
+      "inStock": true,
+      "link": "https://moposport.fi/kauluspaita-lyhyet-hihat-l-punainen-malossi",
+      "img": "https://moposport.fi/wp-content/uploads/2020/08/4111880.50-1-150x150.jpg"
+    },
+    {
       "shop": "EMC24",
       "name": "Kappa Takalaukun teline Honda CRF1000L Africa Twin 2016-17",
       "disc": 50,
@@ -10567,7 +11607,7 @@
       "reg": 69.9,
       "inStock": true,
       "link": "https://www.karkkainen.com/verkkokauppa/trekker-havu-nastakengat",
-      "img": "https://img.karkkainen.com/images/e_trim:4/c_pad%2Cf_auto%2Ch_234%2Cq_auto%2Cw_234/v1/tuotekuvat/6438543002726_1/trekker-havu-nastakengat-eu44.jpg"
+      "img": "https://img.karkkainen.com/images/e_trim:4/c_pad%2Cf_auto%2Ch_234%2Cq_auto%2Cw_234/v1/tuotekuvat/6438543002726_1/trekker-havu-nastakengat-eu39.jpg"
     },
     {
       "shop": "EMC24",
@@ -11120,6 +12160,16 @@
       "img": "https://www.emc24.fi/wp-content/uploads/2022/11/25G4238-300x300.jpg"
     },
     {
+      "shop": "Moposport",
+      "name": "Umpikypärä, Rafale Hexa musta-keltainen",
+      "disc": 50,
+      "sale": 59.99,
+      "reg": 119.99,
+      "inStock": true,
+      "link": "https://moposport.fi/umpikypara-rafale-hexa-musta-keltainen",
+      "img": "https://moposport.fi/wp-content/uploads/2022/05/642-LZR-RFHX-XXL-150x150.jpg"
+    },
+    {
       "shop": "EMC24",
       "name": "Sym alkuperäinen VIRTALUKKO EURO X 50 2003-2007",
       "disc": 50,
@@ -11208,6 +12258,46 @@
       "inStock": true,
       "link": "https://www.karkkainen.com/verkkokauppa/brightsolar-mppt-30-a-lataussaadin-lcd-naytolla",
       "img": "https://img.karkkainen.com/images/e_trim:4/c_pad%2Cf_auto%2Ch_234%2Cq_auto%2Cw_234/v1/tuotekuvat/6438014247090_1/brightsolar-mppt-30a-saadin-lcd-naytolla.jpg"
+    },
+    {
+      "shop": "Moposport",
+      "name": "Crossikypärä, PG 3080 Adventure musta/harmaa/kulta matta",
+      "disc": 50,
+      "sale": 69.99,
+      "reg": 139.99,
+      "inStock": true,
+      "link": "https://moposport.fi/crossikypara-pg-3080-adventure-musta-harmaa-kulta-matta",
+      "img": "https://moposport.fi/wp-content/uploads/2024/12/641-PZ3080XL-402-150x150.jpg"
+    },
+    {
+      "shop": "Moposport",
+      "name": "Crossikypärä, PG 3080 Adventure harmaa/sininen/keltainen",
+      "disc": 50,
+      "sale": 69.99,
+      "reg": 139.99,
+      "inStock": true,
+      "link": "https://moposport.fi/crossikypara-pg-3080-adventure-harmaa-sininen-keltainen",
+      "img": "https://moposport.fi/wp-content/uploads/2024/12/641-PZ3080XL-401-150x150.jpg"
+    },
+    {
+      "shop": "Moposport",
+      "name": "Crossikypärä, PG 3080 Adventure valko/sini/puna",
+      "disc": 50,
+      "sale": 69.99,
+      "reg": 139.99,
+      "inStock": true,
+      "link": "https://moposport.fi/crossikypara-pg-3080-adventure-valko-sini-puna-l-2",
+      "img": "https://moposport.fi/wp-content/uploads/2024/12/641-PZ3080XL-227-150x150.jpg"
+    },
+    {
+      "shop": "Moposport",
+      "name": "Crossikypärä, PG 3080 Adventure harmaa/musta/oranssi",
+      "disc": 50,
+      "sale": 69.99,
+      "reg": 139.99,
+      "inStock": true,
+      "link": "https://moposport.fi/crossikypara-pg-3080-adventure-harmaa-musta-oranssi",
+      "img": "https://moposport.fi/wp-content/uploads/2024/12/641-PZ3080XL-211-150x150.jpg"
     },
     {
       "shop": "EMC24",
@@ -11300,6 +12390,16 @@
       "img": "https://www.emc24.fi/wp-content/uploads/2024/05/CR600-300x300.jpg"
     },
     {
+      "shop": "Moposport",
+      "name": "Kevlarhuppari, Timeless Rusty",
+      "disc": 50,
+      "sale": 79.99,
+      "reg": 159.99,
+      "inStock": true,
+      "link": "https://moposport.fi/kevlarhuppari-timeless-rusty",
+      "img": "https://moposport.fi/wp-content/uploads/2022/02/82576-001-XL-150x150.jpg"
+    },
+    {
       "shop": "EMC24",
       "name": "HARLEY DAVIDSON SADDLEBAG LID BRA KIT 57805-03A",
       "disc": 50,
@@ -11330,6 +12430,46 @@
       "img": "https://www.emc24.fi/wp-content/uploads/2024/10/1B000812-300x300.jpg"
     },
     {
+      "shop": "Moposport",
+      "name": "Grand Canyon Bikewear Textile Jacket Malibu Black/Grey/Orange XL",
+      "disc": 50,
+      "sale": 84.99,
+      "reg": 171.1,
+      "inStock": true,
+      "link": "https://moposport.fi/grand-canyon-bikewear-textile-jacket-malibu-black-grey-orange-xl",
+      "img": "https://moposport.fi/wp-content/uploads/2025/05/740-230501500-4-150x150.jpg"
+    },
+    {
+      "shop": "Moposport",
+      "name": "Grand Canyon Bikewear Textile Jacket Malibu Black/Grey/Orange L",
+      "disc": 50,
+      "sale": 84.99,
+      "reg": 171.1,
+      "inStock": true,
+      "link": "https://moposport.fi/grand-canyon-bikewear-textile-jacket-malibu-black-grey-orange-l",
+      "img": "https://moposport.fi/wp-content/uploads/2025/05/740-230501500-3-150x150.jpg"
+    },
+    {
+      "shop": "Moposport",
+      "name": "Grand Canyon Bikewear Textile Jacket Malibu Black/Grey/Orange M",
+      "disc": 50,
+      "sale": 84.99,
+      "reg": 171.1,
+      "inStock": true,
+      "link": "https://moposport.fi/grand-canyon-bikewear-textile-jacket-malibu-black-grey-orange-m",
+      "img": "https://moposport.fi/wp-content/uploads/2025/05/740-230501500-2-150x150.jpg"
+    },
+    {
+      "shop": "Moposport",
+      "name": "Grand Canyon Bikewear Textile Jacket Malibu Black/Grey/Orange S",
+      "disc": 50,
+      "sale": 84.99,
+      "reg": 171.1,
+      "inStock": true,
+      "link": "https://moposport.fi/grand-canyon-bikewear-textile-jacket-malibu-black-grey-orange-s",
+      "img": "https://moposport.fi/wp-content/uploads/2025/05/740-230501500-1-150x150.jpg"
+    },
+    {
       "shop": "EMC24",
       "name": "Athena TIIVISTESARJA täydellinen XJ750 SECA 1982-1984, XJ750 1984-1985",
       "disc": 50,
@@ -11358,6 +12498,16 @@
       "inStock": true,
       "link": "https://www.emc24.fi/tuote/kappa-tankkilaukku-20ltr-magneetti-remmikiinnitys-musta",
       "img": "https://www.emc24.fi/wp-content/uploads/2022/05/RA315BK-300x300.jpg"
+    },
+    {
+      "shop": "Moposport",
+      "name": "Ajotakki, Norwalk Black/Camo",
+      "disc": 50,
+      "sale": 89.99,
+      "reg": 181.2,
+      "inStock": true,
+      "link": "https://moposport.fi/ajotakki-norwalk-black-camo",
+      "img": "https://moposport.fi/wp-content/uploads/2025/05/740-230401100-6_2-150x150.jpg"
     },
     {
       "shop": "EMC24",
@@ -11630,6 +12780,16 @@
       "img": "https://www.emc24.fi/wp-content/uploads/2022/07/lt5-300x300.jpg"
     },
     {
+      "shop": "Verkkokauppa.com",
+      "name": "Philips Shaver Series i9000 Prestige Ultra XP9405/11 parranajokone",
+      "disc": 50,
+      "sale": 199.99,
+      "reg": 399.99,
+      "inStock": true,
+      "link": "https://www.verkkokauppa.com/fi/product/980162/Philips-Shaver-Series-i9000-Prestige-Ultra-XP9405-11-parrana",
+      "img": "https://static.verkcdn.com/kuvastin/w:118/h:90/rt:fit/q:80/exar:1/sh:0.5/t:1/plain/images/86/2_980162-1829x1928.jpeg"
+    },
+    {
       "shop": "EMC24",
       "name": "Harley-Davidson Boom! Audio 20S Bluetooth helmet single headset",
       "disc": 50,
@@ -11678,16 +12838,6 @@
       "inStock": true,
       "link": "https://www.emc24.fi/tuote/motul-gear-300-75w90-tayssynteettinen-vaihteisto-peraoljy-20-litraa",
       "img": "https://www.emc24.fi/wp-content/uploads/2024/04/bigweb_motul_jerry_can-red_20l_png-1-300x300.png"
-    },
-    {
-      "shop": "Verkkokauppa.com",
-      "name": "Samsung 65\" Q7FA – 4K QLED TV + HW-QS700F 3.1.2 Dolby Atmos Soundbar -tuotepaketti",
-      "disc": 50,
-      "sale": 898.0,
-      "reg": 1798.0,
-      "inStock": false,
-      "link": "https://www.verkkokauppa.com/fi/product/1006090/Samsung-65-Q7FA-4K-QLED-TV-HW-QS700F-3-1-2-Dolby-Atmos-Sound",
-      "img": "https://static.verkcdn.com/kuvastin/w:208/h:128/rt:fit/q:80/exar:1/sh:0.5/t:1/plain/images/73/2_1006090-3017x821.jpg"
     },
     {
       "shop": "EMC24",
