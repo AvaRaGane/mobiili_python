@@ -218,7 +218,7 @@ def parse_extracted_items(extracted: list[dict], shop_name: str, base_domain: st
 
 
 def scrape_playwright_shops() -> dict[str, list[dict]]:
-        shop_configs = [
+    shop_configs = [
         {
             "name": "Kärkkäinen",
             "domain": "https://www.karkkainen.com",
