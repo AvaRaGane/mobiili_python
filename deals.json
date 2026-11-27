@@ -1,14 +1,12 @@
 {
-  "updated_at": "2026-11-27T05:34:27.416452+00:00",
+  "updated_at": "2026-11-27T05:50:55.062534+00:00",
   "counts": {
     "EMC24": 1114,
-    "Kärkkäinen": 303,
-    "Verkkokauppa.com": 7,
-    "Jula": 0,
+    "Kärkkäinen": 80,
+    "Verkkokauppa.com": 52,
+    "Jula": 3,
     "Rusta": 0,
-    "Puuilo": 0,
-    "Gigantti": 0,
-    "total": 1424
+    "total": 1249
   },
   "items": [
     {
@@ -29,7 +27,7 @@
       "reg": 500.0,
       "inStock": true,
       "link": "https://www.karkkainen.com/verkkokauppa/lahjakortti-karkkaiselle",
-      "img": "https://img.karkkainen.com/images/e_trim:4/c_pad%2Cf_auto%2Ch_234%2Cq_auto%2Cw_234/v1/tuotekuvat/2050006089446/sydan-10eur-lahjakortti.jpg"
+      "img": "https://img.karkkainen.com/images/e_trim:4/c_pad%2Cf_auto%2Ch_234%2Cq_auto%2Cw_234/v1/tuotekuvat/2050006089422/valkoinen-pensas-10eur-lahjakortti.jpg"
     },
     {
       "shop": "EMC24",
@@ -352,16 +350,6 @@
       "img": "https://www.emc24.fi/wp-content/uploads/2026/10/2024-300x300.jpg"
     },
     {
-      "shop": "Kärkkäinen",
-      "name": "FanniK Tyyni torkkupeitto",
-      "disc": 79,
-      "sale": 5.99,
-      "reg": 28.9,
-      "inStock": true,
-      "link": "https://www.karkkainen.com/verkkokauppa/fannik-tyyni-torkkupeitto",
-      "img": "https://img.karkkainen.com/images/e_trim:4/c_pad%2Cf_auto%2Ch_234%2Cq_auto%2Cw_234/v1/tuotekuvat/6410413352285/fanni-k-335228-tyyni-130x170-ha-huopa.jpg"
-    },
-    {
       "shop": "EMC24",
       "name": "Motrix ATV/UTV SISÄRENGAS 23X8.50-12 (24X8-12) TR6",
       "disc": 79,
@@ -410,16 +398,6 @@
       "inStock": true,
       "link": "https://www.karkkainen.com/verkkokauppa/timco-2400-kpl-s-kart-kuumasinkitty-rullanaula-kampanaula",
       "img": "https://img.karkkainen.com/images/e_trim:4/c_pad%2Cf_auto%2Ch_234%2Cq_auto%2Cw_234/v1/tuotekuvat/6438014083506/timco-2-1x45mm-2400kpl-s-kart-rullanaula.jpg"
-    },
-    {
-      "shop": "Kärkkäinen",
-      "name": "Tangram City lautapeli",
-      "disc": 77,
-      "sale": 5.0,
-      "reg": 21.9,
-      "inStock": true,
-      "link": "https://www.karkkainen.com/verkkokauppa/tangram-city-lautapeli",
-      "img": "https://img.karkkainen.com/images/e_trim:4/c_pad%2Cf_auto%2Ch_234%2Cq_auto%2Cw_234/v1/tuotekuvat/6430056949987_1/tangram-city-lautapeli.jpg"
     },
     {
       "shop": "EMC24",
@@ -512,16 +490,6 @@
       "img": "https://www.emc24.fi/wp-content/uploads/2020/09/50500791-300x300.jpg"
     },
     {
-      "shop": "Kärkkäinen",
-      "name": "Jack Wolfskin 3D Aerorise 30 päiväreppu",
-      "disc": 76,
-      "sale": 69.9,
-      "reg": 289.0,
-      "inStock": true,
-      "link": "https://www.karkkainen.com/verkkokauppa/jack-wolfskin-3d-aerorise-30-paivareppu",
-      "img": "https://img.karkkainen.com/images/e_trim:4/c_pad%2Cf_auto%2Ch_234%2Cq_auto%2Cw_234/v1/tuotekuvat/4064993640540/jack-wolfskin-3d-aerorise-30-sil-reppu.jpg"
-    },
-    {
       "shop": "EMC24",
       "name": "HD Here&#8217;s some money -juhlakortti",
       "disc": 75,
@@ -580,16 +548,6 @@
       "inStock": true,
       "link": "https://www.emc24.fi/tuote/hd-all-roads-dealer-custom-postikortti",
       "img": "https://www.emc24.fi/wp-content/uploads/2024/06/kortti-300x300.png"
-    },
-    {
-      "shop": "Kärkkäinen",
-      "name": "Visbella 200 g puhdistussavi",
-      "disc": 74,
-      "sale": 3.9,
-      "reg": 14.9,
-      "inStock": true,
-      "link": "https://www.karkkainen.com/verkkokauppa/visbella-200-g-puhdistussavi",
-      "img": "https://img.karkkainen.com/images/e_trim:4/c_pad%2Cf_auto%2Ch_234%2Cq_auto%2Cw_234/v1/tuotekuvat/6977927080221_1/visbella-200g-puhdistus-savi.jpg"
     },
     {
       "shop": "EMC24",
@@ -652,16 +610,6 @@
       "img": ""
     },
     {
-      "shop": "Kärkkäinen",
-      "name": "Vida Jättihelokki ravintolisä 160 kaps. ravintolisä",
-      "disc": 72,
-      "sale": 4.99,
-      "reg": 17.95,
-      "inStock": true,
-      "link": "https://www.karkkainen.com/verkkokauppa/vida-jattihelokki-ravintolisa-160-kaps-ravintolisa",
-      "img": "https://img.karkkainen.com/images/e_trim:4/c_pad%2Cf_auto%2Ch_234%2Cq_auto%2Cw_234/v1/tuotekuvat/6430080441167/vida-jattihelokki-160kaps.jpg"
-    },
-    {
       "shop": "EMC24",
       "name": "HD Women&#8217;s 120th anniversary relaxed fit",
       "disc": 72,
@@ -702,16 +650,6 @@
       "img": "https://www.emc24.fi/wp-content/uploads/2026/11/ncs-00393-3-300x300.jpg"
     },
     {
-      "shop": "Kärkkäinen",
-      "name": "Trapped Lento 927 pakohuonepeli",
-      "disc": 71,
-      "sale": 2.9,
-      "reg": 9.99,
-      "inStock": true,
-      "link": "https://www.karkkainen.com/verkkokauppa/trapped-lento-927-pakohuonepeli-escape-room-exit-room",
-      "img": "https://img.karkkainen.com/images/e_trim:4/c_pad%2Cf_auto%2Ch_234%2Cq_auto%2Cw_234/v1/tuotekuvat/6416550862434/trapped-lento-927-pakohuonepeli.jpg"
-    },
-    {
       "shop": "EMC24",
       "name": "SCHUBERTH Hengitysohjain C2",
       "disc": 71,
@@ -730,6 +668,16 @@
       "inStock": true,
       "link": "https://www.karkkainen.com/verkkokauppa/carman-5-3-x-0-4-m-autotallin-kumimatto",
       "img": "https://img.karkkainen.com/images/e_trim:4/c_pad%2Cf_auto%2Ch_234%2Cq_auto%2Cw_234/v1/tuotekuvat/6410412454300/carman-5-3m-x-0-4m-autotallin-matto.jpg"
+    },
+    {
+      "shop": "Verkkokauppa.com",
+      "name": "Lian Li HydroShift LCD 360N nestejäähdytysjärjestelmä ilman tuulettimia, valkoinen",
+      "disc": 71,
+      "sale": 49.99,
+      "reg": 172.99,
+      "inStock": true,
+      "link": "https://www.verkkokauppa.com/fi/product/1078583/Lian-Li-HydroShift-LCD-360N-nestejaahdytysjarjestelma-ilman",
+      "img": "https://static.verkcdn.com/kuvastin/w:208/h:128/rt:fit/q:80/exar:1/sh:0.5/t:1/plain/images/86/2_1078583-694x1032.jpg"
     },
     {
       "shop": "EMC24",
@@ -753,53 +701,13 @@
     },
     {
       "shop": "Kärkkäinen",
-      "name": "Savora 50x96 cm laatikonmatto",
-      "disc": 70,
-      "sale": 2.4,
-      "reg": 7.99,
-      "inStock": true,
-      "link": "https://www.karkkainen.com/verkkokauppa/savora-50x96-cm-laatikonmatto",
-      "img": "https://img.karkkainen.com/images/e_trim:4/c_pad%2Cf_auto%2Ch_234%2Cq_auto%2Cw_234/v1/tuotekuvat/6438014371191_1/savora-50x96cm-laatikonmatto.jpg"
-    },
-    {
-      "shop": "Kärkkäinen",
-      "name": "+4",
-      "disc": 70,
-      "sale": 2.72,
-      "reg": 9.05,
-      "inStock": true,
-      "link": "https://www.karkkainen.com/verkkokauppa/vitalcare-colour-shine-hiusvari",
-      "img": "https://img.karkkainen.com/images/e_trim:4/c_pad%2Cf_auto%2Ch_234%2Cq_auto%2Cw_234/v1/tuotekuvat/8029241105741/vitalcare-colourshine-no5-3-hiusvari.jpg"
-    },
-    {
-      "shop": "Kärkkäinen",
       "name": "Rukka Pets Twist kaulapanta",
       "disc": 70,
       "sale": 2.97,
       "reg": 4.47,
       "inStock": true,
       "link": "https://www.karkkainen.com/verkkokauppa/rukka-pets-twist-kaulapanta",
-      "img": "https://img.karkkainen.com/images/e_trim:4/c_pad%2Cf_auto%2Ch_234%2Cq_auto%2Cw_234/v1/tuotekuvat/6413910740944/rukka-pets-twist-xs-punainen-kaulapanta.jpg"
-    },
-    {
-      "shop": "Kärkkäinen",
-      "name": "Rukka Pets Twist M talutin",
-      "disc": 70,
-      "sale": 5.37,
-      "reg": 17.9,
-      "inStock": true,
-      "link": "https://www.karkkainen.com/verkkokauppa/rukka-pets-twist-m-talutin",
-      "img": "https://img.karkkainen.com/images/e_trim:4/c_pad%2Cf_auto%2Ch_234%2Cq_auto%2Cw_234/v1/tuotekuvat/6413910741002/rukka-pets-twist-m-turkoosi-talutin.jpg"
-    },
-    {
-      "shop": "Kärkkäinen",
-      "name": "Jack Wolfskin Wanderthirst 20 päiväreppu",
-      "disc": 70,
-      "sale": 29.9,
-      "reg": 99.9,
-      "inStock": true,
-      "link": "https://www.karkkainen.com/verkkokauppa/jack-wolfskin-wanderthirst-20-paivareppu",
-      "img": "https://img.karkkainen.com/images/e_trim:4/c_pad%2Cf_auto%2Ch_234%2Cq_auto%2Cw_234/v1/tuotekuvat/4064993640977/jack-wolfskin-wanderthirst-20-brwn-reppu.jpg"
+      "img": "https://img.karkkainen.com/images/e_trim:4/c_pad%2Cf_auto%2Ch_234%2Cq_auto%2Cw_234/v1/tuotekuvat/6413910740906/rukka-pets-twist-xs-turkoosi-kaulapanta.jpg"
     },
     {
       "shop": "EMC24",
@@ -890,6 +798,26 @@
       "inStock": true,
       "link": "https://www.emc24.fi/tuote/gates-19r4022-g-force-redline-atv-variaattorinhihna-1051x30mm",
       "img": "https://www.emc24.fi/wp-content/uploads/2022/06/REDLINE-300x300.jpg"
+    },
+    {
+      "shop": "Verkkokauppa.com",
+      "name": "Philips GO TAA6709BK/00 langattomat urheilukuulokkeet",
+      "disc": 69,
+      "sale": 39.99,
+      "reg": 129.0,
+      "inStock": true,
+      "link": "https://www.verkkokauppa.com/fi/product/962363/Philips-GO-TAA6709BK-00-langattomat-urheilukuulokkeet",
+      "img": "https://static.verkcdn.com/kuvastin/w:208/h:128/rt:fit/q:80/exar:1/sh:0.5/t:1/plain/images/9/2_962363-1915x1219.jpg"
+    },
+    {
+      "shop": "Verkkokauppa.com",
+      "name": "Sennheiser BTA1 Auracast‑lähetin televisiolle",
+      "disc": 69,
+      "sale": 39.99,
+      "reg": 129.99,
+      "inStock": true,
+      "link": "https://www.verkkokauppa.com/fi/product/1033625/Sennheiser-BTA1-Auracast-lahetin-televisiolle",
+      "img": "https://static.verkcdn.com/kuvastin/w:208/h:128/rt:fit/q:80/exar:1/sh:0.5/t:1/plain/images/61/2_1033625-512x512.jpg"
     },
     {
       "shop": "EMC24",
@@ -1042,16 +970,6 @@
       "img": "https://www.emc24.fi/wp-content/uploads/2026/11/7dff387b3ecc7fac4c48dc61fecec8e0f114f9f3_92_12561-300x300.jpg"
     },
     {
-      "shop": "Kärkkäinen",
-      "name": "Wahlsten Goldie ratsastusleggingsit",
-      "disc": 68,
-      "sale": 24.9,
-      "reg": 79.0,
-      "inStock": true,
-      "link": "https://www.karkkainen.com/verkkokauppa/wahlsten-goldie-ratsastusleggingsit",
-      "img": "https://img.karkkainen.com/images/e_trim:4/c_pad%2Cf_auto%2Ch_234%2Cq_auto%2Cw_234/v1/tuotekuvat/6438040107757/wahlsten-goldie-42-musta-rats-legginssit.jpg"
-    },
-    {
       "shop": "EMC24",
       "name": "Winderosa yläpään TIIVISTESARJA, Rotax 1000 2005-",
       "disc": 68,
@@ -1132,36 +1050,6 @@
       "img": "https://www.emc24.fi/wp-content/uploads/2020/06/CMR6H-300x300.jpg"
     },
     {
-      "shop": "Kärkkäinen",
-      "name": "EGLO Heather 37cm 15W 4000K valkoinen LED kattovalaisin",
-      "disc": 67,
-      "sale": 4.95,
-      "reg": 14.95,
-      "inStock": true,
-      "link": "https://www.karkkainen.com/verkkokauppa/eglo-heather-37cm-15w-4000k-valkoinen-led-kattovalaisin",
-      "img": "https://img.karkkainen.com/images/e_trim:4/c_pad%2Cf_auto%2Ch_234%2Cq_auto%2Cw_234/v1/tuotekuvat/3276000664260_1/inspire-heather-valk-led-kattovalaisin.jpg"
-    },
-    {
-      "shop": "Kärkkäinen",
-      "name": "AmandaB Cat food ruoka-astia",
-      "disc": 67,
-      "sale": 4.99,
-      "reg": 14.9,
-      "inStock": true,
-      "link": "https://www.karkkainen.com/verkkokauppa/amandab-cat-food-ruoka-astia",
-      "img": "https://img.karkkainen.com/images/e_trim:4/c_pad%2Cf_auto%2Ch_234%2Cq_auto%2Cw_234/v1/tuotekuvat/6420254333718/amandab-22726-cat-food-ruoka-astia.jpg"
-    },
-    {
-      "shop": "Kärkkäinen",
-      "name": "Hidden Games Murhamysteeri: Kuolleilla ei ole kylmä murhamysteeripeli",
-      "disc": 67,
-      "sale": 9.9,
-      "reg": 29.9,
-      "inStock": true,
-      "link": "https://www.karkkainen.com/verkkokauppa/hidden-games-murhamysteeri-kuolleilla-ei-ole-kylma-murhamysteeripeli-crime-scene-rikospeli",
-      "img": "https://img.karkkainen.com/images/e_trim:4/c_pad%2Cf_auto%2Ch_234%2Cq_auto%2Cw_234/v1/tuotekuvat/6430056948775_1/murhamysteeri-kuolleilla-ei-ole-kylma.jpg"
-    },
-    {
       "shop": "EMC24",
       "name": "All Balls A-Varren PALLONIVEL alempi/ ylempi Kawasaki useat mallit",
       "disc": 67,
@@ -1172,14 +1060,24 @@
       "img": "https://www.emc24.fi/wp-content/uploads/2023/01/42-1033-300x300.jpg"
     },
     {
-      "shop": "Kärkkäinen",
-      "name": "Bandago 32\"-75\" moottoroitu TV-seinäteline",
+      "shop": "Verkkokauppa.com",
+      "name": "Fuj:tech Pro Slim USB-C hubi",
       "disc": 67,
-      "sale": 49.0,
-      "reg": 149.0,
+      "sale": 19.99,
+      "reg": 59.99,
       "inStock": true,
-      "link": "https://www.karkkainen.com/verkkokauppa/bandago-32--75-moottoroitu-tv-seinateline",
-      "img": "https://img.karkkainen.com/images/e_trim:4/c_pad%2Cf_auto%2Ch_234%2Cq_auto%2Cw_234/v1/tuotekuvat/6438014410203_1/bandago-32--75-moottoroitu-tv-seinateli.jpg"
+      "link": "https://www.verkkokauppa.com/fi/product/989182/Fuj-tech-Pro-Slim-USB-C-hubi",
+      "img": "https://static.verkcdn.com/kuvastin/w:208/h:128/rt:fit/q:80/exar:1/sh:0.5/t:1/plain/images/34/2_989182-3840x2160.jpg"
+    },
+    {
+      "shop": "Verkkokauppa.com",
+      "name": "Mustang Astroni 14 pizzauuni/monitoimiuuni",
+      "disc": 67,
+      "sale": 99.0,
+      "reg": 299.0,
+      "inStock": true,
+      "link": "https://www.verkkokauppa.com/fi/product/999124/Mustang-Astroni-14-pizzauuni-monitoimiuuni",
+      "img": "https://static.verkcdn.com/kuvastin/w:208/h:128/rt:fit/q:80/exar:1/sh:0.5/t:1/plain/images/77/2_999124-1000x665.jpg"
     },
     {
       "shop": "Kärkkäinen",
@@ -1272,24 +1170,14 @@
       "img": "https://www.emc24.fi/wp-content/uploads/2024/05/p4-082304-300x300.jpg"
     },
     {
-      "shop": "Kärkkäinen",
-      "name": "Sekure vihreä 190 g/m² 1x50 m suoja-aita",
+      "shop": "Jula",
+      "name": "Räikkälenkkiavainsarja 12 osaa 8-19 mm",
       "disc": 64,
-      "sale": 29.0,
-      "reg": 79.9,
+      "sale": 24.99,
+      "reg": 69.99,
       "inStock": true,
-      "link": "https://www.karkkainen.com/verkkokauppa/sekure-vihrea-190-g-m-1x50-m-suoja-aita",
-      "img": "https://img.karkkainen.com/images/e_trim:4/c_pad%2Cf_auto%2Ch_234%2Cq_auto%2Cw_234/v1/tuotekuvat/6438014402345_1/sekure-190g-1x50m-vihrea-suoja-aita.jpg"
-    },
-    {
-      "shop": "Kärkkäinen",
-      "name": "Sekure oranssi 190 g/m² 1x50 m suoja-aita",
-      "disc": 64,
-      "sale": 29.0,
-      "reg": 79.9,
-      "inStock": true,
-      "link": "https://www.karkkainen.com/verkkokauppa/sekure-oranssi-190-g-m-1x50-m-suoja-aita",
-      "img": "https://img.karkkainen.com/images/e_trim:4/c_pad%2Cf_auto%2Ch_234%2Cq_auto%2Cw_234/v1/tuotekuvat/6438014402338_1/sekure-190g-1x50m-oranssi-suoja-aita.jpg"
+      "link": "https://www.jula.fi/catalog/tyokalut-ja-koneet/kasityokalut/tyokaluavaimet/raikkalenkit/raikkalenkkiavainsarja-012834",
+      "img": "https://assets.cdn.jula.com/v2/preset:jpgoptimized/w:256/13400?lastmodified=20261015144802"
     },
     {
       "shop": "EMC24",
@@ -1342,16 +1230,6 @@
       "img": "https://www.emc24.fi/wp-content/uploads/2018/08/p4-1450368028111037-300x247.jpg"
     },
     {
-      "shop": "Kärkkäinen",
-      "name": "Kotoilu Flow Flora verhot",
-      "disc": 63,
-      "sale": 12.99,
-      "reg": 34.9,
-      "inStock": true,
-      "link": "https://www.karkkainen.com/verkkokauppa/kotoilu-flow-flora-verhot",
-      "img": "https://img.karkkainen.com/images/e_trim:4/c_pad%2Cf_auto%2Ch_234%2Cq_auto%2Cw_234/v1/tuotekuvat/6438014407296/kotoilu-flow-flora-2x140x250-olii-verhot.jpg"
-    },
-    {
       "shop": "EMC24",
       "name": "HD Bar &#038; Shield Yth T BK, lasten Dealer T-paita",
       "disc": 63,
@@ -1382,14 +1260,24 @@
       "img": "https://img.karkkainen.com/images/e_trim:4/c_pad%2Cf_auto%2Ch_234%2Cq_auto%2Cw_234/v1/tuotekuvat/6440000700144/teksta-purro-the-interactive-smart-kitty.jpg"
     },
     {
-      "shop": "Kärkkäinen",
-      "name": "Noisy May Nmfilla naisten t-paita",
+      "shop": "Verkkokauppa.com",
+      "name": "TCL S55H 2.1 Dolby Atmos Soundbar -äänijärjestelmä",
       "disc": 63,
-      "sale": 14.9,
-      "reg": 39.99,
+      "sale": 129.0,
+      "reg": 349.0,
       "inStock": true,
-      "link": "https://www.karkkainen.com/verkkokauppa/noisy-may-nmfilla-naisten-t-paita-p1694789387246591",
-      "img": "https://img.karkkainen.com/images/e_trim:4/c_pad%2Cf_auto%2Ch_234%2Cq_auto%2Cw_234/v1/tuotekuvat/5715950690847/nm-27039551-bla-ode-xs-t-shirt-fem-knit.jpg"
+      "link": "https://www.verkkokauppa.com/fi/product/958298/TCL-S55H-2-1-Dolby-Atmos-Soundbar-aanijarjestelma",
+      "img": "https://static.verkcdn.com/kuvastin/w:208/h:128/rt:fit/q:80/exar:1/sh:0.5/t:1/plain/images/45/2_958298-1297x834.jpg"
+    },
+    {
+      "shop": "Verkkokauppa.com",
+      "name": "Roborock Saros 10R -robottipölynimuri, musta",
+      "disc": 63,
+      "sale": 549.0,
+      "reg": 1499.0,
+      "inStock": true,
+      "link": "https://www.verkkokauppa.com/fi/product/1043683/Roborock-Saros-10R-robottipolynimuri-musta",
+      "img": "https://static.verkcdn.com/kuvastin/w:208/h:128/rt:fit/q:80/exar:1/sh:0.5/t:1/plain/images/14/2_1043683-481x538.jpg"
     },
     {
       "shop": "Kärkkäinen",
@@ -1402,6 +1290,16 @@
       "img": "https://img.karkkainen.com/images/e_trim:4/c_pad%2Cf_auto%2Ch_234%2Cq_auto%2Cw_234/v1/tuotekuvat/9780709722151/aw-farm-colouring-fun-varityslehtio.jpg"
     },
     {
+      "shop": "Verkkokauppa.com",
+      "name": "Gembird MIC-205 pöytämikrofoni",
+      "disc": 62,
+      "sale": 3.0,
+      "reg": 7.99,
+      "inStock": true,
+      "link": "https://www.verkkokauppa.com/fi/product/189713/Gembird-MIC-205-poytamikrofoni",
+      "img": "https://static.verkcdn.com/kuvastin/w:208/h:128/rt:fit/q:80/exar:1/sh:0.5/t:1/plain/images/42/2_189713-1000x1000.jpeg"
+    },
+    {
       "shop": "Kärkkäinen",
       "name": "CELSIUS Galaxy Vibe 24x355ml energiajuoma",
       "disc": 62,
@@ -1410,16 +1308,6 @@
       "inStock": true,
       "link": "https://www.karkkainen.com/verkkokauppa/celsius-galaxy-vibe-24x355ml-energiajuoma",
       "img": "https://img.karkkainen.com/images/e_trim:4/c_pad%2Cf_auto%2Ch_234%2Cq_auto%2Cw_234/v1/tuotekuvat/6430052986115/celsius-galaxy-vibe-24x355ml-e-juoma-tlk.jpg"
-    },
-    {
-      "shop": "Kärkkäinen",
-      "name": "Hot Wheels Skate Fingerboard & Shoe 4 Pack sormiskeitti",
-      "disc": 62,
-      "sale": 6.9,
-      "reg": 17.99,
-      "inStock": true,
-      "link": "https://www.karkkainen.com/verkkokauppa/hot-wheels-skate-fingerboard-shoe-4-pack-sormiskeitti",
-      "img": "https://img.karkkainen.com/images/e_trim:4/c_pad%2Cf_auto%2Ch_234%2Cq_auto%2Cw_234/v1/tuotekuvat/0194735057696_1/hot-wheels-skate-fingerboard-shoe.jpg"
     },
     {
       "shop": "EMC24",
@@ -1502,6 +1390,26 @@
       "img": "https://www.emc24.fi/wp-content/uploads/2021/07/R00408-Flustered-f-HDOulu-Dealer-paita-300x300.jpg"
     },
     {
+      "shop": "Verkkokauppa.com",
+      "name": "Trio Dooley ladattava pöytävalaisin, 18 cm, spektri, koristelasi",
+      "disc": 62,
+      "sale": 15.0,
+      "reg": 39.9,
+      "inStock": true,
+      "link": "https://www.verkkokauppa.com/fi/product/1076324/Trio-Dooley-ladattava-poytavalaisin-18-cm-spektri-koristelas",
+      "img": "https://static.verkcdn.com/kuvastin/w:208/h:128/rt:fit/q:80/exar:1/sh:0.5/t:1/plain/images/95/2_1076324-5000x3333.jpg"
+    },
+    {
+      "shop": "Verkkokauppa.com",
+      "name": "Trio Dooley ladattava pöytävalaisin, 18 cm, savu",
+      "disc": 62,
+      "sale": 15.0,
+      "reg": 39.9,
+      "inStock": true,
+      "link": "https://www.verkkokauppa.com/fi/product/1076318/Trio-Dooley-ladattava-poytavalaisin-18-cm-savu",
+      "img": "https://static.verkcdn.com/kuvastin/w:208/h:128/rt:fit/q:80/exar:1/sh:0.5/t:1/plain/images/71/2_1076318-5000x3333.jpg"
+    },
+    {
       "shop": "EMC24",
       "name": "BMW Wiring harness, additional headlight R 1200 GS Adventure 2012 &#8211; 2018",
       "disc": 62,
@@ -1540,6 +1448,36 @@
       "inStock": true,
       "link": "https://www.karkkainen.com/verkkokauppa/arctic-bright-slim-180-w-led-lisavalopaneeli-kaukovalo",
       "img": "https://img.karkkainen.com/images/e_trim:4/c_pad%2Cf_auto%2Ch_234%2Cq_auto%2Cw_234/v1/tuotekuvat/6438014289441_1/arctic-bright-slim-180w-led-lisavalo.jpg"
+    },
+    {
+      "shop": "Verkkokauppa.com",
+      "name": "Princess Cyclone airfryer",
+      "disc": 62,
+      "sale": 49.99,
+      "reg": 129.99,
+      "inStock": true,
+      "link": "https://www.verkkokauppa.com/fi/product/955379/Princess-Cyclone-airfryer",
+      "img": "https://static.verkcdn.com/kuvastin/w:208/h:128/rt:fit/q:80/exar:1/sh:0.5/t:1/plain/images/10/2_955379-3321x4000.jpg"
+    },
+    {
+      "shop": "Verkkokauppa.com",
+      "name": "Strong N1 HD Minivideoprojektori",
+      "disc": 62,
+      "sale": 49.99,
+      "reg": 129.99,
+      "inStock": true,
+      "link": "https://www.verkkokauppa.com/fi/product/1078406/Strong-N1-HD-Minivideoprojektori",
+      "img": "https://static.verkcdn.com/kuvastin/w:208/h:128/rt:fit/q:80/exar:1/sh:0.5/t:1/plain/images/78/2_1078406-1118x727.jpg"
+    },
+    {
+      "shop": "Verkkokauppa.com",
+      "name": "Käytetty Razer Basilisk V3 Pro langaton pelihiiri, musta",
+      "disc": 62,
+      "sale": 49.99,
+      "reg": 129.99,
+      "inStock": true,
+      "link": "https://www.verkkokauppa.com/fi/product/1035653/Kaytetty-Razer-Basilisk-V3-Pro-langaton-pelihiiri-musta",
+      "img": "https://static.verkcdn.com/kuvastin/w:208/h:128/rt:fit/q:80/exar:1/sh:0.5/t:1/plain/images/24/2_840991-2373x1712.jpg"
     },
     {
       "shop": "EMC24",
@@ -1612,26 +1550,6 @@
       "img": "https://www.emc24.fi/wp-content/uploads/2026/08/1000_74803911-300x300.jpg"
     },
     {
-      "shop": "Kärkkäinen",
-      "name": "Visbella 296 ml keraaminen pinnoite",
-      "disc": 61,
-      "sale": 3.9,
-      "reg": 9.9,
-      "inStock": true,
-      "link": "https://www.karkkainen.com/verkkokauppa/visbella-296-ml-keraaminen-pinnoite",
-      "img": "https://img.karkkainen.com/images/e_trim:4/c_pad%2Cf_auto%2Ch_234%2Cq_auto%2Cw_234/v1/tuotekuvat/6977927080160_1/visbella-296ml-keraaminen-pinnoite.jpg"
-    },
-    {
-      "shop": "Kärkkäinen",
-      "name": "Primary Band Akryylipipo",
-      "disc": 61,
-      "sale": 3.9,
-      "reg": 9.9,
-      "inStock": true,
-      "link": "https://www.karkkainen.com/verkkokauppa/primary-band-akryylipipo",
-      "img": "https://img.karkkainen.com/images/e_trim:4/c_pad%2Cf_auto%2Ch_234%2Cq_auto%2Cw_234/v1/tuotekuvat/6417679862183/primary-band-akryylipipo-musta.jpg"
-    },
-    {
       "shop": "EMC24",
       "name": "Scott Works pro stack tear-off, Hustle/Tyrant, pak 3",
       "disc": 61,
@@ -1682,16 +1600,6 @@
       "img": "https://www.emc24.fi/wp-content/uploads/2026/08/SX_moto_img_clutch-pressure-plate-300x300.jpg"
     },
     {
-      "shop": "Kärkkäinen",
-      "name": "Kuoma Saima lasten toppatakki",
-      "disc": 61,
-      "sale": 49.9,
-      "reg": 129.0,
-      "inStock": true,
-      "link": "https://www.karkkainen.com/verkkokauppa/kuoma-saima-lasten-toppatakki",
-      "img": "https://img.karkkainen.com/images/e_trim:4/c_pad%2Cf_auto%2Ch_234%2Cq_auto%2Cw_234/v1/tuotekuvat/6410901034808_1/kuoma-96485099-amr-146-saima-l-toppatakk.jpg"
-    },
-    {
       "shop": "EMC24",
       "name": "HARLEY DAVIDSON CLUTCH CABLE Touring 2009-13",
       "disc": 61,
@@ -1700,6 +1608,16 @@
       "inStock": true,
       "link": "https://www.emc24.fi/tuote/harley-davidson-clutch-cable-touring-2009-13",
       "img": "https://www.emc24.fi/wp-content/uploads/2026/09/38667-08A-300x300.png"
+    },
+    {
+      "shop": "Verkkokauppa.com",
+      "name": "Tunturi WB60 -painonnostopenkki",
+      "disc": 61,
+      "sale": 99.99,
+      "reg": 259.0,
+      "inStock": true,
+      "link": "https://www.verkkokauppa.com/fi/product/566173/Tunturi-WB60-painonnostopenkki",
+      "img": "https://static.verkcdn.com/kuvastin/w:208/h:128/rt:fit/q:80/exar:1/sh:0.5/t:1/plain/images/29/2_566173-1728x1672.jpeg"
     },
     {
       "shop": "EMC24",
@@ -4422,16 +4340,6 @@
       "img": "https://www.emc24.fi/wp-content/uploads/2024/01/sym-logo-1000x1000-1-300x300.png"
     },
     {
-      "shop": "Kärkkäinen",
-      "name": "Truyu poskipunasivellin",
-      "disc": 60,
-      "sale": 2.99,
-      "reg": 7.5,
-      "inStock": true,
-      "link": "https://www.karkkainen.com/verkkokauppa/truyu-poskipunasivellin",
-      "img": "https://img.karkkainen.com/images/e_trim:4/c_pad%2Cf_auto%2Ch_234%2Cq_auto%2Cw_234/v1/tuotekuvat/841850010913/truyu-poskipunasivellin.jpg"
-    },
-    {
       "shop": "EMC24",
       "name": "FR. STOP SW. ASSY.",
       "disc": 60,
@@ -4762,16 +4670,6 @@
       "img": "https://www.emc24.fi/wp-content/uploads/2024/01/sym-logo-1000x1000-1-300x300.png"
     },
     {
-      "shop": "Kärkkäinen",
-      "name": "Kotoilu Flow Flora kappa",
-      "disc": 60,
-      "sale": 5.99,
-      "reg": 14.9,
-      "inStock": true,
-      "link": "https://www.karkkainen.com/verkkokauppa/kotoilu-flow-flora-kappa",
-      "img": "https://img.karkkainen.com/images/e_trim:4/c_pad%2Cf_auto%2Ch_234%2Cq_auto%2Cw_234/v1/tuotekuvat/6438014407302/kotoilu-flow-flora-60x250-maitokah-kappa.jpg"
-    },
-    {
       "shop": "EMC24",
       "name": "SYM ÖLJYTIIVISTE 19,8x30x5 (4T KA)",
       "disc": 60,
@@ -5032,26 +4930,6 @@
       "img": "https://www.emc24.fi/wp-content/uploads/2024/01/sym-logo-1000x1000-1-300x300.png"
     },
     {
-      "shop": "Kärkkäinen",
-      "name": "Lumio Lights 300 lm käsityövalo",
-      "disc": 60,
-      "sale": 7.99,
-      "reg": 19.99,
-      "inStock": true,
-      "link": "https://www.karkkainen.com/verkkokauppa/lumio-lights-300-lm-kasityovalo",
-      "img": "https://img.karkkainen.com/images/e_trim:4/c_pad%2Cf_auto%2Ch_234%2Cq_auto%2Cw_234/v1/tuotekuvat/6438014383774_1/lumio-lights-300lm-kasityovalo.jpg"
-    },
-    {
-      "shop": "Kärkkäinen",
-      "name": "Lumio Lights 200 lm luku- ja käsityövalo",
-      "disc": 60,
-      "sale": 7.99,
-      "reg": 19.99,
-      "inStock": true,
-      "link": "https://www.karkkainen.com/verkkokauppa/lumio-lights-200-lm-luku--ja-kasityovalo-lukuvalo-apuvalo-niskalamppu",
-      "img": "https://img.karkkainen.com/images/e_trim:4/c_pad%2Cf_auto%2Ch_234%2Cq_auto%2Cw_234/v1/tuotekuvat/6438014355689_1/lumio-lights-luku--ja-kasityovalo.jpg"
-    },
-    {
       "shop": "EMC24",
       "name": "VALVE ROCKER ARM ASSY",
       "disc": 60,
@@ -5180,26 +5058,6 @@
       "inStock": true,
       "link": "https://www.emc24.fi/tuote/c4-power-filter-ilmansuodatin-45-astetta-35-28mm-led-valolla-hopea",
       "img": ""
-    },
-    {
-      "shop": "Kärkkäinen",
-      "name": "Furry Tails interaktiivinen pehmo",
-      "disc": 60,
-      "sale": 9.9,
-      "reg": 24.9,
-      "inStock": true,
-      "link": "https://www.karkkainen.com/verkkokauppa/furry-tails-interaktiivinen-pehmo",
-      "img": "https://img.karkkainen.com/images/e_trim:4/c_pad%2Cf_auto%2Ch_234%2Cq_auto%2Cw_234/v1/tuotekuvat/8411936720337_2/furry-tails-interaktiivinen-pehmo.jpg"
-    },
-    {
-      "shop": "Kärkkäinen",
-      "name": "Retki Move 9 l juoksureppu",
-      "disc": 60,
-      "sale": 9.9,
-      "reg": 24.9,
-      "inStock": true,
-      "link": "https://www.karkkainen.com/verkkokauppa/retki-move-9-l-juoksureppu",
-      "img": "https://img.karkkainen.com/images/e_trim:4/c_pad%2Cf_auto%2Ch_234%2Cq_auto%2Cw_234/v1/tuotekuvat/6418536020203/retki-juoksureppu-move-9-l.jpg"
     },
     {
       "shop": "EMC24",
@@ -5580,16 +5438,6 @@
       "inStock": true,
       "link": "https://www.karkkainen.com/verkkokauppa/revlon-pro-collection-lampoharja",
       "img": "https://img.karkkainen.com/images/e_trim:4/c_pad%2Cf_auto%2Ch_234%2Cq_auto%2Cw_234/v1/tuotekuvat/761318452799_1/revlon-rvdr5279uke-lampokiharrin.jpg"
-    },
-    {
-      "shop": "Kärkkäinen",
-      "name": "Revlon Pro Collection muotoiluharja",
-      "disc": 60,
-      "sale": 19.9,
-      "reg": 49.9,
-      "inStock": true,
-      "link": "https://www.karkkainen.com/verkkokauppa/revlon-pro-collection-muotoiluharja-p1694789389296230",
-      "img": "https://img.karkkainen.com/images/e_trim:4/c_pad%2Cf_auto%2Ch_234%2Cq_auto%2Cw_234/v1/tuotekuvat/761318352228_1/revlon-rvdr5222e-muotoiluharja.jpg"
     },
     {
       "shop": "EMC24",
@@ -6082,16 +5930,6 @@
       "img": "https://www.emc24.fi/wp-content/uploads/2026/11/31110-AMA-000-300x300.webp"
     },
     {
-      "shop": "Kärkkäinen",
-      "name": "CLR Sports nyrkkeilysäkki",
-      "disc": 60,
-      "sale": 34.9,
-      "reg": 39.9,
-      "inStock": true,
-      "link": "https://www.karkkainen.com/verkkokauppa/clr-sports-nyrkkeilysakki",
-      "img": "https://img.karkkainen.com/images/e_trim:4/c_pad%2Cf_auto%2Ch_234%2Cq_auto%2Cw_234/v1/tuotekuvat/6418025901136/clr-sports-nyrkkeilysakki-30-kg.jpg"
-    },
-    {
       "shop": "EMC24",
       "name": "SACHS KYTKINJOUSI, BMW K 1/K 100/K 1100 (3054004030)",
       "disc": 60,
@@ -6150,16 +5988,6 @@
       "inStock": true,
       "link": "https://www.emc24.fi/tuote/domino-kytkinkahva-derbi-drd-gpr-nude-2",
       "img": "https://www.emc24.fi/wp-content/uploads/2018/08/p4-3530-04-300x170.jpg"
-    },
-    {
-      "shop": "Kärkkäinen",
-      "name": "Jack&Jones Jjsage puffer-takki",
-      "disc": 60,
-      "sale": 39.9,
-      "reg": 99.99,
-      "inStock": true,
-      "link": "https://www.karkkainen.com/verkkokauppa/jack-jones-jjsage-puffer-takki",
-      "img": "https://img.karkkainen.com/images/e_trim:4/c_pad%2Cf_auto%2Ch_234%2Cq_auto%2Cw_234/v1/tuotekuvat/5715870161403/jj-12298804-asp-xxl-jacket-male-wov.jpg"
     },
     {
       "shop": "EMC24",
@@ -6642,16 +6470,6 @@
       "img": ""
     },
     {
-      "shop": "Kärkkäinen",
-      "name": "Afrikan Tähti puinen erikoispainos",
-      "disc": 60,
-      "sale": 59.9,
-      "reg": 149.0,
-      "inStock": true,
-      "link": "https://www.karkkainen.com/verkkokauppa/afrikan-tahti-puinen-erikoispainos",
-      "img": "https://img.karkkainen.com/images/e_trim:4/c_pad%2Cf_auto%2Ch_234%2Cq_auto%2Cw_234/v1/tuotekuvat/6416550560859_1/afrikan-tahti-puinen-erikoispainos.jpg"
-    },
-    {
       "shop": "EMC24",
       "name": "SW-Motech Alu-Rack peräteline, Honda CBF1000F &#8217;10-",
       "disc": 60,
@@ -6842,6 +6660,16 @@
       "img": "https://img.karkkainen.com/images/e_trim:4/c_pad%2Cf_auto%2Ch_234%2Cq_auto%2Cw_234/v1/tuotekuvat/088381745741_1/makita-cl001gz02-40v-varsi-imuri.jpg"
     },
     {
+      "shop": "Verkkokauppa.com",
+      "name": "OBH Nordica Prime Mix -tehosekoitin, ruostumaton teräs",
+      "disc": 60,
+      "sale": 79.0,
+      "reg": 199.0,
+      "inStock": true,
+      "link": "https://www.verkkokauppa.com/fi/product/831484/OBH-Nordica-Prime-Mix-tehosekoitin-ruostumaton-teras",
+      "img": "https://static.verkcdn.com/kuvastin/w:208/h:128/rt:fit/q:80/exar:1/sh:0.5/t:1/plain/images/73/2_831484-628x467.jpeg"
+    },
+    {
       "shop": "EMC24",
       "name": "Harley-Davidson BRAKEPEDAL ASSY,  XL883/1200 42341-07",
       "disc": 60,
@@ -6860,6 +6688,26 @@
       "inStock": true,
       "link": "https://www.verkkokauppa.com/fi/product/912307/Strome-PowerClean-Flexmate-varsi-imuri",
       "img": "https://static.verkcdn.com/kuvastin/w:118/h:90/rt:fit/q:80/exar:1/sh:0.5/t:1/plain/images/18/2_912307-1837x3861.jpeg"
+    },
+    {
+      "shop": "Verkkokauppa.com",
+      "name": "Delsey Air Armour Expandable 55 cm matkalaukku, musta",
+      "disc": 60,
+      "sale": 79.99,
+      "reg": 199.99,
+      "inStock": true,
+      "link": "https://www.verkkokauppa.com/fi/product/1023749/Delsey-Air-Armour-Expandable-55-cm-matkalaukku-musta",
+      "img": "https://static.verkcdn.com/kuvastin/w:208/h:128/rt:fit/q:80/exar:1/sh:0.5/t:1/plain/images/63/2_1023749-3000x3000.jpg"
+    },
+    {
+      "shop": "Verkkokauppa.com",
+      "name": "Delsey Air Armour Expandable 55 cm matkalaukku, vihreä",
+      "disc": 60,
+      "sale": 79.99,
+      "reg": 199.99,
+      "inStock": true,
+      "link": "https://www.verkkokauppa.com/fi/product/1023746/Delsey-Air-Armour-Expandable-55-cm-matkalaukku-vihrea",
+      "img": "https://static.verkcdn.com/kuvastin/w:208/h:128/rt:fit/q:80/exar:1/sh:0.5/t:1/plain/images/30/2_1023746-3000x3000.jpg"
     },
     {
       "shop": "EMC24",
@@ -7010,6 +6858,16 @@
       "inStock": true,
       "link": "https://www.emc24.fi/tuote/nighster-pillion-seat-52400306",
       "img": "https://www.emc24.fi/wp-content/uploads/2026/08/52400306-300x300.jpg"
+    },
+    {
+      "shop": "Verkkokauppa.com",
+      "name": "Wilfa AF-2x50 Dual airfryer",
+      "disc": 60,
+      "sale": 99.0,
+      "reg": 249.0,
+      "inStock": true,
+      "link": "https://www.verkkokauppa.com/fi/product/920896/Wilfa-AF-2x50-Dual-airfryer",
+      "img": "https://static.verkcdn.com/kuvastin/w:208/h:128/rt:fit/q:80/exar:1/sh:0.5/t:1/plain/images/53/2_920896-3548x3029.jpg"
     },
     {
       "shop": "EMC24",
@@ -7692,44 +7550,14 @@
       "img": "https://www.emc24.fi/wp-content/uploads/2026/11/HF567-Oil-Filter-2015_02_26-300x300.jpg"
     },
     {
-      "shop": "Kärkkäinen",
-      "name": "Tactic Party Alias",
-      "disc": 59,
-      "sale": 9.9,
-      "reg": 23.9,
-      "inStock": true,
-      "link": "https://www.karkkainen.com/verkkokauppa/tactic-party-alias",
-      "img": "https://img.karkkainen.com/images/e_trim:4/c_pad%2Cf_auto%2Ch_234%2Cq_auto%2Cw_234/v1/tuotekuvat/6416739531984/tactic-party-alias.jpg"
-    },
-    {
-      "shop": "Kärkkäinen",
-      "name": "Peli äksyille vanhoille miehille, kärttyisille naisille ja muille turhautuneille henkilöille! partypeli",
-      "disc": 59,
-      "sale": 9.9,
-      "reg": 23.9,
-      "inStock": true,
-      "link": "https://www.karkkainen.com/verkkokauppa/peli-aksyille-vanhoille-miehille-karttyisille-naisille-ja-muille-turhautuneille-henkiloille-partypeli-lautapeli",
-      "img": "https://img.karkkainen.com/images/e_trim:4/c_pad%2Cf_auto%2Ch_234%2Cq_auto%2Cw_234/v1/tuotekuvat/7350077662445_1/peli-aksyille-vanhoille-miehille.jpg"
-    },
-    {
-      "shop": "Kärkkäinen",
-      "name": "Sniper Pro 125 lihaleikkuri",
-      "disc": 59,
-      "sale": 19.9,
-      "reg": 49.0,
-      "inStock": true,
-      "link": "https://www.karkkainen.com/verkkokauppa/sniper-pro-125-lihaleikkuri",
-      "img": "https://img.karkkainen.com/images/e_trim:4/c_pad%2Cf_auto%2Ch_234%2Cq_auto%2Cw_234/v1/tuotekuvat/6438014405711_1/sniper-pro-125-lihaleikkuri.jpg"
-    },
-    {
-      "shop": "Kärkkäinen",
-      "name": "Aneta Lighting Spike Twin Up hopeanharmaa lattiavalaisin",
+      "shop": "Verkkokauppa.com",
+      "name": "Bosch TSM6A013B kahvimylly, musta",
       "disc": 59,
       "sale": 19.99,
       "reg": 49.0,
       "inStock": true,
-      "link": "https://www.karkkainen.com/verkkokauppa/aneta-lighting-spike-twin-up-hopeanharmaa-lattiavalaisin",
-      "img": "https://img.karkkainen.com/images/e_trim:4/c_pad%2Cf_auto%2Ch_234%2Cq_auto%2Cw_234/v1/tuotekuvat/7041661294196/aneta-spike-twin-up-harm-lattiavalaisin.jpg"
+      "link": "https://www.verkkokauppa.com/fi/product/996481/Bosch-TSM6A013B-kahvimylly-musta",
+      "img": "https://static.verkcdn.com/kuvastin/w:208/h:128/rt:fit/q:80/exar:1/sh:0.5/t:1/plain/images/80/2_996481-912x1952.jpg"
     },
     {
       "shop": "EMC24",
@@ -7760,6 +7588,26 @@
       "inStock": true,
       "link": "https://www.emc24.fi/tuote/sachs-kytkimen-pohjalevy-bmw-k-1-k-100-k-1100-k-1200-3072136030",
       "img": "https://www.emc24.fi/wp-content/uploads/2026/08/SX_moto_img_clutch-housing-cover-300x300.jpg"
+    },
+    {
+      "shop": "Verkkokauppa.com",
+      "name": "OBH Nordica Easy Fry Infrared air fryer, 7 l, musta",
+      "disc": 59,
+      "sale": 89.0,
+      "reg": 219.0,
+      "inStock": true,
+      "link": "https://www.verkkokauppa.com/fi/product/1030733/OBH-Nordica-Easy-Fry-Infrared-air-fryer-7-l-musta",
+      "img": "https://static.verkcdn.com/kuvastin/w:208/h:128/rt:fit/q:80/exar:1/sh:0.5/t:1/plain/images/10/2_1030733-800x600.jpg"
+    },
+    {
+      "shop": "Verkkokauppa.com",
+      "name": "Philips Sonicare 9000 sarjan sähköhammasharja HX9214/84, vihreä",
+      "disc": 59,
+      "sale": 189.0,
+      "reg": 459.99,
+      "inStock": true,
+      "link": "https://www.verkkokauppa.com/fi/product/1082912/Philips-Sonicare-9000-sarjan-sahkohammasharja-HX9214-84-vihr",
+      "img": "https://static.verkcdn.com/kuvastin/w:208/h:128/rt:fit/q:80/exar:1/sh:0.5/t:1/plain/images/20/2_1082912-2000x2000.jpg"
     },
     {
       "shop": "EMC24",
@@ -7802,14 +7650,14 @@
       "img": "https://img.karkkainen.com/images/e_trim:4/c_pad%2Cf_auto%2Ch_234%2Cq_auto%2Cw_234/v1/tuotekuvat/6438014316574_1/lumio-lights-umbrella-kasvivalo.jpg"
     },
     {
-      "shop": "Kärkkäinen",
-      "name": "Heat Terde 39 cm ladattava pöytävalaisin",
+      "shop": "Verkkokauppa.com",
+      "name": "ProCaster BH05 aktiiviset vastamelukuulokkeet, musta",
       "disc": 58,
-      "sale": 9.99,
-      "reg": 23.9,
+      "sale": 24.99,
+      "reg": 59.99,
       "inStock": true,
-      "link": "https://www.karkkainen.com/verkkokauppa/heat-terde-39-cm-ladattava-poytavalaisin",
-      "img": "https://img.karkkainen.com/images/e_trim:4/c_pad%2Cf_auto%2Ch_234%2Cq_auto%2Cw_234/v1/tuotekuvat/6430062139082/heat-terde-must-ladattava-poytavalaisin.jpg"
+      "link": "https://www.verkkokauppa.com/fi/product/1028156/ProCaster-BH05-aktiiviset-vastamelukuulokkeet-musta",
+      "img": "https://static.verkcdn.com/kuvastin/w:208/h:128/rt:fit/q:80/exar:1/sh:0.5/t:1/plain/images/69/2_953807-1249x1779.jpg"
     },
     {
       "shop": "EMC24",
@@ -7830,6 +7678,26 @@
       "inStock": true,
       "link": "https://www.emc24.fi/tuote/wunderlich-ergo-handlebar-riser-for-models-without-a-bmw-sat-nav",
       "img": "https://www.emc24.fi/wp-content/uploads/2026/11/25800-101_01_1500_web-300x300.jpg"
+    },
+    {
+      "shop": "Verkkokauppa.com",
+      "name": "ASUS RT-BE50 Dual-band Wi-Fi 7 AiMesh reititin",
+      "disc": 58,
+      "sale": 49.99,
+      "reg": 119.99,
+      "inStock": true,
+      "link": "https://www.verkkokauppa.com/fi/product/989473/ASUS-RT-BE50-Dual-band-Wi-Fi-7-AiMesh-reititin",
+      "img": "https://static.verkcdn.com/kuvastin/w:208/h:128/rt:fit/q:80/exar:1/sh:0.5/t:1/plain/images/82/2_989473-2024x1880.jpg"
+    },
+    {
+      "shop": "Verkkokauppa.com",
+      "name": "Nespresso Vertuo POP ENV90.B -kahvikapselikone, musta",
+      "disc": 58,
+      "sale": 49.99,
+      "reg": 119.0,
+      "inStock": true,
+      "link": "https://www.verkkokauppa.com/fi/product/858046/Nespresso-Vertuo-POP-ENV90-B-kahvikapselikone-musta",
+      "img": "https://static.verkcdn.com/kuvastin/w:208/h:128/rt:fit/q:80/exar:1/sh:0.5/t:1/plain/images/69/2_858046-1183x925.jpg"
     },
     {
       "shop": "EMC24",
@@ -7863,16 +7731,6 @@
     },
     {
       "shop": "Kärkkäinen",
-      "name": "Kotoilu Sammet Alva tyynynpäällinen",
-      "disc": 57,
-      "sale": 2.99,
-      "reg": 6.9,
-      "inStock": true,
-      "link": "https://www.karkkainen.com/verkkokauppa/kotoilu-sammet-alva-tyynynpaallinen",
-      "img": "https://img.karkkainen.com/images/e_trim:4/c_pad%2Cf_auto%2Ch_234%2Cq_auto%2Cw_234/v1/tuotekuvat/6438014407142/kotoilu-sammet-alva-45x45-luu-t-paalline.jpg"
-    },
-    {
-      "shop": "Kärkkäinen",
       "name": "Puhdas+ Beauty Peptide Collagen & Hyaluron 50 ml kasvovoide",
       "disc": 57,
       "sale": 9.95,
@@ -7892,14 +7750,14 @@
       "img": "https://img.karkkainen.com/images/e_trim:4/c_pad%2Cf_auto%2Ch_234%2Cq_auto%2Cw_234/v1/tuotekuvat/4892210184276_1/ryobi-rakd141-141-os-ruuvauskarkisarja.jpg"
     },
     {
-      "shop": "Kärkkäinen",
-      "name": "DePaul Design ThermoMate Easy Talvisaappaat",
+      "shop": "Verkkokauppa.com",
+      "name": "Keenetic Runner 4G WiFi-modeemireititin",
       "disc": 57,
-      "sale": 19.99,
-      "reg": 46.99,
+      "sale": 29.99,
+      "reg": 69.99,
       "inStock": true,
-      "link": "https://www.karkkainen.com/verkkokauppa/depaul-design-thermomate-easy-talvisaappaat",
-      "img": "https://img.karkkainen.com/images/e_trim:4/c_pad%2Cf_auto%2Ch_234%2Cq_auto%2Cw_234/v1/tuotekuvat/6430073676149/dd-thermomate-easy-talvisaappaat-46.jpg"
+      "link": "https://www.verkkokauppa.com/fi/product/1075793/Keenetic-Runner-4G-WiFi-modeemireititin",
+      "img": "https://static.verkcdn.com/kuvastin/w:208/h:128/rt:fit/q:80/exar:1/sh:0.5/t:1/plain/images/44/2_1075793-962x1110.jpg"
     },
     {
       "shop": "EMC24",
@@ -7922,6 +7780,26 @@
       "img": ""
     },
     {
+      "shop": "Verkkokauppa.com",
+      "name": "JBL Tune Beam 2 nappikuulokkeet aktiivisella melunvaimennuksella, musta",
+      "disc": 57,
+      "sale": 39.0,
+      "reg": 89.99,
+      "inStock": true,
+      "link": "https://www.verkkokauppa.com/fi/product/960452/JBL-Tune-Beam-2-nappikuulokkeet-aktiivisella-melunvaimennuks",
+      "img": "https://static.verkcdn.com/kuvastin/w:208/h:128/rt:fit/q:80/exar:1/sh:0.5/t:1/plain/images/43/2_960452-578x474.jpg"
+    },
+    {
+      "shop": "Verkkokauppa.com",
+      "name": "JBL Tune Beam 2 nappikuulokkeet aktiivisella melunvaimennuksella, Ghost Black",
+      "disc": 57,
+      "sale": 39.0,
+      "reg": 89.99,
+      "inStock": true,
+      "link": "https://www.verkkokauppa.com/fi/product/960455/JBL-Tune-Beam-2-nappikuulokkeet-aktiivisella-melunvaimennuks",
+      "img": "https://static.verkcdn.com/kuvastin/w:208/h:128/rt:fit/q:80/exar:1/sh:0.5/t:1/plain/images/46/2_960455-1744x1276.jpg"
+    },
+    {
       "shop": "EMC24",
       "name": "Mercury Huoltosarja -100h Bravo 3 2003-",
       "disc": 57,
@@ -7932,14 +7810,24 @@
       "img": "https://www.emc24.fi/wp-content/uploads/2026/05/8M0147058-300x300.jpeg"
     },
     {
-      "shop": "Kärkkäinen",
-      "name": "Tefal X-Trem Cyclonic Max Deep Clean pölynimuri",
+      "shop": "Verkkokauppa.com",
+      "name": "Tefal X-Force Flex 9.60 Animal varsi-imuri",
       "disc": 57,
       "sale": 149.0,
       "reg": 349.0,
       "inStock": true,
-      "link": "https://www.karkkainen.com/verkkokauppa/tefal-x-trem-cyclonic-max-deep-clean-polynimuri",
-      "img": "https://img.karkkainen.com/images/e_trim:4/c_pad%2Cf_auto%2Ch_234%2Cq_auto%2Cw_234/v1/tuotekuvat/3221616138667_1/tefal-tw7b70ea-polypussiton-polynimuri.jpg"
+      "link": "https://www.verkkokauppa.com/fi/product/1009298/Tefal-X-Force-Flex-9-60-Animal-varsi-imuri",
+      "img": "https://static.verkcdn.com/kuvastin/w:208/h:128/rt:fit/q:80/exar:1/sh:0.5/t:1/plain/images/86/2_1009298-800x600.jpg"
+    },
+    {
+      "shop": "Verkkokauppa.com",
+      "name": "AEG TA5PB534PB 5000 SurroundCook® uuni SteamBake-toiminnolla, musta",
+      "disc": 57,
+      "sale": 499.0,
+      "reg": 1169.99,
+      "inStock": false,
+      "link": "https://www.verkkokauppa.com/fi/product/1039711/AEG-TA5PB534PB-5000-SurroundCook-R-uuni-SteamBake-toiminnoll",
+      "img": "https://static.verkcdn.com/kuvastin/w:208/h:128/rt:fit/q:80/exar:1/sh:0.5/t:1/plain/images/20/2_1039711-2000x2000.jpg"
     },
     {
       "shop": "Verkkokauppa.com",
@@ -7952,16 +7840,6 @@
       "img": "https://static.verkcdn.com/kuvastin/w:118/h:90/rt:fit/q:80/exar:1/sh:0.5/t:1/plain/images/71/2_983258-1871x1688.jpg"
     },
     {
-      "shop": "Kärkkäinen",
-      "name": "Tiermann ND-100 1,0 t minikaivinkone kolmella kauhalla",
-      "disc": 57,
-      "sale": 4990.0,
-      "reg": 11500.0,
-      "inStock": true,
-      "link": "https://www.karkkainen.com/verkkokauppa/tiermann-nd-100-1-0-t-minikaivinkone-kolmella-kauhalla",
-      "img": "https://img.karkkainen.com/images/e_trim:4/c_pad%2Cf_auto%2Ch_234%2Cq_auto%2Cw_234/v1/tuotekuvat/6438014386034_1/tiermann-nd-100-1-0t-minikaivinkone.jpg"
-    },
-    {
       "shop": "EMC24",
       "name": "JARRUPALASARJA (05-15235, 85-150), BRP &#8211; Lynx/Ski-Doo",
       "disc": 56,
@@ -7972,16 +7850,6 @@
       "img": "https://www.emc24.fi/wp-content/uploads/2024/01/05-152-35-300x300.png"
     },
     {
-      "shop": "Kärkkäinen",
-      "name": "Moment 2000-3500 lbs 5 mm/15 m vinssiköysi",
-      "disc": 56,
-      "sale": 14.9,
-      "reg": 33.5,
-      "inStock": true,
-      "link": "https://www.karkkainen.com/verkkokauppa/moment-2000-3500-lbs-5-mm-15-m-vinssikoysi-vinssinaru-vinssauskoysi",
-      "img": "https://img.karkkainen.com/images/e_trim:4/c_pad%2Cf_auto%2Ch_234%2Cq_auto%2Cw_234/v1/tuotekuvat/6438014198163/moment-2000-3500lbs-5mm-15m-vinssikoysi.jpg"
-    },
-    {
       "shop": "EMC24",
       "name": "Abus Jarrulevylukko 290 Element keltainen (10mm tappi)",
       "disc": 56,
@@ -7990,16 +7858,6 @@
       "inStock": true,
       "link": "https://www.emc24.fi/tuote/abus-jarrulevylukko-290-element-keltainen-10mm-tappi",
       "img": "https://www.emc24.fi/wp-content/uploads/2026/08/49-55968-6-300x300.webp"
-    },
-    {
-      "shop": "Kärkkäinen",
-      "name": "Barbie A Touch Of Magic Malibu nukke",
-      "disc": 56,
-      "sale": 19.9,
-      "reg": 44.9,
-      "inStock": true,
-      "link": "https://www.karkkainen.com/verkkokauppa/barbie-a-touch-of-magic-malibu-nukke",
-      "img": "https://img.karkkainen.com/images/e_trim:4/c_pad%2Cf_auto%2Ch_234%2Cq_auto%2Cw_234/v1/tuotekuvat/0194735112197_1/barbie-a-touch-of-magic-malibu-nukke.jpg"
     },
     {
       "shop": "EMC24",
@@ -8052,14 +7910,54 @@
       "img": "https://img.karkkainen.com/images/e_trim:4/c_pad%2Cf_auto%2Ch_234%2Cq_auto%2Cw_234/v1/tuotekuvat/088381745833/makita-cl001gz05-40v-varsi-imuri.jpg"
     },
     {
-      "shop": "Kärkkäinen",
-      "name": "Axe Fine Fragrance Black Vanilla 150ml deo spray",
-      "disc": 55,
-      "sale": 3.35,
-      "reg": 7.49,
+      "shop": "Verkkokauppa.com",
+      "name": "TCL S45H 2.0 Dolby Atmos Soundbar -äänijärjestelmä",
+      "disc": 56,
+      "sale": 79.0,
+      "reg": 179.0,
       "inStock": true,
-      "link": "https://www.karkkainen.com/verkkokauppa/axe-fine-fragrance-black-vanilla-150ml-deo-spray",
-      "img": "https://img.karkkainen.com/images/e_trim:4/c_pad%2Cf_auto%2Ch_234%2Cq_auto%2Cw_234/v1/tuotekuvat/8720181808708_1/axe-fine-black-vanilla-150ml-deo-spray.jpg"
+      "link": "https://www.verkkokauppa.com/fi/product/958292/TCL-S45H-2-0-Dolby-Atmos-Soundbar-aanijarjestelma",
+      "img": "https://static.verkcdn.com/kuvastin/w:208/h:128/rt:fit/q:80/exar:1/sh:0.5/t:1/plain/images/53/2_958292-1320x554.jpg"
+    },
+    {
+      "shop": "Verkkokauppa.com",
+      "name": "Oura Ring 4 älysormus, Stealth, koko 10",
+      "disc": 56,
+      "sale": 199.0,
+      "reg": 449.0,
+      "inStock": true,
+      "link": "https://www.verkkokauppa.com/fi/product/974969/Oura-Ring-4-alysormus-Stealth-koko-10",
+      "img": "https://static.verkcdn.com/kuvastin/w:208/h:128/rt:fit/q:80/exar:1/sh:0.5/t:1/plain/images/69/2_974969-1124x1015.jpeg"
+    },
+    {
+      "shop": "Verkkokauppa.com",
+      "name": "LG S40TR 4.1 Soundbar -äänijärjestelmä takakaiuttimilla",
+      "disc": 56,
+      "sale": 219.0,
+      "reg": 499.0,
+      "inStock": true,
+      "link": "https://www.verkkokauppa.com/fi/product/978848/LG-S40TR-4-1-Soundbar-aanijarjestelma-takakaiuttimilla",
+      "img": "https://static.verkcdn.com/kuvastin/w:208/h:128/rt:fit/q:80/exar:1/sh:0.5/t:1/plain/images/18/2_978848-4000x2962.jpg"
+    },
+    {
+      "shop": "Verkkokauppa.com",
+      "name": "Samsung RR39C7EC5WW/EF jääkaappi, valkoinen",
+      "disc": 56,
+      "sale": 439.0,
+      "reg": 999.0,
+      "inStock": true,
+      "link": "https://www.verkkokauppa.com/fi/product/1082126/Samsung-RR39C7EC5WW-EF-jaakaappi-valkoinen",
+      "img": "https://static.verkcdn.com/kuvastin/w:208/h:128/rt:fit/q:80/exar:1/sh:0.5/t:1/plain/images/35/2_1082126-1300x1038.jpg"
+    },
+    {
+      "shop": "Kärkkäinen",
+      "name": "3 kpl / 9,8€",
+      "disc": 55,
+      "sale": 3.59,
+      "reg": 8.0,
+      "inStock": true,
+      "link": "https://www.karkkainen.com/verkkokauppa/novita-7-veljesta-100-g-lanka",
+      "img": "https://img.karkkainen.com/images/e_trim:4/c_pad%2Cf_auto%2Ch_234%2Cq_auto%2Cw_234/v1/tuotekuvat/6412618207995/novita-7velj-100g-646-kupari-lanka.jpg"
     },
     {
       "shop": "EMC24",
@@ -8073,16 +7971,6 @@
     },
     {
       "shop": "Kärkkäinen",
-      "name": "Dukshin DP-07EA patteritoimi High speed nestepumppu",
-      "disc": 55,
-      "sale": 8.9,
-      "reg": 19.99,
-      "inStock": true,
-      "link": "https://www.karkkainen.com/verkkokauppa/dukshin-dp-07ea-patteritoimi-high-speed-nestepumppu",
-      "img": "https://img.karkkainen.com/images/e_trim:4/c_pad%2Cf_auto%2Ch_234%2Cq_auto%2Cw_234/v1/tuotekuvat/6438014269504_1/dukshin-dp-07ea-patteri-nestepumppu.jpg"
-    },
-    {
-      "shop": "Kärkkäinen",
       "name": "Kotoilu Basic Liljankukka pussilakanasetti",
       "disc": 55,
       "sale": 8.99,
@@ -8090,16 +7978,6 @@
       "inStock": true,
       "link": "https://www.karkkainen.com/verkkokauppa/kotoilu-basic-liljankukka-pussilakanasetti-p1694789362607260",
       "img": "https://img.karkkainen.com/images/e_trim:4/c_pad%2Cf_auto%2Ch_234%2Cq_auto%2Cw_234/v1/tuotekuvat/6438014408637/kotoilu-b-liljankukka-150x210-vi-pl-sett.jpg"
-    },
-    {
-      "shop": "Kärkkäinen",
-      "name": "Kotoilu Sammet Alva verho",
-      "disc": 55,
-      "sale": 8.99,
-      "reg": 19.9,
-      "inStock": true,
-      "link": "https://www.karkkainen.com/verkkokauppa/kotoilu-sammet-alva-verho",
-      "img": "https://img.karkkainen.com/images/e_trim:4/c_pad%2Cf_auto%2Ch_234%2Cq_auto%2Cw_234/v1/tuotekuvat/6438014407098/kotoilu-sammet-alva-140x250-oliivi-verho.jpg"
     },
     {
       "shop": "EMC24",
@@ -8112,24 +7990,14 @@
       "img": "https://www.emc24.fi/wp-content/uploads/2018/08/p4-505148-300x266.jpg"
     },
     {
-      "shop": "Kärkkäinen",
-      "name": "RMB Nordic Volcano aromadiffuuseri",
+      "shop": "Verkkokauppa.com",
+      "name": "Blackstorm X15 -kannettavan tietokoneen teline, USB-porteilla ja RGB-valoilla",
       "disc": 55,
-      "sale": 19.99,
-      "reg": 44.9,
+      "sale": 9.99,
+      "reg": 21.99,
       "inStock": true,
-      "link": "https://www.karkkainen.com/verkkokauppa/rmb-nordic-volcano-aromadiffuuseri",
-      "img": "https://img.karkkainen.com/images/e_trim:4/c_pad%2Cf_auto%2Ch_234%2Cq_auto%2Cw_234/v1/tuotekuvat/6438014411736_1/rmb-nordic-tulivuori-diffuuseri.jpg"
-    },
-    {
-      "shop": "Kärkkäinen",
-      "name": "Only Onlmerina naisten leggingsit",
-      "disc": 55,
-      "sale": 24.9,
-      "reg": 54.99,
-      "inStock": true,
-      "link": "https://www.karkkainen.com/verkkokauppa/only-onlmerina-naisten-leggingsit",
-      "img": "https://img.karkkainen.com/images/e_trim:4/c_pad%2Cf_auto%2Ch_234%2Cq_auto%2Cw_234/v1/tuotekuvat/5715830300408/only-15364855-bla-xs-leggings-fem-knit.jpg"
+      "link": "https://www.verkkokauppa.com/fi/product/936559/Blackstorm-X15-kannettavan-tietokoneen-teline-USB-porteilla",
+      "img": "https://static.verkcdn.com/kuvastin/w:208/h:128/rt:fit/q:80/exar:1/sh:0.5/t:1/plain/images/81/2_936559-758x566.jpeg"
     },
     {
       "shop": "EMC24",
@@ -8163,16 +8031,6 @@
     },
     {
       "shop": "Kärkkäinen",
-      "name": "Familon Princess Organic 150x200 cm peitto",
-      "disc": 55,
-      "sale": 32.95,
-      "reg": 72.9,
-      "inStock": true,
-      "link": "https://www.karkkainen.com/verkkokauppa/familon-princess-organic-150x200-cm-peitto",
-      "img": "https://img.karkkainen.com/images/e_trim:4/c_pad%2Cf_auto%2Ch_234%2Cq_auto%2Cw_234/v1/tuotekuvat/6438291103607_1/familon-princess-or-150x200-va-peitto.jpg"
-    },
-    {
-      "shop": "Kärkkäinen",
       "name": "FlexiSpot valkoinen 1200x600 mm sähköpöytä",
       "disc": 55,
       "sale": 99.0,
@@ -8190,6 +8048,66 @@
       "inStock": true,
       "link": "https://www.karkkainen.com/verkkokauppa/flexispot-tammi-1200x600-mm-sahkopoyta",
       "img": "https://img.karkkainen.com/images/e_trim:4/c_pad%2Cf_auto%2Ch_234%2Cq_auto%2Cw_234/v1/tuotekuvat/6438014410548_1/flexispot-1200x600-tammi-sahkopoyta.jpg"
+    },
+    {
+      "shop": "Jula",
+      "name": "LED-joulukuusi, aidon näköinen 210 cm",
+      "disc": 55,
+      "sale": 99.0,
+      "reg": 219.0,
+      "inStock": true,
+      "link": "https://www.jula.fi/catalog/koti/joulu/joulukuuset-ja-tarvikkeet/joulukuuset/led-joulukuusi-aidon-nakoinen-022515",
+      "img": "https://assets.cdn.jula.com/v2/preset:jpgoptimized/w:256/335338?lastmodified=20261109121201"
+    },
+    {
+      "shop": "Verkkokauppa.com",
+      "name": "Delsey Air Armour Expandable 66 cm matkalaukku, musta",
+      "disc": 55,
+      "sale": 99.99,
+      "reg": 219.99,
+      "inStock": true,
+      "link": "https://www.verkkokauppa.com/fi/product/785866/Delsey-Air-Armour-Expandable-66-cm-matkalaukku-musta",
+      "img": "https://static.verkcdn.com/kuvastin/w:208/h:128/rt:fit/q:80/exar:1/sh:0.5/t:1/plain/images/10/2_785866-3000x3000.jpg"
+    },
+    {
+      "shop": "Verkkokauppa.com",
+      "name": "Delsey Air Armour Expandable 66 cm matkalaukku, vihreä",
+      "disc": 55,
+      "sale": 99.99,
+      "reg": 219.99,
+      "inStock": true,
+      "link": "https://www.verkkokauppa.com/fi/product/1023755/Delsey-Air-Armour-Expandable-66-cm-matkalaukku-vihrea",
+      "img": "https://static.verkcdn.com/kuvastin/w:208/h:128/rt:fit/q:80/exar:1/sh:0.5/t:1/plain/images/74/2_1023755-3000x3000.jpg"
+    },
+    {
+      "shop": "Verkkokauppa.com",
+      "name": "Samsung Odyssey G4 (G40H) 27\" Full HD pelinäyttö",
+      "disc": 55,
+      "sale": 139.0,
+      "reg": 309.0,
+      "inStock": true,
+      "link": "https://www.verkkokauppa.com/fi/product/1027661/Samsung-Odyssey-G4-G40H-27-Full-HD-pelinaytto",
+      "img": "https://static.verkcdn.com/kuvastin/w:208/h:128/rt:fit/q:80/exar:1/sh:0.5/t:1/plain/images/18/2_1027661-2360x1934.jpg"
+    },
+    {
+      "shop": "Verkkokauppa.com",
+      "name": "Samsung Galaxy Watch8 BT älykello, 40 mm, grafiitti",
+      "disc": 55,
+      "sale": 149.0,
+      "reg": 329.0,
+      "inStock": true,
+      "link": "https://www.verkkokauppa.com/fi/product/999283/Samsung-Galaxy-Watch8-BT-alykello-40-mm-grafiitti",
+      "img": "https://static.verkcdn.com/kuvastin/w:208/h:128/rt:fit/q:80/exar:1/sh:0.5/t:1/plain/images/1/2_999283-3000x2000.jpg"
+    },
+    {
+      "shop": "Verkkokauppa.com",
+      "name": "Samsung Galaxy Watch8 BT älykello, 40 mm, hopea",
+      "disc": 55,
+      "sale": 149.0,
+      "reg": 329.0,
+      "inStock": true,
+      "link": "https://www.verkkokauppa.com/fi/product/999301/Samsung-Galaxy-Watch8-BT-alykello-40-mm-hopea",
+      "img": "https://static.verkcdn.com/kuvastin/w:208/h:128/rt:fit/q:80/exar:1/sh:0.5/t:1/plain/images/83/2_999301-3000x2000.jpg"
     },
     {
       "shop": "Kärkkäinen",
@@ -8212,34 +8130,14 @@
       "img": "https://www.emc24.fi/wp-content/uploads/2025/03/73-629-300x300.jpg"
     },
     {
-      "shop": "Kärkkäinen",
-      "name": "3Doodler Eco 75 kpl filamentti",
-      "disc": 54,
-      "sale": 7.9,
-      "reg": 16.99,
+      "shop": "Verkkokauppa.com",
+      "name": "Samsung 55\" S92F – 4K OLED TV (TQ)",
+      "disc": 55,
+      "sale": 999.0,
+      "reg": 2199.0,
       "inStock": true,
-      "link": "https://www.karkkainen.com/verkkokauppa/3doodler-eco-75-kpl-filamentti-p67872405122",
-      "img": "https://img.karkkainen.com/images/e_trim:4/c_pad%2Cf_auto%2Ch_234%2Cq_auto%2Cw_234/v1/tuotekuvat/817005023879/3doodler-eco-mix2-75-kpl-filamentti.jpg"
-    },
-    {
-      "shop": "Kärkkäinen",
-      "name": "Puhdas+ Collagen Cream 50 ml kasvovoide",
-      "disc": 54,
-      "sale": 8.9,
-      "reg": 19.29,
-      "inStock": true,
-      "link": "https://www.karkkainen.com/verkkokauppa/puhdas-collagen-cream-50-ml-kasvovoide",
-      "img": "https://img.karkkainen.com/images/e_trim:4/c_pad%2Cf_auto%2Ch_234%2Cq_auto%2Cw_234/v1/tuotekuvat/6430050001988/puhdas-50-ml-kollageeni-kasvovoide.jpg"
-    },
-    {
-      "shop": "Kärkkäinen",
-      "name": "Timco öljypropun kierteen korjaussarja",
-      "disc": 54,
-      "sale": 22.9,
-      "reg": 49.9,
-      "inStock": true,
-      "link": "https://www.karkkainen.com/verkkokauppa/timco-oljypropun-kierteen-korjaussarja",
-      "img": "https://img.karkkainen.com/images/e_trim:4/c_pad%2Cf_auto%2Ch_234%2Cq_auto%2Cw_234/v1/tuotekuvat/6438014316475_1/timco-oljypropun-kierteen-korjaussarja.jpg"
+      "link": "https://www.verkkokauppa.com/fi/product/1059745/Samsung-55-S92F-4K-OLED-TV-TQ",
+      "img": "https://static.verkcdn.com/kuvastin/w:208/h:128/rt:fit/q:80/exar:1/sh:0.5/t:1/plain/images/30/2_1014539-1752x1104.jpg"
     },
     {
       "shop": "EMC24",
@@ -8262,16 +8160,6 @@
       "img": "https://www.emc24.fi/wp-content/uploads/2024/06/96226-24VM_F-300x300.jpg"
     },
     {
-      "shop": "Kärkkäinen",
-      "name": "Björn Borg Ridge miesten nilkkurit",
-      "disc": 54,
-      "sale": 59.9,
-      "reg": 129.0,
-      "inStock": true,
-      "link": "https://www.karkkainen.com/verkkokauppa/bjorn-borg-ridge-miesten-nilkkurit",
-      "img": "https://img.karkkainen.com/images/e_trim:4/c_pad%2Cf_auto%2Ch_234%2Cq_auto%2Cw_234/v1/tuotekuvat/7321465797643/bb-10005310-bk055-bla-44-ridge-m-nilkkur.jpg"
-    },
-    {
       "shop": "EMC24",
       "name": "TRW Clutch Super Kit -kytkinsarja KTM SX 150 / KTM XC 150 / KTM EXC 200 / KTM SX 200 1990-2018 (MSK221)",
       "disc": 54,
@@ -8292,24 +8180,24 @@
       "img": "https://img.karkkainen.com/images/e_trim:4/c_pad%2Cf_auto%2Ch_234%2Cq_auto%2Cw_234/v1/tuotekuvat/6438014396705_1/innosanit-musta-5-ripainen-pyyhekuivain.jpg"
     },
     {
-      "shop": "Kärkkäinen",
-      "name": "Timco T120MIG täytelanka MIG-hitsauskone",
+      "shop": "Verkkokauppa.com",
+      "name": "JBL LIVE 770NC vastamelukuulokkeet, musta",
       "disc": 54,
       "sale": 69.0,
       "reg": 149.0,
       "inStock": true,
-      "link": "https://www.karkkainen.com/verkkokauppa/timco-t120mig-taytelanka-mig-hitsauskone-taytelankamig",
-      "img": "https://img.karkkainen.com/images/e_trim:4/c_pad%2Cf_auto%2Ch_234%2Cq_auto%2Cw_234/v1/tuotekuvat/6438014417301_1/timco-t120mig-taytelanka-mig-hitsauskone.jpg"
+      "link": "https://www.verkkokauppa.com/fi/product/900013/JBL-LIVE-770NC-vastamelukuulokkeet-musta",
+      "img": "https://static.verkcdn.com/kuvastin/w:208/h:128/rt:fit/q:80/exar:1/sh:0.5/t:1/plain/images/35/2_900013-919x1153.jpg"
     },
     {
-      "shop": "Kärkkäinen",
-      "name": "Wilfa BLSP-1500S Xplode tehosekoitin",
+      "shop": "Verkkokauppa.com",
+      "name": "Samsung Galaxy Buds3 FE vastamelunappikuulokkeet, musta",
       "disc": 54,
       "sale": 69.0,
       "reg": 149.0,
       "inStock": true,
-      "link": "https://www.karkkainen.com/verkkokauppa/wilfa-blsp-1500s-xplode-tehosekoitin",
-      "img": "https://img.karkkainen.com/images/e_trim:4/c_pad%2Cf_auto%2Ch_234%2Cq_auto%2Cw_234/v1/tuotekuvat/7044876041555_1/wilfa-blsp-1500s-xplode-tehosekoitin.jpg"
+      "link": "https://www.verkkokauppa.com/fi/product/1006825/Samsung-Galaxy-Buds3-FE-vastamelunappikuulokkeet-musta",
+      "img": "https://static.verkcdn.com/kuvastin/w:208/h:128/rt:fit/q:80/exar:1/sh:0.5/t:1/plain/images/95/2_1006825-4500x3000.jpg"
     },
     {
       "shop": "EMC24",
@@ -8322,6 +8210,46 @@
       "img": "https://www.emc24.fi/wp-content/uploads/2026/08/AS_550443-300x300.jpg"
     },
     {
+      "shop": "Verkkokauppa.com",
+      "name": "Delsey Air Armour Expandable 76 cm matkalaukku, musta",
+      "disc": 54,
+      "sale": 114.99,
+      "reg": 249.99,
+      "inStock": true,
+      "link": "https://www.verkkokauppa.com/fi/product/785923/Delsey-Air-Armour-Expandable-76-cm-matkalaukku-musta",
+      "img": "https://static.verkcdn.com/kuvastin/w:208/h:128/rt:fit/q:80/exar:1/sh:0.5/t:1/plain/images/30/2_785923-3000x3000.jpg"
+    },
+    {
+      "shop": "Verkkokauppa.com",
+      "name": "Delsey Air Armour Expandable 76 cm matkalaukku, vihreä",
+      "disc": 54,
+      "sale": 114.99,
+      "reg": 249.99,
+      "inStock": true,
+      "link": "https://www.verkkokauppa.com/fi/product/1023761/Delsey-Air-Armour-Expandable-76-cm-matkalaukku-vihrea",
+      "img": "https://static.verkcdn.com/kuvastin/w:208/h:128/rt:fit/q:80/exar:1/sh:0.5/t:1/plain/images/91/2_1023761-3000x3000.jpg"
+    },
+    {
+      "shop": "Verkkokauppa.com",
+      "name": "Dreame D20 robotti-imuri, valkoinen",
+      "disc": 54,
+      "sale": 119.0,
+      "reg": 259.0,
+      "inStock": true,
+      "link": "https://www.verkkokauppa.com/fi/product/996850/Dreame-D20-robotti-imuri-valkoinen",
+      "img": "https://static.verkcdn.com/kuvastin/w:208/h:128/rt:fit/q:80/exar:1/sh:0.5/t:1/plain/images/46/2_996850-6500x6500.jpg"
+    },
+    {
+      "shop": "Verkkokauppa.com",
+      "name": "Philips 32\" PHS5500 – HD LED TV",
+      "disc": 54,
+      "sale": 159.0,
+      "reg": 349.0,
+      "inStock": true,
+      "link": "https://www.verkkokauppa.com/fi/product/982820/Philips-32-PHS5500-HD-LED-TV",
+      "img": "https://static.verkcdn.com/kuvastin/w:208/h:128/rt:fit/q:80/exar:1/sh:0.5/t:1/plain/images/68/2_982820-2464x1536.jpeg"
+    },
+    {
       "shop": "EMC24",
       "name": "HD Dealer Northern Finland shottilasi",
       "disc": 53,
@@ -8330,6 +8258,16 @@
       "inStock": true,
       "link": "https://www.emc24.fi/tuote/hd-dealer-northern-finland-shottilasi",
       "img": "https://www.emc24.fi/wp-content/uploads/2024/06/shottilasi-300x300.png"
+    },
+    {
+      "shop": "Jula",
+      "name": "Siemenseos 10 kg",
+      "disc": 53,
+      "sale": 6.99,
+      "reg": 14.99,
+      "inStock": true,
+      "link": "https://www.jula.fi/catalog/puutarha/pihatarvikkeet/linnunruokinta/linnunruoka/siemenseos-032103",
+      "img": "https://assets.cdn.jula.com/v2/preset:jpgoptimized/w:256/276552?lastmodified=20260723132410"
     },
     {
       "shop": "EMC24",
@@ -8352,16 +8290,6 @@
       "img": "https://www.emc24.fi/wp-content/uploads/2018/08/p4-505350-300x251.jpg"
     },
     {
-      "shop": "Kärkkäinen",
-      "name": "Alien Vision vr-peli",
-      "disc": 53,
-      "sale": 14.9,
-      "reg": 31.9,
-      "inStock": true,
-      "link": "https://www.karkkainen.com/verkkokauppa/alien-vision-vr-peli-virtuaalilasit",
-      "img": "https://img.karkkainen.com/images/e_trim:4/c_pad%2Cf_auto%2Ch_234%2Cq_auto%2Cw_234/v1/tuotekuvat/6430056940816_1/alien-vision-vr-peli.jpg"
-    },
-    {
       "shop": "EMC24",
       "name": "Kappa GPS- tai Puhelintelineen kiinnitysrauta BMW F750GS/F850GS 2018-20",
       "disc": 53,
@@ -8370,16 +8298,6 @@
       "inStock": true,
       "link": "https://www.emc24.fi/tuote/kappa-gps-tai-puhelintelineen-kiinnitysrauta-bmw-f850gs-2018",
       "img": "https://www.emc24.fi/wp-content/uploads/2024/05/KFB5127-300x300.jpg"
-    },
-    {
-      "shop": "Kärkkäinen",
-      "name": "Jack&Jones Jeans Intelligence Jjimike farkut",
-      "disc": 53,
-      "sale": 27.9,
-      "reg": 59.99,
-      "inStock": true,
-      "link": "https://www.karkkainen.com/verkkokauppa/jack-jones-jeans-intelligence-jjimike-farkut-p1694789382463743",
-      "img": "https://img.karkkainen.com/images/e_trim:4/c_pad%2Cf_auto%2Ch_234%2Cq_auto%2Cw_234/v1/tuotekuvat/5715908400757/jj-12300785-bld-3130-jeans-male-wov.jpg"
     },
     {
       "shop": "EMC24",
@@ -8410,6 +8328,16 @@
       "inStock": true,
       "link": "https://www.emc24.fi/tuote/t-pak-backrestchoppedsmooth",
       "img": "https://www.emc24.fi/wp-content/uploads/2020/12/52300319-300x300.jpg"
+    },
+    {
+      "shop": "Verkkokauppa.com",
+      "name": "Oral-B iO5 sähköhammasharja, musta ja valkoinen + matkakotelo",
+      "disc": 53,
+      "sale": 129.99,
+      "reg": 279.0,
+      "inStock": true,
+      "link": "https://www.verkkokauppa.com/fi/product/1032113/Oral-B-iO5-sahkohammasharja-musta-ja-valkoinen-matkakotelo",
+      "img": "https://static.verkcdn.com/kuvastin/w:208/h:128/rt:fit/q:80/exar:1/sh:0.5/t:1/plain/images/4/2_1032113-3000x3000.jpg"
     },
     {
       "shop": "EMC24",
@@ -8450,36 +8378,6 @@
       "inStock": true,
       "link": "https://www.emc24.fi/tuote/ngk-sytytystulppa-bpr5ey-11",
       "img": "https://www.emc24.fi/wp-content/uploads/2020/07/BPR5EY-11-300x300.jpg"
-    },
-    {
-      "shop": "Kärkkäinen",
-      "name": "Plasto 19 cm keltainen tielana",
-      "disc": 52,
-      "sale": 2.9,
-      "reg": 5.99,
-      "inStock": true,
-      "link": "https://www.karkkainen.com/verkkokauppa/plasto-19-cm-keltainen-tielana-traktori-aura-auto",
-      "img": "https://img.karkkainen.com/images/e_trim:4/c_pad%2Cf_auto%2Ch_234%2Cq_auto%2Cw_234/v1/tuotekuvat/6410310118236/plasto-19cm-keltainen-tielana.jpg"
-    },
-    {
-      "shop": "Kärkkäinen",
-      "name": "Plasto 20 cm dumpperi",
-      "disc": 52,
-      "sale": 2.9,
-      "reg": 5.99,
-      "inStock": true,
-      "link": "https://www.karkkainen.com/verkkokauppa/plasto-20-cm-dumpperi",
-      "img": "https://img.karkkainen.com/images/e_trim:4/c_pad%2Cf_auto%2Ch_234%2Cq_auto%2Cw_234/v1/tuotekuvat/6410310118908/plasto-20-cm-dumpperi.jpg"
-    },
-    {
-      "shop": "Kärkkäinen",
-      "name": "Plasto 17 cm kauhatraktori",
-      "disc": 52,
-      "sale": 2.9,
-      "reg": 5.99,
-      "inStock": true,
-      "link": "https://www.karkkainen.com/verkkokauppa/plasto-17-cm-kauhatraktori-aura-auto",
-      "img": "https://img.karkkainen.com/images/e_trim:4/c_pad%2Cf_auto%2Ch_234%2Cq_auto%2Cw_234/v1/tuotekuvat/6410310119219/plasto-17cm-kauhatraktori.jpg"
     },
     {
       "shop": "EMC24",
@@ -8540,16 +8438,6 @@
       "inStock": true,
       "link": "https://www.karkkainen.com/verkkokauppa/madshus-endurace-skate-luistelusukset-rottefella-performance-siteet",
       "img": "https://img.karkkainen.com/images/e_trim:4/c_pad%2Cf_auto%2Ch_234%2Cq_auto%2Cw_234/v1/tuotekuvat/196222145145_1/madshus-endurace-skate-187-60-75-siteet.jpg"
-    },
-    {
-      "shop": "Kärkkäinen",
-      "name": "Madshus Endurace Skin karvapohjasukset + Rottefella Performance siteet",
-      "disc": 52,
-      "sale": 169.0,
-      "reg": 349.0,
-      "inStock": true,
-      "link": "https://www.karkkainen.com/verkkokauppa/madshus-endurace-skin-karvapohjasukset-rottefella-performance-siteet",
-      "img": "https://img.karkkainen.com/images/e_trim:4/c_pad%2Cf_auto%2Ch_234%2Cq_auto%2Cw_234/v1/tuotekuvat/196222155519_1/madshus-endurace-skin-202-70-85-siteet.jpg"
     },
     {
       "shop": "EMC24",
@@ -8672,16 +8560,6 @@
       "img": "https://img.karkkainen.com/images/e_trim:4/c_pad%2Cf_auto%2Ch_234%2Cq_auto%2Cw_234/v1/tuotekuvat/1200130015649/jbl-quantum-360-pelikuulokkeet-violetti.jpg"
     },
     {
-      "shop": "Kärkkäinen",
-      "name": "JBL Quantum 360P langattomat pelikuulokkeet",
-      "disc": 51,
-      "sale": 49.0,
-      "reg": 99.9,
-      "inStock": true,
-      "link": "https://www.karkkainen.com/verkkokauppa/jbl-quantum-360p-langattomat-pelikuulokkeet",
-      "img": "https://img.karkkainen.com/images/e_trim:4/c_pad%2Cf_auto%2Ch_234%2Cq_auto%2Cw_234/v1/tuotekuvat/6925281960802_1/jbl-quantum-360p-ps-pelikuulokkeet.jpg"
-    },
-    {
       "shop": "EMC24",
       "name": "SUZUKI SWITCH ASSY,HANDLE VZR1800 (37400-48G10-000)",
       "disc": 51,
@@ -8710,36 +8588,6 @@
       "inStock": true,
       "link": "https://www.emc24.fi/tuote/sym-handle-lever-pivot-screw",
       "img": "https://www.emc24.fi/wp-content/uploads/2024/01/sym-logo-1000x1000-1-300x300.png"
-    },
-    {
-      "shop": "Kärkkäinen",
-      "name": "Km 30 kpl ompeluneulasetti",
-      "disc": 50,
-      "sale": 0.8,
-      "reg": 1.59,
-      "inStock": true,
-      "link": "https://www.karkkainen.com/verkkokauppa/km-30-kpl-ompeluneulasetti",
-      "img": "https://img.karkkainen.com/images/e_trim:4/c_pad%2Cf_auto%2Ch_234%2Cq_auto%2Cw_234/v1/tuotekuvat/8720573292375/km-491130110-30-kpl-ompeluneulasetti.jpg"
-    },
-    {
-      "shop": "Kärkkäinen",
-      "name": "Fun Stickers Stars tarrat",
-      "disc": 50,
-      "sale": 0.8,
-      "reg": 1.6,
-      "inStock": true,
-      "link": "https://www.karkkainen.com/verkkokauppa/fun-stickers-stars-tarrat",
-      "img": "https://img.karkkainen.com/images/e_trim:4/c_pad%2Cf_auto%2Ch_234%2Cq_auto%2Cw_234/v1/tuotekuvat/5060135890209/fun-stickers-stars-colour-tarrat.jpg"
-    },
-    {
-      "shop": "Kärkkäinen",
-      "name": "Fun Stickers Spiders and Crawlies tarrat",
-      "disc": 50,
-      "sale": 0.8,
-      "reg": 1.6,
-      "inStock": true,
-      "link": "https://www.karkkainen.com/verkkokauppa/fun-stickers-spiders-and-crawlies-tarrat",
-      "img": "https://img.karkkainen.com/images/e_trim:4/c_pad%2Cf_auto%2Ch_234%2Cq_auto%2Cw_234/v1/tuotekuvat/5060135892012/fun-stickers-spiders-and-crawlies-tarrat.jpg"
     },
     {
       "shop": "EMC24",
@@ -8772,16 +8620,6 @@
       "img": "https://www.emc24.fi/wp-content/uploads/2024/01/sym-logo-1000x1000-1-300x300.png"
     },
     {
-      "shop": "Kärkkäinen",
-      "name": "+38",
-      "disc": 50,
-      "sale": 0.95,
-      "reg": 1.9,
-      "inStock": true,
-      "link": "https://www.karkkainen.com/verkkokauppa/vare-mm-morri",
-      "img": "https://img.karkkainen.com/images/e_trim:4/c_pad%2Cf_auto%2Ch_234%2Cq_auto%2Cw_234/v1/tuotekuvat/6430066593569_1/vare-12-musta-ja-vihrea-hopea-mm-morri.jpg"
-    },
-    {
       "shop": "EMC24",
       "name": "O-RING 18X3",
       "disc": 50,
@@ -8790,16 +8628,6 @@
       "inStock": true,
       "link": "https://www.emc24.fi/tuote/o-ring-18x3",
       "img": "https://www.emc24.fi/wp-content/uploads/2024/01/sym-logo-1000x1000-1-300x300.png"
-    },
-    {
-      "shop": "Kärkkäinen",
-      "name": "Jolly Craft Studio Imagine 6 x 5 m paperinauha",
-      "disc": 50,
-      "sale": 1.0,
-      "reg": 1.99,
-      "inStock": true,
-      "link": "https://www.karkkainen.com/verkkokauppa/jolly-craft-studio-imagine-6-x-5-m-paperinauha",
-      "img": "https://img.karkkainen.com/images/e_trim:4/c_pad%2Cf_auto%2Ch_234%2Cq_auto%2Cw_234/v1/tuotekuvat/8720573817196/jolly-craft-studio-imag-6x5m-paperinauha.jpg"
     },
     {
       "shop": "EMC24",
@@ -8900,36 +8728,6 @@
       "inStock": true,
       "link": "https://www.karkkainen.com/verkkokauppa/viikari-kissa-ristipistosetti",
       "img": "https://img.karkkainen.com/images/e_trim:4/c_pad%2Cf_auto%2Ch_234%2Cq_auto%2Cw_234/v1/tuotekuvat/6416570041468/viikari-kissa-ristipistosetti.jpg"
-    },
-    {
-      "shop": "Kärkkäinen",
-      "name": "AmandaB Furry ruskea hiusdonitsi",
-      "disc": 50,
-      "sale": 1.5,
-      "reg": 2.99,
-      "inStock": true,
-      "link": "https://www.karkkainen.com/verkkokauppa/amandab-furry-ruskea-hiusdonitsi",
-      "img": "https://img.karkkainen.com/images/e_trim:4/c_pad%2Cf_auto%2Ch_234%2Cq_auto%2Cw_234/v1/tuotekuvat/6420254349252/amandab-furry-ruskea-hiusdonitsi.jpg"
-    },
-    {
-      "shop": "Kärkkäinen",
-      "name": "Meyco 2mm x 2m kynttilänsydänlanka",
-      "disc": 50,
-      "sale": 1.5,
-      "reg": 2.99,
-      "inStock": true,
-      "link": "https://www.karkkainen.com/verkkokauppa/meyco-2mm-x-2m-kynttilansydanlanka-kynttila-sydanlanka",
-      "img": "https://img.karkkainen.com/images/e_trim:4/c_pad%2Cf_auto%2Ch_234%2Cq_auto%2Cw_234/v1/tuotekuvat/4028245155107/meyco-2mmx2m-kynttilansydanlanka.jpg"
-    },
-    {
-      "shop": "Kärkkäinen",
-      "name": "Fun puristelupallo kohokuvio",
-      "disc": 50,
-      "sale": 1.5,
-      "reg": 2.99,
-      "inStock": true,
-      "link": "https://www.karkkainen.com/verkkokauppa/fun-puristelupallo-kohokuvio",
-      "img": "https://img.karkkainen.com/images/e_trim:4/c_pad%2Cf_auto%2Ch_234%2Cq_auto%2Cw_234/v1/tuotekuvat/8714627017427_1/fun-puristelupallo-kohokuvio.jpg"
     },
     {
       "shop": "EMC24",
@@ -9062,46 +8860,6 @@
       "img": "https://www.emc24.fi/wp-content/uploads/2024/04/DVO-6413-100.jpg"
     },
     {
-      "shop": "Kärkkäinen",
-      "name": "Redcliffs telttakiilat 10kpl",
-      "disc": 50,
-      "sale": 1.95,
-      "reg": 3.9,
-      "inStock": true,
-      "link": "https://www.karkkainen.com/verkkokauppa/redcliffs-telttakiilat-10kpl",
-      "img": "https://img.karkkainen.com/images/e_trim:4/c_pad%2Cf_auto%2Ch_234%2Cq_auto%2Cw_234/v1/tuotekuvat/8720573872782_1/redcliffs-telttakiilat-10kpl.jpg"
-    },
-    {
-      "shop": "Kärkkäinen",
-      "name": "Lumio Lights Flame 2 kpl LED-tuikku",
-      "disc": 50,
-      "sale": 1.99,
-      "reg": 3.99,
-      "inStock": true,
-      "link": "https://www.karkkainen.com/verkkokauppa/lumio-lights-flame-2-kpl-led-tuikku",
-      "img": "https://img.karkkainen.com/images/e_trim:4/c_pad%2Cf_auto%2Ch_234%2Cq_auto%2Cw_234/v1/tuotekuvat/6438014353470_1/lumio-lights-flame-led-tuikku-2kpl.jpg"
-    },
-    {
-      "shop": "Kärkkäinen",
-      "name": "Mega värityskirja",
-      "disc": 50,
-      "sale": 2.0,
-      "reg": 3.99,
-      "inStock": true,
-      "link": "https://www.karkkainen.com/verkkokauppa/mega-varityskirja",
-      "img": "https://img.karkkainen.com/images/e_trim:4/c_pad%2Cf_auto%2Ch_234%2Cq_auto%2Cw_234/v1/tuotekuvat/9780857260499/mega-varityskirja.jpg"
-    },
-    {
-      "shop": "Kärkkäinen",
-      "name": "Lumio Lights E27 6 W 4000 K 600 lm 3 kpl LED-lamppu",
-      "disc": 50,
-      "sale": 2.0,
-      "reg": 3.99,
-      "inStock": true,
-      "link": "https://www.karkkainen.com/verkkokauppa/lumio-lights-e27-6-w-4000-k-600-lm-3-kpl-led-lamppu",
-      "img": "https://img.karkkainen.com/images/e_trim:4/c_pad%2Cf_auto%2Ch_234%2Cq_auto%2Cw_234/v1/tuotekuvat/6438014400556_1/lumio-lights-e27-6w-4000k-led-lamppu-3.jpg"
-    },
-    {
       "shop": "EMC24",
       "name": "TENSIONER LIFTER GASKET",
       "disc": 50,
@@ -9193,56 +8951,6 @@
     },
     {
       "shop": "Kärkkäinen",
-      "name": "Mikado Norway Quest jäämerilitka",
-      "disc": 50,
-      "sale": 2.45,
-      "reg": 4.9,
-      "inStock": true,
-      "link": "https://www.karkkainen.com/verkkokauppa/mikado-norway-quest-jaamerilitka",
-      "img": "https://img.karkkainen.com/images/e_trim:4/c_pad%2Cf_auto%2Ch_234%2Cq_auto%2Cw_234/v1/tuotekuvat/5900637753322/mikado-norway-quest-14-jaamerilitka.jpg"
-    },
-    {
-      "shop": "Kärkkäinen",
-      "name": "+10",
-      "disc": 50,
-      "sale": 2.45,
-      "reg": 4.9,
-      "inStock": true,
-      "link": "https://www.karkkainen.com/verkkokauppa/westin-shadteez-slim-7-5-cm-3-g-4-kpl-jigi",
-      "img": "https://img.karkkainen.com/images/e_trim:4/c_pad%2Cf_auto%2Ch_234%2Cq_auto%2Cw_234/v1/tuotekuvat/5707549424766/westin-sha-slim-7-5cm-3g-bling-per-4kpl.jpg"
-    },
-    {
-      "shop": "Kärkkäinen",
-      "name": "Minecraft kuulakärkikynä muotoilulla topperilla",
-      "disc": 50,
-      "sale": 2.45,
-      "reg": 4.9,
-      "inStock": true,
-      "link": "https://www.karkkainen.com/verkkokauppa/minecraft-kuulakarkikyna-muotoilulla-topperilla",
-      "img": "https://img.karkkainen.com/images/e_trim:4/c_pad%2Cf_auto%2Ch_234%2Cq_auto%2Cw_234/v1/tuotekuvat/0191537165390/aw-minecraft-kuulakarkikyna.jpg"
-    },
-    {
-      "shop": "Kärkkäinen",
-      "name": "+5",
-      "disc": 50,
-      "sale": 2.45,
-      "reg": 4.9,
-      "inStock": true,
-      "link": "https://www.karkkainen.com/verkkokauppa/westin-twinteez-v-tail-15cm-14g-2kpl-jigi",
-      "img": "https://img.karkkainen.com/images/e_trim:4/c_pad%2Cf_auto%2Ch_234%2Cq_auto%2Cw_234/v1/tuotekuvat/5707549501030/westin-twi-v-tail-15cm-14g-baitf-gl-2kpl.jpg"
-    },
-    {
-      "shop": "Kärkkäinen",
-      "name": "Pokemon kuulakärkikynä muotoilulla topperilla",
-      "disc": 50,
-      "sale": 2.45,
-      "reg": 4.9,
-      "inStock": true,
-      "link": "https://www.karkkainen.com/verkkokauppa/pokemon-kuulakarkikyna-muotoilulla-topperilla",
-      "img": "https://img.karkkainen.com/images/e_trim:4/c_pad%2Cf_auto%2Ch_234%2Cq_auto%2Cw_234/v1/tuotekuvat/0191537164515/aw-pokemon-kuulakarkikyna.jpg"
-    },
-    {
-      "shop": "Kärkkäinen",
       "name": "Cailap aurinkolasit värilajitelma",
       "disc": 50,
       "sale": 2.5,
@@ -9250,46 +8958,6 @@
       "inStock": true,
       "link": "https://www.karkkainen.com/verkkokauppa/cailap-aurinkolasit-varilajitelma",
       "img": "https://img.karkkainen.com/images/e_trim:4/c_pad%2Cf_auto%2Ch_234%2Cq_auto%2Cw_234/v1/tuotekuvat/6416274400783_1/cailap-400781-aurinkolasilajitelma.jpg"
-    },
-    {
-      "shop": "Kärkkäinen",
-      "name": "Pipsa Possu 4 kpl paperinen kaverilahjapussi",
-      "disc": 50,
-      "sale": 2.5,
-      "reg": 4.99,
-      "inStock": true,
-      "link": "https://www.karkkainen.com/verkkokauppa/pipsa-possu-4-kpl-paperinen-kaverilahjapussi",
-      "img": "https://img.karkkainen.com/images/e_trim:4/c_pad%2Cf_auto%2Ch_234%2Cq_auto%2Cw_234/v1/tuotekuvat/5201184941126/pipsa-possu-paperinen-kaverilahjapussi.jpg"
-    },
-    {
-      "shop": "Kärkkäinen",
-      "name": "Artist Paint Stick 5-osainen maalipuikko",
-      "disc": 50,
-      "sale": 2.5,
-      "reg": 4.99,
-      "inStock": true,
-      "link": "https://www.karkkainen.com/verkkokauppa/artist-paint-stick-5-osainen-maalipuikko",
-      "img": "https://img.karkkainen.com/images/e_trim:4/c_pad%2Cf_auto%2Ch_234%2Cq_auto%2Cw_234/v1/tuotekuvat/8720573426145/artist-paint-stick-5-osainen-maalipuikko.jpg"
-    },
-    {
-      "shop": "Kärkkäinen",
-      "name": "Star Wars Stormtrooper kirjoitussetti",
-      "disc": 50,
-      "sale": 2.5,
-      "reg": 4.99,
-      "inStock": true,
-      "link": "https://www.karkkainen.com/verkkokauppa/star-wars-stormtrooper-kirjoitussetti",
-      "img": "https://img.karkkainen.com/images/e_trim:4/c_pad%2Cf_auto%2Ch_234%2Cq_auto%2Cw_234/v1/tuotekuvat/5063457034597/star-wars-stormtrooper-kirjoitussetti.jpg"
-    },
-    {
-      "shop": "Kärkkäinen",
-      "name": "Tactic Lumo Stars Racers puuhakirja",
-      "disc": 50,
-      "sale": 2.5,
-      "reg": 4.99,
-      "inStock": true,
-      "link": "https://www.karkkainen.com/verkkokauppa/tactic-lumo-stars-racers-puuhakirja",
-      "img": "https://img.karkkainen.com/images/e_trim:4/c_pad%2Cf_auto%2Ch_234%2Cq_auto%2Cw_234/v1/tuotekuvat/6416739587363_1/tactic-lumo-stars-racers-puuhakirja.jpg"
     },
     {
       "shop": "EMC24",
@@ -9352,16 +9020,6 @@
       "img": "https://www.emc24.fi/wp-content/uploads/2021/05/268655_1-300x300.jpg"
     },
     {
-      "shop": "Kärkkäinen",
-      "name": "Construction Truck 10 kpl lyijykynät",
-      "disc": 50,
-      "sale": 2.95,
-      "reg": 5.9,
-      "inStock": true,
-      "link": "https://www.karkkainen.com/verkkokauppa/construction-truck-10-kpl-lyijykynat",
-      "img": "https://img.karkkainen.com/images/e_trim:4/c_pad%2Cf_auto%2Ch_234%2Cq_auto%2Cw_234/v1/tuotekuvat/6416570048870/construction-truck-10-kpl-lyijykynat.jpg"
-    },
-    {
       "shop": "EMC24",
       "name": "Mikuni 4/042 SUUTIN mutterikanta/pitkä, koko 130",
       "disc": 50,
@@ -9402,66 +9060,6 @@
       "img": "https://img.karkkainen.com/images/e_trim:4/c_pad%2Cf_auto%2Ch_234%2Cq_auto%2Cw_234/v1/tuotekuvat/8720573022897/artist-110731210-pouring-setti.jpg"
     },
     {
-      "shop": "Kärkkäinen",
-      "name": "TOPModel BEAUTY and ME pehmeä hiuspanta",
-      "disc": 50,
-      "sale": 3.0,
-      "reg": 5.99,
-      "inStock": true,
-      "link": "https://www.karkkainen.com/verkkokauppa/topmodel-beauty-and-me-pehmea-hiuspanta-p1694789347713535",
-      "img": "https://img.karkkainen.com/images/e_trim:4/c_pad%2Cf_auto%2Ch_234%2Cq_auto%2Cw_234/v1/tuotekuvat/4010070668914_1/topmodel-beauty-0412823-pehmea-hiuspanta.jpg"
-    },
-    {
-      "shop": "Kärkkäinen",
-      "name": "AmandaB Furry valkoinen 2 kpl hiussoljet",
-      "disc": 50,
-      "sale": 3.0,
-      "reg": 5.99,
-      "inStock": true,
-      "link": "https://www.karkkainen.com/verkkokauppa/amandab-furry-valkoinen-2-kpl-hiussoljet",
-      "img": "https://img.karkkainen.com/images/e_trim:4/c_pad%2Cf_auto%2Ch_234%2Cq_auto%2Cw_234/v1/tuotekuvat/6420254349337/amandab-furry-valkoinen-2-kpl-hiussoljet.jpg"
-    },
-    {
-      "shop": "Kärkkäinen",
-      "name": "AmandaB Furry pinkki 2 kpl hiussoljet",
-      "disc": 50,
-      "sale": 3.0,
-      "reg": 5.99,
-      "inStock": true,
-      "link": "https://www.karkkainen.com/verkkokauppa/amandab-furry-pinkki-2-kpl-hiussoljet",
-      "img": "https://img.karkkainen.com/images/e_trim:4/c_pad%2Cf_auto%2Ch_234%2Cq_auto%2Cw_234/v1/tuotekuvat/6420254349313/amandab-furry-pinkki-2-kpl-hiussoljet.jpg"
-    },
-    {
-      "shop": "Kärkkäinen",
-      "name": "AmandaB Furry beige 2 kpl hiussoljet",
-      "disc": 50,
-      "sale": 3.0,
-      "reg": 5.99,
-      "inStock": true,
-      "link": "https://www.karkkainen.com/verkkokauppa/amandab-furry-beige-2-kpl-hiussoljet",
-      "img": "https://img.karkkainen.com/images/e_trim:4/c_pad%2Cf_auto%2Ch_234%2Cq_auto%2Cw_234/v1/tuotekuvat/6420254349320/amandab-furry-beige-2-kpl-hiussoljet.jpg"
-    },
-    {
-      "shop": "Kärkkäinen",
-      "name": "AmandaB Furry rosa 2 kpl hiussoljet",
-      "disc": 50,
-      "sale": 3.0,
-      "reg": 5.99,
-      "inStock": true,
-      "link": "https://www.karkkainen.com/verkkokauppa/amandab-furry-rosa-2-kpl-hiussoljet",
-      "img": "https://img.karkkainen.com/images/e_trim:4/c_pad%2Cf_auto%2Ch_234%2Cq_auto%2Cw_234/v1/tuotekuvat/6420254349306/amandab-furry-rosa-2-kpl-hiussoljet.jpg"
-    },
-    {
-      "shop": "Kärkkäinen",
-      "name": "Top Trumps - Horses & Unicorns - Tuck Box (englanninkielinen)",
-      "disc": 50,
-      "sale": 3.0,
-      "reg": 5.99,
-      "inStock": true,
-      "link": "https://www.karkkainen.com/verkkokauppa/top-trumps---horses-unicorns---tuck-box-englanninkielinen-",
-      "img": "https://img.karkkainen.com/images/e_trim:4/c_pad%2Cf_auto%2Ch_234%2Cq_auto%2Cw_234/v1/tuotekuvat/5036905055956/top-trumps-horses-unicorns-tuck-box-en-.jpg"
-    },
-    {
       "shop": "EMC24",
       "name": "NGK SYTYTYSTULPPA BKR8E-11",
       "disc": 50,
@@ -9470,36 +9068,6 @@
       "inStock": true,
       "link": "https://www.emc24.fi/tuote/ngk-sytytystulppa-bkr8e-11",
       "img": "https://www.emc24.fi/wp-content/uploads/2016/06/NGK_sytytystulppa-300x300.jpg"
-    },
-    {
-      "shop": "Kärkkäinen",
-      "name": "Out-Zone Solar LED-dynamotaskulamppu",
-      "disc": 50,
-      "sale": 3.5,
-      "reg": 6.99,
-      "inStock": true,
-      "link": "https://www.karkkainen.com/verkkokauppa/out-zone-solar-led-dynamotaskulamppu",
-      "img": "https://img.karkkainen.com/images/e_trim:4/c_pad%2Cf_auto%2Ch_234%2Cq_auto%2Cw_234/v1/tuotekuvat/6438014337852/out-zone-solar-led-dynamotaskulamppu.jpg"
-    },
-    {
-      "shop": "Kärkkäinen",
-      "name": "+101",
-      "disc": 50,
-      "sale": 3.5,
-      "reg": 6.99,
-      "inStock": true,
-      "link": "https://www.karkkainen.com/verkkokauppa/depend-gel-iq-5-ml-varigeelilakka",
-      "img": "https://img.karkkainen.com/images/e_trim:4/c_pad%2Cf_auto%2Ch_234%2Cq_auto%2Cw_234/v1/tuotekuvat/73212546/depend-gel-iq-1143-5ml-geelilakka.jpg"
-    },
-    {
-      "shop": "Kärkkäinen",
-      "name": "Lumio Lights GU10 5 W 3000 K 450 lm 3 kpl himmennettävä LED-kohdelamppu",
-      "disc": 50,
-      "sale": 3.5,
-      "reg": 6.99,
-      "inStock": true,
-      "link": "https://www.karkkainen.com/verkkokauppa/lumio-lights-gu10-5-w-3000-k-450-lm-3-kpl-himmennettava-led-kohdelamppu",
-      "img": "https://img.karkkainen.com/images/e_trim:4/c_pad%2Cf_auto%2Ch_234%2Cq_auto%2Cw_234/v1/tuotekuvat/6438014400648_1/lumio-lights-gu10-3000k-him-led-lamppu-3.jpg"
     },
     {
       "shop": "EMC24",
@@ -9532,16 +9100,6 @@
       "img": "https://www.emc24.fi/wp-content/uploads/2021/05/268159_1-300x300.jpg"
     },
     {
-      "shop": "Kärkkäinen",
-      "name": "Tramontina 200g harjapäävasara",
-      "disc": 50,
-      "sale": 3.95,
-      "reg": 7.9,
-      "inStock": true,
-      "link": "https://www.karkkainen.com/verkkokauppa/tramontina-200g-harjapaavasara",
-      "img": "https://img.karkkainen.com/images/e_trim:4/c_pad%2Cf_auto%2Ch_234%2Cq_auto%2Cw_234/v1/tuotekuvat/7891114004205/tramontina-harjapaavasara-200g.jpg"
-    },
-    {
       "shop": "EMC24",
       "name": "T4Tune Kaasukahva+Kahvakumit mustat, Sym Jet 14, Symphony ST",
       "disc": 50,
@@ -9572,16 +9130,6 @@
       "img": "https://img.karkkainen.com/images/e_trim:4/c_pad%2Cf_auto%2Ch_234%2Cq_auto%2Cw_234/v1/tuotekuvat/4010070439705_1/topmodel-0410957-hiusharja.jpg"
     },
     {
-      "shop": "Kärkkäinen",
-      "name": "Ratioparts STGA 125510072/0 spacer",
-      "disc": 50,
-      "sale": 4.0,
-      "reg": 7.99,
-      "inStock": true,
-      "link": "https://www.karkkainen.com/verkkokauppa/ratioparts-stga-125510072-0-spacer",
-      "img": "https://img.karkkainen.com/images/e_trim:4/c_pad%2Cf_auto%2Ch_234%2Cq_auto%2Cw_234/v1/tuotekuvat/3582321749433_1/ratioparts-stiga-valiputki.jpg"
-    },
-    {
       "shop": "EMC24",
       "name": "SPEEDOMETER GEAR BOX SEAL",
       "disc": 50,
@@ -9610,16 +9158,6 @@
       "inStock": true,
       "link": "https://www.emc24.fi/tuote/miw-ilmansuodatin-y4201-yamaha-t-max-500-2008",
       "img": "https://www.emc24.fi/wp-content/uploads/2021/05/264640_1-300x300.jpg"
-    },
-    {
-      "shop": "Kärkkäinen",
-      "name": "+6",
-      "disc": 50,
-      "sale": 4.25,
-      "reg": 9.5,
-      "inStock": true,
-      "link": "https://www.karkkainen.com/verkkokauppa/rapala-jigging-rap-3-cm-6-g-tasapainopilkki-p52912007185",
-      "img": "https://img.karkkainen.com/images/e_trim:4/c_pad%2Cf_auto%2Ch_234%2Cq_auto%2Cw_234/v1/tuotekuvat/22677012162/rapala-jigging-rap-3cm-6g-s-tasapaino.jpg"
     },
     {
       "shop": "EMC24",
@@ -9690,16 +9228,6 @@
       "inStock": true,
       "link": "https://www.emc24.fi/tuote/neulaventtiili-pesa-tillotson",
       "img": "https://www.emc24.fi/wp-content/uploads/2021/08/07-229-1-300x300.jpg"
-    },
-    {
-      "shop": "Kärkkäinen",
-      "name": "Tramontina 300g harjapäävasara",
-      "disc": 50,
-      "sale": 4.45,
-      "reg": 8.9,
-      "inStock": true,
-      "link": "https://www.karkkainen.com/verkkokauppa/tramontina-300g-harjapaavasara",
-      "img": "https://img.karkkainen.com/images/e_trim:4/c_pad%2Cf_auto%2Ch_234%2Cq_auto%2Cw_234/v1/tuotekuvat/7891114004212/tramontina-64202008-harjapaavasara-300g.jpg"
     },
     {
       "shop": "EMC24",
@@ -9872,96 +9400,6 @@
       "img": "https://img.karkkainen.com/images/e_trim:4/c_pad%2Cf_auto%2Ch_234%2Cq_auto%2Cw_234/v1/tuotekuvat/9006729947344/lenz-sneaker-tech-3p-734-90-jade-43-46.jpg"
     },
     {
-      "shop": "Kärkkäinen",
-      "name": "Tramontina 400g harjapäävasara",
-      "disc": 50,
-      "sale": 4.95,
-      "reg": 9.9,
-      "inStock": true,
-      "link": "https://www.karkkainen.com/verkkokauppa/tramontina-400g-harjapaavasara",
-      "img": "https://img.karkkainen.com/images/e_trim:4/c_pad%2Cf_auto%2Ch_234%2Cq_auto%2Cw_234/v1/tuotekuvat/7891114004229/tramontina-harjapaavasara-400g.jpg"
-    },
-    {
-      "shop": "Kärkkäinen",
-      "name": "Visiray Beanie musta ladattava LED-pipo",
-      "disc": 50,
-      "sale": 4.99,
-      "reg": 9.99,
-      "inStock": true,
-      "link": "https://www.karkkainen.com/verkkokauppa/visiray-beanie-musta-ladattava-led-pipo-tyopipo-valopipo",
-      "img": "https://img.karkkainen.com/images/e_trim:4/c_pad%2Cf_auto%2Ch_234%2Cq_auto%2Cw_234/v1/tuotekuvat/6438014353449_1/visiray-beanie-musta-ladattava-led-pipo.jpg"
-    },
-    {
-      "shop": "Kärkkäinen",
-      "name": "Visiray Beanie pinkki ladattava LED-pipo",
-      "disc": 50,
-      "sale": 4.99,
-      "reg": 9.99,
-      "inStock": true,
-      "link": "https://www.karkkainen.com/verkkokauppa/visiray-beanie-pinkki-ladattava-led-pipo-tyopipo-valopipo",
-      "img": "https://img.karkkainen.com/images/e_trim:4/c_pad%2Cf_auto%2Ch_234%2Cq_auto%2Cw_234/v1/tuotekuvat/6438014353463_1/visiray-beanie-pinkki-ladattava-led-pipo.jpg"
-    },
-    {
-      "shop": "Kärkkäinen",
-      "name": "Visiray Beanie harmaa ladattava LED-pipo",
-      "disc": 50,
-      "sale": 4.99,
-      "reg": 9.99,
-      "inStock": true,
-      "link": "https://www.karkkainen.com/verkkokauppa/visiray-beanie-harmaa-ladattava-led-pipo-tyopipo-valopipo",
-      "img": "https://img.karkkainen.com/images/e_trim:4/c_pad%2Cf_auto%2Ch_234%2Cq_auto%2Cw_234/v1/tuotekuvat/6438014353456_1/visiray-beanie-harmaa-ladattava-led-pipo.jpg"
-    },
-    {
-      "shop": "Kärkkäinen",
-      "name": "H&S 80-osainen lämminvalkoinen LED-ulkovalosarja",
-      "disc": 50,
-      "sale": 4.99,
-      "reg": 9.99,
-      "inStock": true,
-      "link": "https://www.karkkainen.com/verkkokauppa/h-s-80-osainen-lamminvalkoinen-led-ulkovalosarja-jouluvalo-tunnelmavalo",
-      "img": "https://img.karkkainen.com/images/e_trim:4/c_pad%2Cf_auto%2Ch_234%2Cq_auto%2Cw_234/v1/tuotekuvat/8719202259414/h-s-ip44-80-led-valosarja.jpg"
-    },
-    {
-      "shop": "Kärkkäinen",
-      "name": "Visiray Beanie oranssi ladattava LED-pipo",
-      "disc": 50,
-      "sale": 4.99,
-      "reg": 9.99,
-      "inStock": true,
-      "link": "https://www.karkkainen.com/verkkokauppa/visiray-beanie-oranssi-ladattava-led-pipo-1694789368312122",
-      "img": "https://img.karkkainen.com/images/e_trim:4/c_pad%2Cf_auto%2Ch_234%2Cq_auto%2Cw_234/v1/tuotekuvat/6438014405650_1/visiray-beanie-oranssi-ladattava-ledpipo.jpg"
-    },
-    {
-      "shop": "Kärkkäinen",
-      "name": "+27",
-      "disc": 50,
-      "sale": 5.0,
-      "reg": 10.0,
-      "inStock": true,
-      "link": "https://www.karkkainen.com/verkkokauppa/mr-manu-65-mm-23-9-g-tasapaino",
-      "img": "https://img.karkkainen.com/images/e_trim:4/c_pad%2Cf_auto%2Ch_234%2Cq_auto%2Cw_234/v1/tuotekuvat/6438239041176/mr-manu-65mm-tasapainopilkki-024.jpg"
-    },
-    {
-      "shop": "Kärkkäinen",
-      "name": "Swissten Samsung Galaxy A05s silikonisuoja",
-      "disc": 50,
-      "sale": 5.0,
-      "reg": 9.99,
-      "inStock": true,
-      "link": "https://www.karkkainen.com/verkkokauppa/swissten-samsung-galaxy-a05s-silikonisuoja",
-      "img": "https://img.karkkainen.com/images/e_trim:4/c_pad%2Cf_auto%2Ch_234%2Cq_auto%2Cw_234/v1/tuotekuvat/8595217484221/swissten-galaxy-a05s-silikonisuoja.jpg"
-    },
-    {
-      "shop": "Kärkkäinen",
-      "name": "Gembird 7-in-1 yleispuhdistussarja",
-      "disc": 50,
-      "sale": 5.0,
-      "reg": 9.99,
-      "inStock": true,
-      "link": "https://www.karkkainen.com/verkkokauppa/gembird-7-in-1-yleispuhdistussarja",
-      "img": "https://img.karkkainen.com/images/e_trim:4/c_pad%2Cf_auto%2Ch_234%2Cq_auto%2Cw_234/v1/tuotekuvat/8716309129497_1/gembird-7-in-1-yleispuhdistussarja.jpg"
-    },
-    {
       "shop": "EMC24",
       "name": "Scott Hustle ajolasien kasvosuoja, MX one size",
       "disc": 50,
@@ -10112,36 +9550,6 @@
       "img": "https://www.emc24.fi/wp-content/uploads/2022/11/Motul_110151_insect_remover_png-300x300.png"
     },
     {
-      "shop": "Kärkkäinen",
-      "name": "Anar Giehta vihreät sormikkaat",
-      "disc": 50,
-      "sale": 6.45,
-      "reg": 12.9,
-      "inStock": true,
-      "link": "https://www.karkkainen.com/verkkokauppa/anar-giehta-vihreat-sormikkaat",
-      "img": "https://img.karkkainen.com/images/e_trim:4/c_pad%2Cf_auto%2Ch_234%2Cq_auto%2Cw_234/v1/tuotekuvat/6438014201405/anar-giehta-green-xl-sormikkaat.jpg"
-    },
-    {
-      "shop": "Kärkkäinen",
-      "name": "Way2Play! Vauvan aktiviteettilelu",
-      "disc": 50,
-      "sale": 6.5,
-      "reg": 12.99,
-      "inStock": true,
-      "link": "https://www.karkkainen.com/verkkokauppa/way2play-vauvan-aktiviteettilelu",
-      "img": "https://img.karkkainen.com/images/e_trim:4/c_pad%2Cf_auto%2Ch_234%2Cq_auto%2Cw_234/v1/tuotekuvat/6430056948485_1/w2play-vauvan-aktiviteettilelu.jpg"
-    },
-    {
-      "shop": "Kärkkäinen",
-      "name": "Burde Study Textile A5 kalenteri 2027",
-      "disc": 50,
-      "sale": 6.5,
-      "reg": 12.99,
-      "inStock": true,
-      "link": "https://www.karkkainen.com/verkkokauppa/burde-study-textile-a5-kalenteri-2027",
-      "img": "https://img.karkkainen.com/images/e_trim:4/c_pad%2Cf_auto%2Ch_234%2Cq_auto%2Cw_234/v1/tuotekuvat/7333420819574_1/burde-study-text-a5-2027-mu-kalenteri.jpg"
-    },
-    {
       "shop": "EMC24",
       "name": "FUEL STRAINER",
       "disc": 50,
@@ -10202,16 +9610,6 @@
       "img": "https://www.emc24.fi/wp-content/uploads/2024/01/sym-logo-1000x1000-1-300x300.png"
     },
     {
-      "shop": "Kärkkäinen",
-      "name": "WAVE kosketusnäyttökynä",
-      "disc": 50,
-      "sale": 7.0,
-      "reg": 13.99,
-      "inStock": true,
-      "link": "https://www.karkkainen.com/verkkokauppa/wave-kosketusnayttokyna",
-      "img": "https://img.karkkainen.com/images/e_trim:4/c_pad%2Cf_auto%2Ch_234%2Cq_auto%2Cw_234/v1/tuotekuvat/6418312120615/wave-kosketusnayttokyna-musta.jpg"
-    },
-    {
       "shop": "EMC24",
       "name": "MIW ILMANSUODATIN P5159, Aprilia SR 50 Factory (05/&gt;)",
       "disc": 50,
@@ -10253,46 +9651,6 @@
     },
     {
       "shop": "Kärkkäinen",
-      "name": "+14",
-      "disc": 50,
-      "sale": 7.45,
-      "reg": 19.9,
-      "inStock": true,
-      "link": "https://www.karkkainen.com/verkkokauppa/norolan-arctic-light-rautulatka",
-      "img": "https://img.karkkainen.com/images/e_trim:4/c_pad%2Cf_auto%2Ch_234%2Cq_auto%2Cw_234/v1/tuotekuvat/2050005212586/norolan-arctic-light-8cm-10g-black-red.jpg"
-    },
-    {
-      "shop": "Kärkkäinen",
-      "name": "Swissten Soft Joy Samsung Galaxy A14 silikonisuoja",
-      "disc": 50,
-      "sale": 7.45,
-      "reg": 14.9,
-      "inStock": true,
-      "link": "https://www.karkkainen.com/verkkokauppa/swissten-soft-joy-samsung-galaxy-a14-silikonisuoja",
-      "img": "https://img.karkkainen.com/images/e_trim:4/c_pad%2Cf_auto%2Ch_234%2Cq_auto%2Cw_234/v1/tuotekuvat/8595217481169/swissten-sj-galaxy-a14-mu-silikonisuoja.jpg"
-    },
-    {
-      "shop": "Kärkkäinen",
-      "name": "Swissten Soft Joy Samsung Galaxy A35 silikonisuoja",
-      "disc": 50,
-      "sale": 7.45,
-      "reg": 14.9,
-      "inStock": true,
-      "link": "https://www.karkkainen.com/verkkokauppa/swissten-soft-joy-samsung-galaxy-a35-silikonisuoja-p1694789344989787",
-      "img": "https://img.karkkainen.com/images/e_trim:4/c_pad%2Cf_auto%2Ch_234%2Cq_auto%2Cw_234/v1/tuotekuvat/8595217484580/swissten-sj-galaxy-a35-mu-silikonisuoja.jpg"
-    },
-    {
-      "shop": "Kärkkäinen",
-      "name": "Super Mario Color & Go setti",
-      "disc": 50,
-      "sale": 7.45,
-      "reg": 14.9,
-      "inStock": true,
-      "link": "https://www.karkkainen.com/verkkokauppa/super-mario-color-go-setti",
-      "img": "https://img.karkkainen.com/images/e_trim:4/c_pad%2Cf_auto%2Ch_234%2Cq_auto%2Cw_234/v1/tuotekuvat/0191537101602/super-mario-color-and-go-setti.jpg"
-    },
-    {
-      "shop": "Kärkkäinen",
       "name": "Figure'd Art Blooming Pink Rose mini numeromaalaus",
       "disc": 50,
       "sale": 7.5,
@@ -10300,46 +9658,6 @@
       "inStock": true,
       "link": "https://www.karkkainen.com/verkkokauppa/figure-d-art-blooming-pink-rose-mini-numeromaalaus",
       "img": "https://img.karkkainen.com/images/e_trim:4/c_pad%2Cf_auto%2Ch_234%2Cq_auto%2Cw_234/v1/tuotekuvat/3666624001495/fa-blooming-pink-rose-mini-numeromaalaus.jpg"
-    },
-    {
-      "shop": "Kärkkäinen",
-      "name": "DunWore invertteri kaukokäyttö",
-      "disc": 50,
-      "sale": 7.5,
-      "reg": 14.99,
-      "inStock": true,
-      "link": "https://www.karkkainen.com/verkkokauppa/dunwore-invertteri-kaukokaytto",
-      "img": "https://img.karkkainen.com/images/e_trim:4/c_pad%2Cf_auto%2Ch_234%2Cq_auto%2Cw_234/v1/tuotekuvat/6438014353845/dunwore-invertteri-kaukokaytto.jpg"
-    },
-    {
-      "shop": "Kärkkäinen",
-      "name": "Redcliffs 13L vesisäiliö",
-      "disc": 50,
-      "sale": 7.5,
-      "reg": 14.99,
-      "inStock": true,
-      "link": "https://www.karkkainen.com/verkkokauppa/redcliffs-13l-vesisailio-hanalla",
-      "img": "https://img.karkkainen.com/images/e_trim:4/c_pad%2Cf_auto%2Ch_234%2Cq_auto%2Cw_234/v1/tuotekuvat/8720573507400_1/redcliffs-13l-vesisailio.jpg"
-    },
-    {
-      "shop": "Kärkkäinen",
-      "name": "Swissten Apple iPhone 14 suojakuori",
-      "disc": 50,
-      "sale": 7.5,
-      "reg": 14.99,
-      "inStock": true,
-      "link": "https://www.karkkainen.com/verkkokauppa/swissten-apple-iphone-14-suojakuori-1694789347138639",
-      "img": "https://img.karkkainen.com/images/e_trim:4/c_pad%2Cf_auto%2Ch_234%2Cq_auto%2Cw_234/v1/tuotekuvat/8595217480032/swissten-iphone-14-suojakuori-punainen.jpg"
-    },
-    {
-      "shop": "Kärkkäinen",
-      "name": "Swissten Apple iPhone 12/12 Pro suojakuori",
-      "disc": 50,
-      "sale": 7.5,
-      "reg": 14.99,
-      "inStock": true,
-      "link": "https://www.karkkainen.com/verkkokauppa/swissten-apple-iphone-12-12-pro-suojakuori-1694789347138574",
-      "img": "https://img.karkkainen.com/images/e_trim:4/c_pad%2Cf_auto%2Ch_234%2Cq_auto%2Cw_234/v1/tuotekuvat/8595217477414/swissten-iphone-12-12-pro-suojak-sininen.jpg"
     },
     {
       "shop": "EMC24",
@@ -10382,36 +9700,6 @@
       "img": "https://www.emc24.fi/wp-content/uploads/2022/05/KS95KIT-300x300.jpg"
     },
     {
-      "shop": "Kärkkäinen",
-      "name": "Gabby's dollhouse värityssetti",
-      "disc": 50,
-      "sale": 7.95,
-      "reg": 15.9,
-      "inStock": true,
-      "link": "https://www.karkkainen.com/verkkokauppa/gabby-s-dollhouse-varityssetti-p1694789374654748",
-      "img": "https://img.karkkainen.com/images/e_trim:4/c_pad%2Cf_auto%2Ch_234%2Cq_auto%2Cw_234/v1/tuotekuvat/5205698618772/gabby-s-dollhouse-30-os-varityssetti.jpg"
-    },
-    {
-      "shop": "Kärkkäinen",
-      "name": "Robens ZigZag istuinalusta",
-      "disc": 50,
-      "sale": 7.95,
-      "reg": 15.9,
-      "inStock": true,
-      "link": "https://www.karkkainen.com/verkkokauppa/robens-zigzag-istuinalusta",
-      "img": "https://img.karkkainen.com/images/e_trim:4/c_pad%2Cf_auto%2Ch_234%2Cq_auto%2Cw_234/v1/tuotekuvat/5709388082527_1/robens-zigzag-slumber-alusta.jpg"
-    },
-    {
-      "shop": "Verkkokauppa.com",
-      "name": "Supe Deskmat Deskcarpet -hiirimatto, 92 x 36 cm",
-      "disc": 50,
-      "sale": 7.99,
-      "reg": 15.99,
-      "inStock": true,
-      "link": "https://www.verkkokauppa.com/fi/product/868312/Supe-Deskmat-Deskcarpet-hiirimatto-92-x-36-cm",
-      "img": "https://static.verkcdn.com/kuvastin/w:136/h:84/rt:fit/q:80/exar:1/sh:0.5/t:1/plain/images/24/2_868312-3605x1412.jpg"
-    },
-    {
       "shop": "EMC24",
       "name": "JT ETURATAS 13 hampainen JTF1323.13SC",
       "disc": 50,
@@ -10452,26 +9740,6 @@
       "img": "https://img.karkkainen.com/images/e_trim:4/c_pad%2Cf_auto%2Ch_234%2Cq_auto%2Cw_234/v1/tuotekuvat/7325570159051/gill-010381-014-146-152-l-collegehousut.jpg"
     },
     {
-      "shop": "Kärkkäinen",
-      "name": "Lmtd Nlfrovas nuorten paita",
-      "disc": 50,
-      "sale": 8.5,
-      "reg": 16.99,
-      "inStock": true,
-      "link": "https://www.karkkainen.com/verkkokauppa/lmtd-nlfrovas-nuorten-paita",
-      "img": "https://img.karkkainen.com/images/e_trim:4/c_pad%2Cf_auto%2Ch_234%2Cq_auto%2Cw_234/v1/tuotekuvat/5715725128476/lmtd-13248166-chb-134-140-t-shirt-fem-kn.jpg"
-    },
-    {
-      "shop": "Kärkkäinen",
-      "name": "Squishmallows 20 cm Hello Kitty ja ystävät pehmo (lajitelma)",
-      "disc": 50,
-      "sale": 8.5,
-      "reg": 16.99,
-      "inStock": true,
-      "link": "https://www.karkkainen.com/verkkokauppa/squishmallows-20-cm-hello-kitty-ja-ystavat-pehmo-lajitelma-",
-      "img": "https://img.karkkainen.com/images/e_trim:4/c_pad%2Cf_auto%2Ch_234%2Cq_auto%2Cw_234/v1/tuotekuvat/191726033219_1/squishmallows-20-cm-hello-kitty-pehmo.jpg"
-    },
-    {
       "shop": "EMC24",
       "name": "SnoX magneeton KIILA 12,6 x 3,0 x 5,0, BRP (420246015) 800 ETEC/ PTEK 2009-19",
       "disc": 50,
@@ -10500,26 +9768,6 @@
       "inStock": true,
       "link": "https://www.emc24.fi/tuote/miw-ilmansuodatin-k2145",
       "img": "https://www.emc24.fi/wp-content/uploads/2021/05/264449_1-300x300.jpg"
-    },
-    {
-      "shop": "Kärkkäinen",
-      "name": "Opettajan värikäs kalenteri 2026-2027",
-      "disc": 50,
-      "sale": 8.95,
-      "reg": 17.9,
-      "inStock": true,
-      "link": "https://www.karkkainen.com/verkkokauppa/opettajan-varikas-kalenteri-2026-2027",
-      "img": "https://img.karkkainen.com/images/e_trim:4/c_pad%2Cf_auto%2Ch_234%2Cq_auto%2Cw_234/v1/tuotekuvat/9789522309044/opettajan-varikas-kalenteri-2026-2027.jpg"
-    },
-    {
-      "shop": "Kärkkäinen",
-      "name": "Milani Baked Blush poskipuna",
-      "disc": 50,
-      "sale": 8.95,
-      "reg": 17.9,
-      "inStock": true,
-      "link": "https://www.karkkainen.com/verkkokauppa/milani-baked-blush-poskipuna",
-      "img": "https://img.karkkainen.com/images/e_trim:4/c_pad%2Cf_auto%2Ch_234%2Cq_auto%2Cw_234/v1/tuotekuvat/717489821032/milani-baked-03-berry-amore-poskipun.jpg"
     },
     {
       "shop": "EMC24",
@@ -10612,66 +9860,6 @@
       "img": "https://www.emc24.fi/wp-content/uploads/2021/05/264924_1-300x300.jpg"
     },
     {
-      "shop": "Kärkkäinen",
-      "name": "Name It Kids Nkmracko lasten paita",
-      "disc": 50,
-      "sale": 9.9,
-      "reg": 19.99,
-      "inStock": true,
-      "link": "https://www.karkkainen.com/verkkokauppa/name-it-kids-nkmracko-lasten-paita",
-      "img": "https://img.karkkainen.com/images/e_trim:4/c_pad%2Cf_auto%2Ch_234%2Cq_auto%2Cw_234/v1/tuotekuvat/5715995026205/ni-13267016-das-122-128-t-shirt-male-kni.jpg"
-    },
-    {
-      "shop": "Kärkkäinen",
-      "name": "Dickie Toys parkkitalo",
-      "disc": 50,
-      "sale": 9.9,
-      "reg": 19.99,
-      "inStock": true,
-      "link": "https://www.karkkainen.com/verkkokauppa/dickie-toys-parkkitalo-parkkihalli",
-      "img": "https://img.karkkainen.com/images/e_trim:4/c_pad%2Cf_auto%2Ch_234%2Cq_auto%2Cw_234/v1/tuotekuvat/4006333106279_1/dickie-toys-parkkitalo.jpg"
-    },
-    {
-      "shop": "Kärkkäinen",
-      "name": "Name It Kids Nkfranderia lasten paita",
-      "disc": 50,
-      "sale": 9.9,
-      "reg": 19.99,
-      "inStock": true,
-      "link": "https://www.karkkainen.com/verkkokauppa/name-it-kids-nkfranderia-lasten-paita",
-      "img": "https://img.karkkainen.com/images/e_trim:4/c_pad%2Cf_auto%2Ch_234%2Cq_auto%2Cw_234/v1/tuotekuvat/5715995036419/ni-13267015-fbp-104-t-shirt-fem-knit.jpg"
-    },
-    {
-      "shop": "Kärkkäinen",
-      "name": "Animakii nukkesetti taikuri / koululainen",
-      "disc": 50,
-      "sale": 9.9,
-      "reg": 19.99,
-      "inStock": true,
-      "link": "https://www.karkkainen.com/verkkokauppa/animakii-nukkesetti-taikuri-koululainen",
-      "img": "https://img.karkkainen.com/images/e_trim:4/c_pad%2Cf_auto%2Ch_234%2Cq_auto%2Cw_234/v1/tuotekuvat/840150263524_1/animakii-taikuri-koululainen-nukkesetti.jpg"
-    },
-    {
-      "shop": "Kärkkäinen",
-      "name": "Retki Hohto 20 l reppu",
-      "disc": 50,
-      "sale": 9.9,
-      "reg": 19.9,
-      "inStock": true,
-      "link": "https://www.karkkainen.com/verkkokauppa/retki-hohto-20-l-reppu",
-      "img": "https://img.karkkainen.com/images/e_trim:4/c_pad%2Cf_auto%2Ch_234%2Cq_auto%2Cw_234/v1/tuotekuvat/6418536005934/retki-reppu-hohto-20-l-harmaa.jpg"
-    },
-    {
-      "shop": "Kärkkäinen",
-      "name": "Animakii nukkesetti cyberpunk / gamer",
-      "disc": 50,
-      "sale": 9.9,
-      "reg": 19.99,
-      "inStock": true,
-      "link": "https://www.karkkainen.com/verkkokauppa/animakii-nukkesetti-cyberpunk-gamer",
-      "img": "https://img.karkkainen.com/images/e_trim:4/c_pad%2Cf_auto%2Ch_234%2Cq_auto%2Cw_234/v1/tuotekuvat/840150263500_1/animakii-cyberpunk-gamer-nukkesetti.jpg"
-    },
-    {
       "shop": "EMC24",
       "name": "AllBalls etuhaarukan ÖLJYTIIVISTESARJA 55-113, 39x52x11mm",
       "disc": 50,
@@ -10690,66 +9878,6 @@
       "inStock": true,
       "link": "https://www.emc24.fi/tuote/allballs-vetoakselin-suojakumisarja-19-5009-honda-polaris-yamaha",
       "img": "https://www.emc24.fi/wp-content/uploads/2023/01/19-5006A-300x300.jpg"
-    },
-    {
-      "shop": "Kärkkäinen",
-      "name": "Luhta Nurmela naisten panta",
-      "disc": 50,
-      "sale": 9.95,
-      "reg": 19.9,
-      "inStock": true,
-      "link": "https://www.karkkainen.com/verkkokauppa/luhta-nurmela-naisten-panta",
-      "img": "https://img.karkkainen.com/images/e_trim:4/c_pad%2Cf_auto%2Ch_234%2Cq_auto%2Cw_234/v1/tuotekuvat/6438581254569/luhta-nurme-band-w-7-37629-128-l-622-os.jpg"
-    },
-    {
-      "shop": "Kärkkäinen",
-      "name": "Ratioparts 6-639 kulmavaihteen sovitin",
-      "disc": 50,
-      "sale": 9.95,
-      "reg": 19.9,
-      "inStock": true,
-      "link": "https://www.karkkainen.com/verkkokauppa/ratioparts-6-639-kulmavaihteen-sovitin",
-      "img": "https://img.karkkainen.com/images/e_trim:4/c_pad%2Cf_auto%2Ch_234%2Cq_auto%2Cw_234/v1/tuotekuvat/4023055696208_1/ratioparts-6-639-kulmavaihteen-sovitin.jpg"
-    },
-    {
-      "shop": "Kärkkäinen",
-      "name": "Amanda B Dog ruoka-astia",
-      "disc": 50,
-      "sale": 9.95,
-      "reg": 19.9,
-      "inStock": true,
-      "link": "https://www.karkkainen.com/verkkokauppa/amanda-b-dog-ruoka-astia",
-      "img": "https://img.karkkainen.com/images/e_trim:4/c_pad%2Cf_auto%2Ch_234%2Cq_auto%2Cw_234/v1/tuotekuvat/6420254361735/amanda-b-26263-dog-46x34-mu-ruoka-astia.jpg"
-    },
-    {
-      "shop": "Kärkkäinen",
-      "name": "+18",
-      "disc": 50,
-      "sale": 9.95,
-      "reg": 20.0,
-      "inStock": true,
-      "link": "https://www.karkkainen.com/verkkokauppa/perza-100-mm-kevennetty-tasapainopilkki",
-      "img": "https://img.karkkainen.com/images/e_trim:4/c_pad%2Cf_auto%2Ch_234%2Cq_auto%2Cw_234/v1/tuotekuvat/6420615480648/perza-100mm-kevennetty-tasapaino-03.jpg"
-    },
-    {
-      "shop": "Kärkkäinen",
-      "name": "Burde Kätevä perhekalenteri 2027",
-      "disc": 50,
-      "sale": 9.99,
-      "reg": 19.98,
-      "inStock": true,
-      "link": "https://www.karkkainen.com/verkkokauppa/burde-kateva-perhekalenteri-2027",
-      "img": "https://img.karkkainen.com/images/e_trim:4/c_pad%2Cf_auto%2Ch_234%2Cq_auto%2Cw_234/v1/tuotekuvat/7333420185976/burde-perhekalenteri-kateva-2027.jpg"
-    },
-    {
-      "shop": "Kärkkäinen",
-      "name": "Deltaco Gaming GAM-181T läpinäkyvä pelinäppäimistö",
-      "disc": 50,
-      "sale": 9.99,
-      "reg": 19.99,
-      "inStock": true,
-      "link": "https://www.karkkainen.com/verkkokauppa/deltaco-gaming-gam-181t-lapinakyva-pelinappaimisto",
-      "img": "https://img.karkkainen.com/images/e_trim:4/c_pad%2Cf_auto%2Ch_234%2Cq_auto%2Cw_234/v1/tuotekuvat/7333048067074_1/deltaco-gaming-lapinakyva-pelinappaimist.jpg"
     },
     {
       "shop": "EMC24",
@@ -10790,46 +9918,6 @@
       "inStock": true,
       "link": "https://www.karkkainen.com/verkkokauppa/sniper-hunter-digicamo-lasten-erahousut-maastohousut-camo",
       "img": "https://img.karkkainen.com/images/e_trim:4/c_pad%2Cf_auto%2Ch_234%2Cq_auto%2Cw_234/v1/tuotekuvat/6438014154145/sniper-hunter-dcamo-jr-160-erahousut.jpg"
-    },
-    {
-      "shop": "Kärkkäinen",
-      "name": "Rubik's Cube Timed aika kuutio",
-      "disc": 50,
-      "sale": 10.0,
-      "reg": 19.99,
-      "inStock": true,
-      "link": "https://www.karkkainen.com/verkkokauppa/rubik-s-cube-timed-aika-kuutio",
-      "img": "https://img.karkkainen.com/images/e_trim:4/c_pad%2Cf_auto%2Ch_234%2Cq_auto%2Cw_234/v1/tuotekuvat/681147083561/rubiks-aika-rubikin-kuutio.jpg"
-    },
-    {
-      "shop": "Kärkkäinen",
-      "name": "Puuhasetti kantolaukussa",
-      "disc": 50,
-      "sale": 10.0,
-      "reg": 19.99,
-      "inStock": true,
-      "link": "https://www.karkkainen.com/verkkokauppa/puuhasetti-kantolaukussa",
-      "img": "https://img.karkkainen.com/images/e_trim:4/c_pad%2Cf_auto%2Ch_234%2Cq_auto%2Cw_234/v1/tuotekuvat/8009233429802/puuhasetti-kantolaukussa-laj-.jpg"
-    },
-    {
-      "shop": "Kärkkäinen",
-      "name": "Jeanne Arthes SKIL Colors Life in Pink EdP 50 ml naisten tuoksu",
-      "disc": 50,
-      "sale": 10.0,
-      "reg": 19.99,
-      "inStock": true,
-      "link": "https://www.karkkainen.com/verkkokauppa/jeanne-arthes-skil-colors-life-in-pink-edp-50-ml-naisten-tuoksu",
-      "img": "https://img.karkkainen.com/images/e_trim:4/c_pad%2Cf_auto%2Ch_234%2Cq_auto%2Cw_234/v1/tuotekuvat/3430750214339/ja-skil-col-life-in-edp-50ml-n-tuoksu.jpg"
-    },
-    {
-      "shop": "Kärkkäinen",
-      "name": "Jeanne Arthes SKIL Colors Ray of Light EdP 50 ml naisten tuoksu",
-      "disc": 50,
-      "sale": 10.0,
-      "reg": 19.99,
-      "inStock": true,
-      "link": "https://www.karkkainen.com/verkkokauppa/jeanne-arthes-skil-colors-ray-of-light-edp-50-ml-naisten-tuoksu",
-      "img": "https://img.karkkainen.com/images/e_trim:4/c_pad%2Cf_auto%2Ch_234%2Cq_auto%2Cw_234/v1/tuotekuvat/3430750214353/ja-skil-col-ray-of-edp-50ml-n-tuoksu.jpg"
     },
     {
       "shop": "EMC24",
@@ -11012,26 +10100,6 @@
       "img": "https://www.emc24.fi/wp-content/uploads/2023/12/61ade9cad320b7.94514393-300x300.jpg"
     },
     {
-      "shop": "Kärkkäinen",
-      "name": "Salon Bucket Hat Classic Vihreä kalastajanhattu",
-      "disc": 50,
-      "sale": 11.45,
-      "reg": 22.9,
-      "inStock": true,
-      "link": "https://www.karkkainen.com/verkkokauppa/salon-bucket-hat-classic-vihrea-kalastajanhattu",
-      "img": "https://img.karkkainen.com/images/e_trim:4/c_pad%2Cf_auto%2Ch_234%2Cq_auto%2Cw_234/v1/tuotekuvat/6419647046670_1/salon-m-bucket-hat-classic-vihrea-56.jpg"
-    },
-    {
-      "shop": "Kärkkäinen",
-      "name": "Salon Bucket Hat Classic Musta kalastajanhattu",
-      "disc": 50,
-      "sale": 11.45,
-      "reg": 22.9,
-      "inStock": true,
-      "link": "https://www.karkkainen.com/verkkokauppa/salon-bucket-hat-classic-musta-kalastajanhattu",
-      "img": "https://img.karkkainen.com/images/e_trim:4/c_pad%2Cf_auto%2Ch_234%2Cq_auto%2Cw_234/v1/tuotekuvat/6419647046465/salon-bucket-hat-classic-musta-60.jpg"
-    },
-    {
       "shop": "EMC24",
       "name": "VALVE ROCKER ARM ASSY",
       "disc": 50,
@@ -11090,26 +10158,6 @@
       "inStock": true,
       "link": "https://www.karkkainen.com/verkkokauppa/palomies-sami-neptune-hahmo-ammelelu-kylpylelu-vene",
       "img": "https://img.karkkainen.com/images/e_trim:4/c_pad%2Cf_auto%2Ch_234%2Cq_auto%2Cw_234/v1/tuotekuvat/4006592037888/palomies-sami-neptune-hahmo.jpg"
-    },
-    {
-      "shop": "Kärkkäinen",
-      "name": "Sniper Hunter Digicamo erähousut",
-      "disc": 50,
-      "sale": 11.95,
-      "reg": 23.9,
-      "inStock": true,
-      "link": "https://www.karkkainen.com/verkkokauppa/sniper-hunter-digicamo-erahousut-maastohousut",
-      "img": "https://img.karkkainen.com/images/e_trim:4/c_pad%2Cf_auto%2Ch_234%2Cq_auto%2Cw_234/v1/tuotekuvat/6438014154077/sniper-hunter-dcamo-sr-xxxl-erahousut.jpg"
-    },
-    {
-      "shop": "Kärkkäinen",
-      "name": "Wahlsten mikrokuitusukat 3 paria paketissa",
-      "disc": 50,
-      "sale": 11.95,
-      "reg": 23.9,
-      "inStock": true,
-      "link": "https://www.karkkainen.com/verkkokauppa/wahlsten-mikrokuitusukat-3-paria-paketissa",
-      "img": "https://img.karkkainen.com/images/e_trim:4/c_pad%2Cf_auto%2Ch_234%2Cq_auto%2Cw_234/v1/tuotekuvat/6438040013645/wahlsten-navy-35-38-3pr-mikrokuitusukat.jpg"
     },
     {
       "shop": "EMC24",
@@ -11212,16 +10260,6 @@
       "img": "https://img.karkkainen.com/images/e_trim:4/c_pad%2Cf_auto%2Ch_234%2Cq_auto%2Cw_234/v1/tuotekuvat/6410416492889_1/atom-mega-1200-ml-termosmuki.jpg"
     },
     {
-      "shop": "Kärkkäinen",
-      "name": "+7",
-      "disc": 50,
-      "sale": 12.45,
-      "reg": 24.9,
-      "inStock": true,
-      "link": "https://www.karkkainen.com/verkkokauppa/kotoilu-frost-2-kpl-verhot",
-      "img": "https://img.karkkainen.com/images/e_trim:4/c_pad%2Cf_auto%2Ch_234%2Cq_auto%2Cw_234/v1/tuotekuvat/6438014349886/kotoilu-frost-135x250-puolukka-verhot.jpg"
-    },
-    {
       "shop": "EMC24",
       "name": "LEVER L STRG. HANDLE",
       "disc": 50,
@@ -11240,16 +10278,6 @@
       "inStock": true,
       "link": "https://www.emc24.fi/tuote/inlet-valve",
       "img": "https://www.emc24.fi/wp-content/uploads/2026/11/14711-AGB-000-300x300.webp"
-    },
-    {
-      "shop": "Kärkkäinen",
-      "name": "Only Play Onpseren naisten t-paita",
-      "disc": 50,
-      "sale": 12.5,
-      "reg": 24.99,
-      "inStock": true,
-      "link": "https://www.karkkainen.com/verkkokauppa/only-play-onpseren-naisten-t-paita-p1694789364421224",
-      "img": "https://img.karkkainen.com/images/e_trim:4/c_pad%2Cf_auto%2Ch_234%2Cq_auto%2Cw_234/v1/tuotekuvat/5715729128052/onp-15354536-bla-xs-t-shirt-fem-knit.jpg"
     },
     {
       "shop": "EMC24",
@@ -11280,36 +10308,6 @@
       "inStock": true,
       "link": "https://www.emc24.fi/tuote/miw-ilmansuodatin-h1266-honda-vf750f-83-85",
       "img": "https://www.emc24.fi/wp-content/uploads/2021/05/264872_1-300x300.jpg"
-    },
-    {
-      "shop": "Kärkkäinen",
-      "name": "BBB Skyscraper 400 mm satulaputki",
-      "disc": 50,
-      "sale": 12.95,
-      "reg": 37.9,
-      "inStock": true,
-      "link": "https://www.karkkainen.com/verkkokauppa/bbb-skyscraper-400-mm-satulaputki",
-      "img": "https://img.karkkainen.com/images/e_trim:4/c_pad%2Cf_auto%2Ch_234%2Cq_auto%2Cw_234/v1/tuotekuvat/8716683005233/bbb-skyscraper-26-8mm-istuinputki.jpg"
-    },
-    {
-      "shop": "Kärkkäinen",
-      "name": "Ratioparts 76-206 62mm urakuulalaakeri",
-      "disc": 50,
-      "sale": 12.95,
-      "reg": 25.9,
-      "inStock": true,
-      "link": "https://www.karkkainen.com/verkkokauppa/ratioparts-76-206-62mm-urakuulalaakeri",
-      "img": "https://img.karkkainen.com/images/e_trim:4/c_pad%2Cf_auto%2Ch_234%2Cq_auto%2Cw_234/v1/tuotekuvat/4023055535125/ratioparts-76-206-kuulalaakeri.jpg"
-    },
-    {
-      "shop": "Kärkkäinen",
-      "name": "Ratioparts 76-305 62mm urakuulaakeri",
-      "disc": 50,
-      "sale": 12.95,
-      "reg": 25.9,
-      "inStock": true,
-      "link": "https://www.karkkainen.com/verkkokauppa/ratioparts-76-305-62mm-urakuulaakeri",
-      "img": "https://img.karkkainen.com/images/e_trim:4/c_pad%2Cf_auto%2Ch_234%2Cq_auto%2Cw_234/v1/tuotekuvat/4023055535224/ratioparts-76-305-kuulalaakeri.jpg"
     },
     {
       "shop": "EMC24",
@@ -11370,16 +10368,6 @@
       "inStock": true,
       "link": "https://www.emc24.fi/tuote/motul-inboard-tech-4t-10w40-technosynt-sisaperamoottorioljydiesel-2-litraa",
       "img": "https://www.emc24.fi/wp-content/uploads/2017/06/Motul_106417-300x300.png"
-    },
-    {
-      "shop": "Kärkkäinen",
-      "name": "Emma tarvikepussi työntöaisaan",
-      "disc": 50,
-      "sale": 13.45,
-      "reg": 26.9,
-      "inStock": true,
-      "link": "https://www.karkkainen.com/verkkokauppa/emma-tarvikepussi-tyontoaisaan-laukku-hoitolaukku-rattaat",
-      "img": "https://img.karkkainen.com/images/e_trim:4/c_pad%2Cf_auto%2Ch_234%2Cq_auto%2Cw_234/v1/tuotekuvat/6418991014519/emma-musta-tarvikepussi-tyontoaisaan.jpg"
     },
     {
       "shop": "EMC24",
@@ -11473,26 +10461,6 @@
     },
     {
       "shop": "Kärkkäinen",
-      "name": "Tactic Haaste 2 peli",
-      "disc": 50,
-      "sale": 14.9,
-      "reg": 29.9,
-      "inStock": true,
-      "link": "https://www.karkkainen.com/verkkokauppa/tactic-haaste-2-peli",
-      "img": "https://img.karkkainen.com/images/e_trim:4/c_pad%2Cf_auto%2Ch_234%2Cq_auto%2Cw_234/v1/tuotekuvat/6416739547053/tactic-haaste-2-peli.jpg"
-    },
-    {
-      "shop": "Kärkkäinen",
-      "name": "Hot Wheels Stunt Tracks Corkscrew Jump Champion rata",
-      "disc": 50,
-      "sale": 14.9,
-      "reg": 29.9,
-      "inStock": true,
-      "link": "https://www.karkkainen.com/verkkokauppa/hot-wheels-stunt-tracks-corkscrew-jump-champion-rata",
-      "img": "https://img.karkkainen.com/images/e_trim:4/c_pad%2Cf_auto%2Ch_234%2Cq_auto%2Cw_234/v1/tuotekuvat/194735297221_1/hot-wheels-stunt-tracks-corkscrew-rata.jpg"
-    },
-    {
-      "shop": "Kärkkäinen",
       "name": "Sniper Hunter Digicamo erätakki",
       "disc": 50,
       "sale": 14.95,
@@ -11500,46 +10468,6 @@
       "inStock": true,
       "link": "https://www.karkkainen.com/verkkokauppa/sniper-hunter-digicamo-eratakki-maastotakki",
       "img": "https://img.karkkainen.com/images/e_trim:4/c_pad%2Cf_auto%2Ch_234%2Cq_auto%2Cw_234/v1/tuotekuvat/6438014153940/sniper-hunter-dcamo-sr-xl-eratakki.jpg"
-    },
-    {
-      "shop": "Kärkkäinen",
-      "name": "FINNERO SPORT koiran Softshell takki",
-      "disc": 50,
-      "sale": 14.95,
-      "reg": 29.9,
-      "inStock": true,
-      "link": "https://www.karkkainen.com/verkkokauppa/finnero-sport-koiran-softshell-takki",
-      "img": "https://img.karkkainen.com/images/e_trim:4/c_pad%2Cf_auto%2Ch_234%2Cq_auto%2Cw_234/v1/tuotekuvat/6438406006021/finnero-sport-55cm-harmaa-koiran-takki.jpg"
-    },
-    {
-      "shop": "Kärkkäinen",
-      "name": "NIVEA Luminous630 Anti Dark Marks CC Fluid Dark SK30 40ml sävyttävä päivävoide",
-      "disc": 50,
-      "sale": 14.95,
-      "reg": 29.9,
-      "inStock": true,
-      "link": "https://www.karkkainen.com/verkkokauppa/nivea-luminous630-anti-dark-marks-cc-fluid-dark-sk30-40ml-savyttava-paivavoide",
-      "img": "https://img.karkkainen.com/images/e_trim:4/c_pad%2Cf_auto%2Ch_234%2Cq_auto%2Cw_234/v1/tuotekuvat/6001051006205/nivea-luminous-dark-sk30-sav-paivavoide.jpg"
-    },
-    {
-      "shop": "Kärkkäinen",
-      "name": "Iron Baltic Rod point set",
-      "disc": 50,
-      "sale": 14.95,
-      "reg": 29.9,
-      "inStock": true,
-      "link": "https://www.karkkainen.com/verkkokauppa/iron-baltic-rod-point-set-ib-ironbaltic",
-      "img": "https://img.karkkainen.com/images/e_trim:4/c_pad%2Cf_auto%2Ch_234%2Cq_auto%2Cw_234/v1/tuotekuvat/4743346508262_1/ib-20-6275-tankopiste-asetettu.jpg"
-    },
-    {
-      "shop": "Kärkkäinen",
-      "name": "Pipsa Possu Peppas Pop Up Playgroup",
-      "disc": 50,
-      "sale": 14.95,
-      "reg": 29.9,
-      "inStock": true,
-      "link": "https://www.karkkainen.com/verkkokauppa/pipsa-possu-peppas-pop-up-playgroup",
-      "img": "https://img.karkkainen.com/images/e_trim:4/c_pad%2Cf_auto%2Ch_234%2Cq_auto%2Cw_234/v1/tuotekuvat/5010996308283/pipsa-possu-peppas-pop-up-playgroup.jpg"
     },
     {
       "shop": "EMC24",
@@ -11550,16 +10478,6 @@
       "inStock": true,
       "link": "https://www.emc24.fi/tuote/bf-goodrich-cooler-laukku",
       "img": "https://www.emc24.fi/wp-content/uploads/2023/06/BFG0244_BFG0244_BFG0244_1_6318_3726-300x300.png"
-    },
-    {
-      "shop": "Kärkkäinen",
-      "name": "Plasto 30 cm kuorma-auto ja kauhakuormaaja",
-      "disc": 50,
-      "sale": 15.0,
-      "reg": 29.9,
-      "inStock": true,
-      "link": "https://www.karkkainen.com/verkkokauppa/plasto-30-cm-kuorma-auto-ja-kauhakuormaaja-rekka",
-      "img": "https://img.karkkainen.com/images/e_trim:4/c_pad%2Cf_auto%2Ch_234%2Cq_auto%2Cw_234/v1/tuotekuvat/6410310116294_1/plasto-30cm-kuorma-auto-ja-kuormaaja.jpg"
     },
     {
       "shop": "EMC24",
@@ -11682,16 +10600,6 @@
       "img": ""
     },
     {
-      "shop": "Kärkkäinen",
-      "name": "Kotoilu Silmu pyöreä juuttimatto",
-      "disc": 50,
-      "sale": 16.99,
-      "reg": 39.9,
-      "inStock": true,
-      "link": "https://www.karkkainen.com/verkkokauppa/kotoilu-silmu-pyorea-juuttimatto-pyorea-matto-juuttimatto-",
-      "img": "https://img.karkkainen.com/images/e_trim:4/c_pad%2Cf_auto%2Ch_234%2Cq_auto%2Cw_234/v1/tuotekuvat/6438014424514/kotoilu-silmu-90-cm-nat-juuttimatto.jpg"
-    },
-    {
       "shop": "EMC24",
       "name": "PISTON",
       "disc": 50,
@@ -11710,16 +10618,6 @@
       "inStock": true,
       "link": "https://www.emc24.fi/tuote/r-back-mirror-4",
       "img": "https://www.emc24.fi/wp-content/uploads/2026/11/88110-G22-900-300x300.webp"
-    },
-    {
-      "shop": "Kärkkäinen",
-      "name": "Ratioparts 76-207 72mm urakuulaakeri",
-      "disc": 50,
-      "sale": 17.45,
-      "reg": 34.9,
-      "inStock": true,
-      "link": "https://www.karkkainen.com/verkkokauppa/ratioparts-76-207-72mm-urakuulaakeri",
-      "img": "https://img.karkkainen.com/images/e_trim:4/c_pad%2Cf_auto%2Ch_234%2Cq_auto%2Cw_234/v1/tuotekuvat/4023055535132/ratioparts-76-207-kuulalaakeri.jpg"
     },
     {
       "shop": "EMC24",
@@ -11762,6 +10660,16 @@
       "img": "https://www.emc24.fi/wp-content/uploads/2022/07/cbtx7l-fa-300x300.jpg"
     },
     {
+      "shop": "Kärkkäinen",
+      "name": "Opettajan värikäs kalenteri 2026-2027",
+      "disc": 50,
+      "sale": 17.9,
+      "reg": 35.8,
+      "inStock": true,
+      "link": "https://www.karkkainen.com/verkkokauppa/opettajan-varikas-kalenteri-2026-2027",
+      "img": "https://img.karkkainen.com/images/e_trim:4/c_pad%2Cf_auto%2Ch_234%2Cq_auto%2Cw_234/v1/tuotekuvat/9789522309044/opettajan-varikas-kalenteri-2026-2027.jpg"
+    },
+    {
       "shop": "EMC24",
       "name": "MUFFLER PROTECTOR COMP (18318-KAA-000 &#038;18319-KAA-000)",
       "disc": 50,
@@ -11790,16 +10698,6 @@
       "inStock": true,
       "link": "https://www.emc24.fi/tuote/sym-kick-driven-gear-assy-08",
       "img": "https://www.emc24.fi/wp-content/uploads/2026/11/2823A-BE2-A10-300x300.webp"
-    },
-    {
-      "shop": "Kärkkäinen",
-      "name": "Barbie Party Unboxed Glam Series nukke ja yllätyssetti",
-      "disc": 50,
-      "sale": 18.95,
-      "reg": 37.9,
-      "inStock": true,
-      "link": "https://www.karkkainen.com/verkkokauppa/barbie-party-unboxed-glam-series-nukke-ja-yllatyssetti-p1694789365926377",
-      "img": "https://img.karkkainen.com/images/e_trim:4/c_pad%2Cf_auto%2Ch_234%2Cq_auto%2Cw_234/v1/tuotekuvat/194735308675_1/barbie-party-unboxed-glam-punainen-setti.jpg"
     },
     {
       "shop": "EMC24",
@@ -11832,16 +10730,6 @@
       "img": "https://www.emc24.fi/wp-content/uploads/2026/11/16910-GN5-911-M1-300x300.webp"
     },
     {
-      "shop": "Kärkkäinen",
-      "name": "SertiLife Adult 10 kg koiran täysravinto",
-      "disc": 50,
-      "sale": 19.45,
-      "reg": 38.9,
-      "inStock": true,
-      "link": "https://www.karkkainen.com/verkkokauppa/sertilife-adult-10-kg-koiran-taysravinto",
-      "img": "https://img.karkkainen.com/images/e_trim:4/c_pad%2Cf_auto%2Ch_234%2Cq_auto%2Cw_234/v1/tuotekuvat/6430076910578/sertilife-adult-10-kg-koiran-taysravinto.jpg"
-    },
-    {
       "shop": "EMC24",
       "name": "Parts+ Moottorikelkan kaasuttimen KORJAUSSARJA Polaris 500 Classic Touring 96-00, 500 RMK 97",
       "disc": 50,
@@ -11850,56 +10738,6 @@
       "inStock": true,
       "link": "https://www.emc24.fi/tuote/moottorikelkan-kaasuttimen-korjaussarja-33",
       "img": "https://www.emc24.fi/wp-content/uploads/2021/08/26-1811-300x300.jpeg"
-    },
-    {
-      "shop": "Kärkkäinen",
-      "name": "Anar Gahta miesten shortsit",
-      "disc": 50,
-      "sale": 19.5,
-      "reg": 39.0,
-      "inStock": true,
-      "link": "https://www.karkkainen.com/verkkokauppa/anar-gahta-miesten-shortsit",
-      "img": "https://img.karkkainen.com/images/e_trim:4/c_pad%2Cf_auto%2Ch_234%2Cq_auto%2Cw_234/v1/tuotekuvat/6438014285313/anar-gahta-blkm-xs-shortsit.jpg"
-    },
-    {
-      "shop": "Kärkkäinen",
-      "name": "Anar Gahta naisten shortsit",
-      "disc": 50,
-      "sale": 19.5,
-      "reg": 39.0,
-      "inStock": true,
-      "link": "https://www.karkkainen.com/verkkokauppa/anar-gahta-naisten-shortsit",
-      "img": "https://img.karkkainen.com/images/e_trim:4/c_pad%2Cf_auto%2Ch_234%2Cq_auto%2Cw_234/v1/tuotekuvat/6438014284828/anar-gahta-blk-w-xxs-shortsit.jpg"
-    },
-    {
-      "shop": "Kärkkäinen",
-      "name": "Jack&Jones Premium Jprblustanley miesten kauluspaita",
-      "disc": 50,
-      "sale": 19.9,
-      "reg": 39.99,
-      "inStock": true,
-      "link": "https://www.karkkainen.com/verkkokauppa/jack-jones-premium-jprblustanley-miesten-kauluspaita",
-      "img": "https://img.karkkainen.com/images/e_trim:4/c_pad%2Cf_auto%2Ch_234%2Cq_auto%2Cw_234/v1/tuotekuvat/5715912552503/jj-12305791-erm-s-shirt-sleeves.jpg"
-    },
-    {
-      "shop": "Kärkkäinen",
-      "name": "Vero Moda Vmash naisten neule",
-      "disc": 50,
-      "sale": 19.9,
-      "reg": 39.99,
-      "inStock": true,
-      "link": "https://www.karkkainen.com/verkkokauppa/vero-moda-vmash-naisten-neule",
-      "img": "https://img.karkkainen.com/images/e_trim:4/c_pad%2Cf_auto%2Ch_234%2Cq_auto%2Cw_234/v1/tuotekuvat/5715945335074/vm-10348417-cht-sde-m-pullover-fem-knit.jpg"
-    },
-    {
-      "shop": "Kärkkäinen",
-      "name": "Jack&Jones Originals Jortoronto miesten collegepaita",
-      "disc": 50,
-      "sale": 19.9,
-      "reg": 39.99,
-      "inStock": true,
-      "link": "https://www.karkkainen.com/verkkokauppa/jack-jones-originals-jortoronto-miesten-collegepaita",
-      "img": "https://img.karkkainen.com/images/e_trim:4/c_pad%2Cf_auto%2Ch_234%2Cq_auto%2Cw_234/v1/tuotekuvat/5715910150213/jj-12305785-cht-s-sweat-male-knit.jpg"
     },
     {
       "shop": "EMC24",
@@ -11932,86 +10770,6 @@
       "img": "https://img.karkkainen.com/images/e_trim:4/c_pad%2Cf_auto%2Ch_234%2Cq_auto%2Cw_234/v1/tuotekuvat/5707152046669_1/krea-tricycle-potkumopo.jpg"
     },
     {
-      "shop": "Kärkkäinen",
-      "name": "Wave Qi autoteline langattomalla pikalatauksella",
-      "disc": 50,
-      "sale": 19.95,
-      "reg": 39.9,
-      "inStock": true,
-      "link": "https://www.karkkainen.com/verkkokauppa/wave-qi-autoteline-langattomalla-pikalatauksella",
-      "img": "https://img.karkkainen.com/images/e_trim:4/c_pad%2Cf_auto%2Ch_234%2Cq_auto%2Cw_234/v1/tuotekuvat/6418312152104/wave-qi-autoteline-langaton-pikalat.jpg"
-    },
-    {
-      "shop": "Kärkkäinen",
-      "name": "Pro Forest Murray terä 42\" leikkuulaite (Mulcher)",
-      "disc": 50,
-      "sale": 19.95,
-      "reg": 39.9,
-      "inStock": true,
-      "link": "https://www.karkkainen.com/verkkokauppa/pro-forest-murray-tera-42-leikkuulaite-mulcher-",
-      "img": "https://img.karkkainen.com/images/e_trim:4/c_pad%2Cf_auto%2Ch_234%2Cq_auto%2Cw_234/v1/tuotekuvat/6405337138145/pro-forest-murray-42-tera-leikkuulaite.jpg"
-    },
-    {
-      "shop": "Kärkkäinen",
-      "name": "Pokemon Clip N Go Belt Set vyö (lajitelma)",
-      "disc": 50,
-      "sale": 19.95,
-      "reg": 39.9,
-      "inStock": true,
-      "link": "https://www.karkkainen.com/verkkokauppa/pokemon-clip-n-go-belt-set-vyo-lajitelma-",
-      "img": "https://img.karkkainen.com/images/e_trim:4/c_pad%2Cf_auto%2Ch_234%2Cq_auto%2Cw_234/v1/tuotekuvat/5710948468378_2/pokemon-clip-n-go-belt-set.jpg"
-    },
-    {
-      "shop": "Kärkkäinen",
-      "name": "JBL Quantum 100N Nintendo pelikuulokkeet",
-      "disc": 50,
-      "sale": 19.99,
-      "reg": 39.99,
-      "inStock": true,
-      "link": "https://www.karkkainen.com/verkkokauppa/jbl-quantum-100n-nintendo-pelikuulokkeet",
-      "img": "https://img.karkkainen.com/images/e_trim:4/c_pad%2Cf_auto%2Ch_234%2Cq_auto%2Cw_234/v1/tuotekuvat/1200130015595_1/jbl-quantum-100n-nintendo-pelikuulokkeet.jpg"
-    },
-    {
-      "shop": "Kärkkäinen",
-      "name": "JBL Quantum 100P PlayStation pelikuulokkeet",
-      "disc": 50,
-      "sale": 19.99,
-      "reg": 39.99,
-      "inStock": true,
-      "link": "https://www.karkkainen.com/verkkokauppa/jbl-quantum-100p-playstation-pelikuulokkeet",
-      "img": "https://img.karkkainen.com/images/e_trim:4/c_pad%2Cf_auto%2Ch_234%2Cq_auto%2Cw_234/v1/tuotekuvat/6925281932649_1/jbl-quantum-100p-ps-pelikuulokkeet.jpg"
-    },
-    {
-      "shop": "Kärkkäinen",
-      "name": "JBL Quantum 100M2 pelikuulokkeet",
-      "disc": 50,
-      "sale": 19.99,
-      "reg": 39.9,
-      "inStock": true,
-      "link": "https://www.karkkainen.com/verkkokauppa/jbl-quantum-100m2-pelikuulokkeet",
-      "img": "https://img.karkkainen.com/images/e_trim:4/c_pad%2Cf_auto%2Ch_234%2Cq_auto%2Cw_234/v1/tuotekuvat/1200130015519/jbl-quantum-100m2-pelikuulokkeet-musta.jpg"
-    },
-    {
-      "shop": "Kärkkäinen",
-      "name": "Rainbocorns Kitty Mania pehmolelu",
-      "disc": 50,
-      "sale": 19.99,
-      "reg": 39.9,
-      "inStock": true,
-      "link": "https://www.karkkainen.com/verkkokauppa/rainbocorns-kitty-mania-pehmolelu",
-      "img": "https://img.karkkainen.com/images/e_trim:4/c_pad%2Cf_auto%2Ch_234%2Cq_auto%2Cw_234/v1/tuotekuvat/4894680046306_1/rainbocorns-eggzania-kitty-mania.jpg"
-    },
-    {
-      "shop": "Kärkkäinen",
-      "name": "EGLO Stellato 50cm E27 tummanruskea/nikkeli riippuvalaisin",
-      "disc": 50,
-      "sale": 19.99,
-      "reg": 39.95,
-      "inStock": true,
-      "link": "https://www.karkkainen.com/verkkokauppa/eglo-stellato-50cm-e27-tummanruskea-nikkeli-riippuvalaisin",
-      "img": "https://img.karkkainen.com/images/e_trim:4/c_pad%2Cf_auto%2Ch_234%2Cq_auto%2Cw_234/v1/tuotekuvat/9002759950255_1/eglo-stellato-tummrusk-riippuvalaisin.jpg"
-    },
-    {
       "shop": "EMC24",
       "name": "PISTON RING SET",
       "disc": 50,
@@ -12040,16 +10798,6 @@
       "inStock": true,
       "link": "https://www.emc24.fi/tuote/miw-ilmansuodatin-b9120-bmw-1200-k-lt-98-10-1200-k-rs-96-05",
       "img": "https://www.emc24.fi/wp-content/uploads/2022/05/B9120-300x300.jpg"
-    },
-    {
-      "shop": "Kärkkäinen",
-      "name": "Sertilife 10 kg kanaa ja kauraa koiran täysravinto",
-      "disc": 50,
-      "sale": 20.95,
-      "reg": 41.9,
-      "inStock": true,
-      "link": "https://www.karkkainen.com/verkkokauppa/sertilife-10-kg-kanaa-ja-kauraa-koiran-taysravinto",
-      "img": "https://img.karkkainen.com/images/e_trim:4/c_pad%2Cf_auto%2Ch_234%2Cq_auto%2Cw_234/v1/tuotekuvat/6430076910073_1/sertilife-10-kg-kanaa-ja-kauraa-taysr-.jpg"
     },
     {
       "shop": "EMC24",
@@ -12112,16 +10860,6 @@
       "img": "https://www.emc24.fi/wp-content/uploads/2021/08/26-1823-300x300.jpeg"
     },
     {
-      "shop": "Kärkkäinen",
-      "name": "BBB Rider 2.0 31,8 mm ohjainkannatin",
-      "disc": 50,
-      "sale": 21.95,
-      "reg": 43.9,
-      "inStock": true,
-      "link": "https://www.karkkainen.com/verkkokauppa/bbb-rider-2-0-31-8-mm-ohjainkannatin",
-      "img": "https://img.karkkainen.com/images/e_trim:4/c_pad%2Cf_auto%2Ch_234%2Cq_auto%2Cw_234/v1/tuotekuvat/8716683127669/bbb-rider-2-0--7d-100mm-ohjainkannatin.jpg"
-    },
-    {
       "shop": "EMC24",
       "name": "AllBalls PALLONIVEL 42-1061, alempi CF-Moto",
       "disc": 50,
@@ -12182,16 +10920,6 @@
       "img": "https://www.emc24.fi/wp-content/uploads/2026/11/e9536c08f049454b39f5e5d37c996aabd043d006_20_1912-300x300.jpg"
     },
     {
-      "shop": "Kärkkäinen",
-      "name": "Bell Lil Ripper lasten pyöräilykypärä",
-      "disc": 50,
-      "sale": 23.95,
-      "reg": 42.9,
-      "inStock": true,
-      "link": "https://www.karkkainen.com/verkkokauppa/bell-lil-ripper-lasten-pyorailykypara",
-      "img": "https://img.karkkainen.com/images/e_trim:4/c_pad%2Cf_auto%2Ch_234%2Cq_auto%2Cw_234/v1/tuotekuvat/768686383205/bell-lil-ripper-red-45-52-kypara.jpg"
-    },
-    {
       "shop": "EMC24",
       "name": "Kappa JARRUVALO takalaukkuun K47",
       "disc": 50,
@@ -12220,26 +10948,6 @@
       "inStock": true,
       "link": "https://www.emc24.fi/tuote/throt-cable-comp-2",
       "img": "https://www.emc24.fi/wp-content/uploads/2026/11/17910-AWU-000-300x300.webp"
-    },
-    {
-      "shop": "Kärkkäinen",
-      "name": "EGLO Salobrena 32,5W CCT 2700-6500K musta/valkoinen LED kattovalaisin",
-      "disc": 50,
-      "sale": 24.95,
-      "reg": 49.95,
-      "inStock": true,
-      "link": "https://www.karkkainen.com/verkkokauppa/eglo-salobrena-32-5w-cct-2700-6500k-musta-valkoinen-led-kattovalaisin",
-      "img": "https://img.karkkainen.com/images/e_trim:4/c_pad%2Cf_auto%2Ch_234%2Cq_auto%2Cw_234/v1/tuotekuvat/9002759755768_1/eglo-salobrena-cct-led-kattovalaisin.jpg"
-    },
-    {
-      "shop": "Kärkkäinen",
-      "name": "Heat Kristalli Easy Mount 40cm CCT led plafondi kaukosäätimellä",
-      "disc": 50,
-      "sale": 24.99,
-      "reg": 49.9,
-      "inStock": true,
-      "link": "https://www.karkkainen.com/verkkokauppa/heat-kristalli-easy-mount-40cm-cct-led-plafondi-kaukosaatimella",
-      "img": "https://img.karkkainen.com/images/e_trim:4/c_pad%2Cf_auto%2Ch_234%2Cq_auto%2Cw_234/v1/tuotekuvat/6430062138962/heat-kristall-easy-40cm-val-ledplaf-kau.jpg"
     },
     {
       "shop": "EMC24",
@@ -12340,16 +11048,6 @@
       "inStock": true,
       "link": "https://www.karkkainen.com/verkkokauppa/monster-high-skulltimate-secrets-clawdeen-p1694789365926023",
       "img": "https://img.karkkainen.com/images/e_trim:4/c_pad%2Cf_auto%2Ch_234%2Cq_auto%2Cw_234/v1/tuotekuvat/194735259847_1/monster-high-skulltimate-secr-clawdeen.jpg"
-    },
-    {
-      "shop": "Kärkkäinen",
-      "name": "Monster High Skulltimate Secrets Frankie",
-      "disc": 50,
-      "sale": 27.45,
-      "reg": 54.9,
-      "inStock": true,
-      "link": "https://www.karkkainen.com/verkkokauppa/monster-high-skulltimate-secrets-frankie",
-      "img": "https://img.karkkainen.com/images/e_trim:4/c_pad%2Cf_auto%2Ch_234%2Cq_auto%2Cw_234/v1/tuotekuvat/194735259953_1/monster-high-skulltimate-secrets-frankie.jpg"
     },
     {
       "shop": "EMC24",
@@ -12470,46 +11168,6 @@
       "inStock": true,
       "link": "https://www.karkkainen.com/verkkokauppa/ecofurn-tammi-leikkuulauta",
       "img": "https://img.karkkainen.com/images/e_trim:4/c_pad%2Cf_auto%2Ch_234%2Cq_auto%2Cw_234/v1/tuotekuvat/6430054492454/ecofurn-40x25x4-tammi-leikkuulauta.jpg"
-    },
-    {
-      "shop": "Kärkkäinen",
-      "name": "Only Onlhope naisten neuletakki",
-      "disc": 50,
-      "sale": 29.9,
-      "reg": 59.99,
-      "inStock": true,
-      "link": "https://www.karkkainen.com/verkkokauppa/only-onlhope-naisten-neuletakki",
-      "img": "https://img.karkkainen.com/images/e_trim:4/c_pad%2Cf_auto%2Ch_234%2Cq_auto%2Cw_234/v1/tuotekuvat/5715948517804/only-15382214-mgm-pde-l-cardigan-fem-kni.jpg"
-    },
-    {
-      "shop": "Kärkkäinen",
-      "name": "iSport Comfort 10 kg painoliivi",
-      "disc": 50,
-      "sale": 29.9,
-      "reg": 59.9,
-      "inStock": true,
-      "link": "https://www.karkkainen.com/verkkokauppa/isport-comfort-10-kg-painoliivi",
-      "img": "https://img.karkkainen.com/images/e_trim:4/c_pad%2Cf_auto%2Ch_234%2Cq_auto%2Cw_234/v1/tuotekuvat/6438014337043_1/isport-comfort-10kg-painoliivi.jpg"
-    },
-    {
-      "shop": "Kärkkäinen",
-      "name": "Endurance Mahana naisten tuulisuojatut juoksutrikoot",
-      "disc": 50,
-      "sale": 29.9,
-      "reg": 59.9,
-      "inStock": true,
-      "link": "https://www.karkkainen.com/verkkokauppa/endurance-mahana-naisten-tuulisuojatut-juoksutrikoot",
-      "img": "https://img.karkkainen.com/images/e_trim:4/c_pad%2Cf_auto%2Ch_234%2Cq_auto%2Cw_234/v1/tuotekuvat/5713939354926/endrc-mahana-w-run-tights-e182452-blk-44.jpg"
-    },
-    {
-      "shop": "Kärkkäinen",
-      "name": "San Marin vesijettipeite",
-      "disc": 50,
-      "sale": 29.95,
-      "reg": 79.9,
-      "inStock": true,
-      "link": "https://www.karkkainen.com/verkkokauppa/san-marin-vesijettipeite",
-      "img": "https://img.karkkainen.com/images/e_trim:4/c_pad%2Cf_auto%2Ch_234%2Cq_auto%2Cw_234/v1/tuotekuvat/6438014311715_1/san-marin-l-vesijettipeite.jpg"
     },
     {
       "shop": "EMC24",
@@ -12662,16 +11320,6 @@
       "img": "https://www.emc24.fi/wp-content/uploads/2021/08/26-1914-300x300.jpeg"
     },
     {
-      "shop": "Kärkkäinen",
-      "name": "Start Leisure 60Ah 520A 12V vapaa-ajanakku",
-      "disc": 50,
-      "sale": 34.5,
-      "reg": 69.0,
-      "inStock": true,
-      "link": "https://www.karkkainen.com/verkkokauppa/start-leisure-60ah-520a-12v-vapaa-ajanakku",
-      "img": "https://img.karkkainen.com/images/e_trim:4/c_pad%2Cf_auto%2Ch_234%2Cq_auto%2Cw_234/v1/tuotekuvat/6438014427102_1/start-leisure-60ah-520a-vapaa-ajanakku.jpg"
-    },
-    {
       "shop": "EMC24",
       "name": "Unibat CT14B-FA AKKU AGM Ready Series 12V 11Ah 180Cca 151x70x130mm",
       "disc": 50,
@@ -12699,17 +11347,7 @@
       "reg": 69.9,
       "inStock": true,
       "link": "https://www.karkkainen.com/verkkokauppa/trekker-havu-nastakengat",
-      "img": "https://img.karkkainen.com/images/e_trim:4/c_pad%2Cf_auto%2Ch_234%2Cq_auto%2Cw_234/v1/tuotekuvat/6438543002726_1/trekker-havu-nastakengat-eu44.jpg"
-    },
-    {
-      "shop": "Kärkkäinen",
-      "name": "EC by Wilfa Shine meikkipeili",
-      "disc": 50,
-      "sale": 34.9,
-      "reg": 69.9,
-      "inStock": true,
-      "link": "https://www.karkkainen.com/verkkokauppa/ec-by-wilfa-shine-meikkipeili",
-      "img": "https://img.karkkainen.com/images/e_trim:4/c_pad%2Cf_auto%2Ch_234%2Cq_auto%2Cw_234/v1/tuotekuvat/7044876060020_1/ec-by-wilfa-mi3w-d29-shine-meikkipeili.jpg"
+      "img": "https://img.karkkainen.com/images/e_trim:4/c_pad%2Cf_auto%2Ch_234%2Cq_auto%2Cw_234/v1/tuotekuvat/6438543002726_1/trekker-havu-nastakengat-eu39.jpg"
     },
     {
       "shop": "EMC24",
@@ -12730,26 +11368,6 @@
       "inStock": true,
       "link": "https://www.karkkainen.com/verkkokauppa/asp-group-cfmoto-510-530-x5-oljynvaihtosarja-huoltosarja-huoltopaketti-p1694789362544040",
       "img": "https://img.karkkainen.com/images/e_trim:4/c_pad%2Cf_auto%2Ch_234%2Cq_auto%2Cw_234/v1/tuotekuvat/8592590070614_1/asp-change-kit-19-huoltosarja.jpg"
-    },
-    {
-      "shop": "Kärkkäinen",
-      "name": "Scott Primal Snow Cross royal blue/orange blue ajolasit",
-      "disc": 50,
-      "sale": 34.95,
-      "reg": 69.9,
-      "inStock": true,
-      "link": "https://www.karkkainen.com/verkkokauppa/scott-primal-snow-cross-royal-blue-orange-blue-ajolasit",
-      "img": "https://img.karkkainen.com/images/e_trim:4/c_pad%2Cf_auto%2Ch_234%2Cq_auto%2Cw_234/v1/tuotekuvat/7615523637669_1/scott-primal-snow-cross-rblue-orange.jpg"
-    },
-    {
-      "shop": "Kärkkäinen",
-      "name": "Scott Primal Snow Cross camo white/red rose ajolasit",
-      "disc": 50,
-      "sale": 34.95,
-      "reg": 69.9,
-      "inStock": true,
-      "link": "https://www.karkkainen.com/verkkokauppa/scott-primal-snow-cross-camo-white-red-rose-ajolasit",
-      "img": "https://img.karkkainen.com/images/e_trim:4/c_pad%2Cf_auto%2Ch_234%2Cq_auto%2Cw_234/v1/tuotekuvat/7615523637652_1/scott-primal-snow-cross-camowhite-rrose.jpg"
     },
     {
       "shop": "EMC24",
@@ -12812,16 +11430,6 @@
       "img": "https://www.emc24.fi/wp-content/uploads/2025/12/09-741_2-300x300.jpg"
     },
     {
-      "shop": "Kärkkäinen",
-      "name": "+3",
-      "disc": 50,
-      "sale": 37.45,
-      "reg": 74.9,
-      "inStock": true,
-      "link": "https://www.karkkainen.com/verkkokauppa/tripoint-mount-mist-small-urheilulasit-hiihtolasit-juoksulasit-",
-      "img": "https://img.karkkainen.com/images/e_trim:4/c_pad%2Cf_auto%2Ch_234%2Cq_auto%2Cw_234/v1/tuotekuvat/7350145358959/tripoint-mount-mist-small-mat-wht-blue.jpg"
-    },
-    {
       "shop": "EMC24",
       "name": "Parts+ Moottorikelkan kaasuttimen KORJAUSSARJA Polaris RMK 800 2003-05",
       "disc": 50,
@@ -12870,16 +11478,6 @@
       "inStock": true,
       "link": "https://www.emc24.fi/tuote/drag-specialties-pakosarjan-l-mp-eristenauha-2-25-vaalea",
       "img": "https://www.emc24.fi/wp-content/uploads/2026/11/153886eb-29ff-46a2-8033-2270677040a5_1024x1024-300x300.jpg"
-    },
-    {
-      "shop": "Kärkkäinen",
-      "name": "Start Leisure 77Ah 720A 12V vapaa-ajanakku",
-      "disc": 50,
-      "sale": 39.5,
-      "reg": 79.0,
-      "inStock": true,
-      "link": "https://www.karkkainen.com/verkkokauppa/start-leisure-77ah-720a-12v-vapaa-ajanakku",
-      "img": "https://img.karkkainen.com/images/e_trim:4/c_pad%2Cf_auto%2Ch_234%2Cq_auto%2Cw_234/v1/tuotekuvat/6438014427119_1/start-leisure-77ah-720a-vapaa-ajanakku.jpg"
     },
     {
       "shop": "EMC24",
@@ -12940,16 +11538,6 @@
       "inStock": true,
       "link": "https://www.emc24.fi/tuote/strg-handle-comp-gy-096s",
       "img": "https://www.emc24.fi/wp-content/uploads/2026/11/53100-AWU-000-GY-300x300.webp"
-    },
-    {
-      "shop": "Kärkkäinen",
-      "name": "Makita LXT DCF102Z 18V pöytätuuletin runko",
-      "disc": 50,
-      "sale": 41.45,
-      "reg": 82.9,
-      "inStock": true,
-      "link": "https://www.karkkainen.com/verkkokauppa/makita-lxt-dcf102z-18v-poytatuuletin-runko-akkupoytatuuletin-akkutuuletin",
-      "img": "https://img.karkkainen.com/images/e_trim:4/c_pad%2Cf_auto%2Ch_234%2Cq_auto%2Cw_234/v1/tuotekuvat/088381864992_1/makita-dcf102z-18v-poytatuuletin-runko.jpg"
     },
     {
       "shop": "EMC24",
@@ -13050,56 +11638,6 @@
       "inStock": true,
       "link": "https://www.emc24.fi/tuote/amoq-100-merino-naisten-aluspaita",
       "img": "https://www.emc24.fi/wp-content/uploads/2025/12/645-23130296-300x300.jpg"
-    },
-    {
-      "shop": "Kärkkäinen",
-      "name": "Scott Split OTG Snow Cross black clear ajolasit",
-      "disc": 50,
-      "sale": 44.95,
-      "reg": 89.9,
-      "inStock": true,
-      "link": "https://www.karkkainen.com/verkkokauppa/scott-split-otg-snow-cross-black-clear-ajolasit",
-      "img": "https://img.karkkainen.com/images/e_trim:4/c_pad%2Cf_auto%2Ch_234%2Cq_auto%2Cw_234/v1/tuotekuvat/7615523284238/scott-split-otg-snow-cross-black-c.jpg"
-    },
-    {
-      "shop": "Kärkkäinen",
-      "name": "Tripoint Lake Prespa X urheilulasit",
-      "disc": 50,
-      "sale": 44.95,
-      "reg": 89.9,
-      "inStock": true,
-      "link": "https://www.karkkainen.com/verkkokauppa/tripoint-lake-prespa-x-urheilulasit",
-      "img": "https://img.karkkainen.com/images/e_trim:4/c_pad%2Cf_auto%2Ch_234%2Cq_auto%2Cw_234/v1/tuotekuvat/7340228906665/tripoint-lake-prespa-x-m-harm-lasit.jpg"
-    },
-    {
-      "shop": "Kärkkäinen",
-      "name": "Tripoint Lake Prespa X Small urheilulasit",
-      "disc": 50,
-      "sale": 44.95,
-      "reg": 89.9,
-      "inStock": true,
-      "link": "https://www.karkkainen.com/verkkokauppa/tripoint-lake-prespa-x-small-urheilulasit",
-      "img": "https://img.karkkainen.com/images/e_trim:4/c_pad%2Cf_auto%2Ch_234%2Cq_auto%2Cw_234/v1/tuotekuvat/7340228906702/tripoint-lake-prespa-x-small-m-har-lasit.jpg"
-    },
-    {
-      "shop": "Kärkkäinen",
-      "name": "Scott Fury Snow Cross black clear ajolasit",
-      "disc": 50,
-      "sale": 44.95,
-      "reg": 89.9,
-      "inStock": true,
-      "link": "https://www.karkkainen.com/verkkokauppa/scott-fury-snow-cross-black-clear-ajolasit",
-      "img": "https://img.karkkainen.com/images/e_trim:4/c_pad%2Cf_auto%2Ch_234%2Cq_auto%2Cw_234/v1/tuotekuvat/7615523017218/scott-fury-snow-cross-black-clear.jpg"
-    },
-    {
-      "shop": "Kärkkäinen",
-      "name": "Didriksons Helmit miesten tuulenpitävä fleecetakki",
-      "disc": 50,
-      "sale": 44.95,
-      "reg": 89.9,
-      "inStock": true,
-      "link": "https://www.karkkainen.com/verkkokauppa/didriksons-helmit-miesten-tuulenpitava-fleecetakki",
-      "img": "https://img.karkkainen.com/images/e_trim:4/c_pad%2Cf_auto%2Ch_234%2Cq_auto%2Cw_234/v1/tuotekuvat/7333371406298/didriksons-hel-m-fle-jkt-506083-060-l.jpg"
     },
     {
       "shop": "EMC24",
@@ -13262,26 +11800,6 @@
       "img": "https://img.karkkainen.com/images/e_trim:4/c_pad%2Cf_auto%2Ch_234%2Cq_auto%2Cw_234/v1/tuotekuvat/6438014416991/rmb-nordic-6l-1800w-airfryer.jpg"
     },
     {
-      "shop": "Kärkkäinen",
-      "name": "Beurer MG89 Limited Edition 2026 lihashuoltovasara",
-      "disc": 50,
-      "sale": 49.9,
-      "reg": 99.9,
-      "inStock": true,
-      "link": "https://www.karkkainen.com/verkkokauppa/beurer-mg89-limited-edition-2026-lihashuoltovasara",
-      "img": "https://img.karkkainen.com/images/e_trim:4/c_pad%2Cf_auto%2Ch_234%2Cq_auto%2Cw_234/v1/tuotekuvat/4211125107130_1/beurer-mg89-le-2026-lihashuoltovasara.jpg"
-    },
-    {
-      "shop": "Kärkkäinen",
-      "name": "Primus Lite Stove System retkikeitinsetti",
-      "disc": 50,
-      "sale": 49.9,
-      "reg": 99.0,
-      "inStock": true,
-      "link": "https://www.karkkainen.com/verkkokauppa/primus-lite-stove-system-retkikeitinsetti",
-      "img": "https://img.karkkainen.com/images/e_trim:4/c_pad%2Cf_auto%2Ch_234%2Cq_auto%2Cw_234/v1/tuotekuvat/7330033910520/primus-lite-stove-retkikeitinsetti.jpg"
-    },
-    {
       "shop": "EMC24",
       "name": "Unibat CBTX15L-BS AKKU AGM MF Series 12V 13Ah 230Cca 175x87x130mm",
       "disc": 50,
@@ -13380,46 +11898,6 @@
       "inStock": true,
       "link": "https://www.emc24.fi/tuote/kappa-monokey-monolock-takalaukun-teline-kawasaki-z-900-2017",
       "img": "https://www.emc24.fi/wp-content/uploads/2022/05/KZ4118-300x300.jpg"
-    },
-    {
-      "shop": "Kärkkäinen",
-      "name": "Nox N402 valkoinen umpikypärä",
-      "disc": 50,
-      "sale": 59.5,
-      "reg": 119.0,
-      "inStock": true,
-      "link": "https://www.karkkainen.com/verkkokauppa/nox-n402-valkoinen-umpikypara",
-      "img": "https://img.karkkainen.com/images/e_trim:4/c_pad%2Cf_auto%2Ch_234%2Cq_auto%2Cw_234/v1/tuotekuvat/3664191288141_1/nox-n402-valkoinen-umpikypara-m.jpg"
-    },
-    {
-      "shop": "Kärkkäinen",
-      "name": "Nox Premium Seventy II mattamusta umpikypärä",
-      "disc": 50,
-      "sale": 59.5,
-      "reg": 119.0,
-      "inStock": true,
-      "link": "https://www.karkkainen.com/verkkokauppa/nox-premium-seventy-ii-mattamusta-umpikypara",
-      "img": "https://img.karkkainen.com/images/e_trim:4/c_pad%2Cf_auto%2Ch_234%2Cq_auto%2Cw_234/v1/tuotekuvat/3664191269942_1/nox-elmet-seventy-ii-musta-umpikypara-l.jpg"
-    },
-    {
-      "shop": "Kärkkäinen",
-      "name": "Scott Fury LS Snow Cross grey/yellow light sensitive ajolasit",
-      "disc": 50,
-      "sale": 59.5,
-      "reg": 119.0,
-      "inStock": true,
-      "link": "https://www.karkkainen.com/verkkokauppa/scott-fury-ls-snow-cross-grey-yellow-light-sensitive-ajolasit",
-      "img": "https://img.karkkainen.com/images/e_trim:4/c_pad%2Cf_auto%2Ch_234%2Cq_auto%2Cw_234/v1/tuotekuvat/7615523273058/scott-fury-ls-snow-cross-grey-yellow.jpg"
-    },
-    {
-      "shop": "Kärkkäinen",
-      "name": "Scott Fury Snow Cross orange/enhancer red chrome ajolasit",
-      "disc": 50,
-      "sale": 59.5,
-      "reg": 119.0,
-      "inStock": true,
-      "link": "https://www.karkkainen.com/verkkokauppa/scott-fury-snow-cross-orange-enhancer-red-chrome-ajolasit",
-      "img": "https://img.karkkainen.com/images/e_trim:4/c_pad%2Cf_auto%2Ch_234%2Cq_auto%2Cw_234/v1/tuotekuvat/7616185108696_1/scott-fury-snow-cross-orange-enhancer.jpg"
     },
     {
       "shop": "EMC24",
@@ -13532,36 +12010,6 @@
       "img": "https://img.karkkainen.com/images/e_trim:4/c_pad%2Cf_auto%2Ch_234%2Cq_auto%2Cw_234/v1/tuotekuvat/6438014247090_1/brightsolar-mppt-30a-saadin-lcd-naytolla.jpg"
     },
     {
-      "shop": "Kärkkäinen",
-      "name": "Scott Prospect 2.0 SMB black/white clear ajolasit",
-      "disc": 50,
-      "sale": 69.5,
-      "reg": 139.0,
-      "inStock": true,
-      "link": "https://www.karkkainen.com/verkkokauppa/scott-prospect-2-0-smb-black-white-clear-ajolasit",
-      "img": "https://img.karkkainen.com/images/e_trim:4/c_pad%2Cf_auto%2Ch_234%2Cq_auto%2Cw_234/v1/tuotekuvat/7616185108719_1/scott-prospect-2-0-smb-black-white-clear.jpg"
-    },
-    {
-      "shop": "Kärkkäinen",
-      "name": "Scott Prospect Snow Cross grey/yellow enhancer ajolasit",
-      "disc": 50,
-      "sale": 69.5,
-      "reg": 139.0,
-      "inStock": true,
-      "link": "https://www.karkkainen.com/verkkokauppa/scott-prospect-snow-cross-grey-yellow-enhancer-ajolasit",
-      "img": "https://img.karkkainen.com/images/e_trim:4/c_pad%2Cf_auto%2Ch_234%2Cq_auto%2Cw_234/v1/tuotekuvat/7615523272860/scott-prospect-snow-cross-grey-yellow.jpg"
-    },
-    {
-      "shop": "Kärkkäinen",
-      "name": "San Marin harmaa pulpettiveneen peite",
-      "disc": 50,
-      "sale": 72.5,
-      "reg": 139.0,
-      "inStock": true,
-      "link": "https://www.karkkainen.com/verkkokauppa/san-marin-harmaa-pulpettiveneen-peite",
-      "img": "https://img.karkkainen.com/images/e_trim:4/c_pad%2Cf_auto%2Ch_234%2Cq_auto%2Cw_234/v1/tuotekuvat/6438014311876_1/san-marin-5-66-5-96x2-59m-pulpvene-peite.jpg"
-    },
-    {
       "shop": "EMC24",
       "name": "Unibat ULT2B AKKU Lithium eXtra 12V 42,24Ah 200Cca 150x65x93mm",
       "disc": 50,
@@ -13590,26 +12038,6 @@
       "inStock": true,
       "link": "https://www.karkkainen.com/verkkokauppa/san-marin-venepeite",
       "img": "https://img.karkkainen.com/images/e_trim:4/c_pad%2Cf_auto%2Ch_234%2Cq_auto%2Cw_234/v1/tuotekuvat/6438014308876_1/san-marin-harm-579-609x243cm-venepeite.jpg"
-    },
-    {
-      "shop": "Kärkkäinen",
-      "name": "San Marin harmaa tuulilasiveneen peite",
-      "disc": 50,
-      "sale": 74.5,
-      "reg": 155.0,
-      "inStock": true,
-      "link": "https://www.karkkainen.com/verkkokauppa/san-marin-harmaa-tuulilasiveneen-peite",
-      "img": "https://img.karkkainen.com/images/e_trim:4/c_pad%2Cf_auto%2Ch_234%2Cq_auto%2Cw_234/v1/tuotekuvat/6438014311944_1/san-marin-6-24-6-50x2-59m-tuul-vene-peit.jpg"
-    },
-    {
-      "shop": "Kärkkäinen",
-      "name": "Scorpion EXO-491 Solid valkoinen umpikypärä",
-      "disc": 50,
-      "sale": 74.5,
-      "reg": 149.0,
-      "inStock": true,
-      "link": "https://www.karkkainen.com/verkkokauppa/scorpion-exo-491-solid-valkoinen-umpikypara",
-      "img": "https://img.karkkainen.com/images/e_trim:4/c_pad%2Cf_auto%2Ch_234%2Cq_auto%2Cw_234/v1/tuotekuvat/3399990121169_1/scorpion-exo-491-valkoinen-kypara-l.jpg"
     },
     {
       "shop": "Kärkkäinen",
@@ -13672,16 +12100,6 @@
       "img": "https://www.emc24.fi/wp-content/uploads/2024/05/CR600-300x300.jpg"
     },
     {
-      "shop": "Kärkkäinen",
-      "name": "Scorpion EXO-491 Solid mattamusta umpikypärä",
-      "disc": 50,
-      "sale": 79.5,
-      "reg": 159.0,
-      "inStock": true,
-      "link": "https://www.karkkainen.com/verkkokauppa/scorpion-exo-491-solid-mattamusta-umpikypara",
-      "img": "https://img.karkkainen.com/images/e_trim:4/c_pad%2Cf_auto%2Ch_234%2Cq_auto%2Cw_234/v1/tuotekuvat/3399990093886_1/scorpion-exo-491-solid-mattamusta-xxl.jpg"
-    },
-    {
       "shop": "EMC24",
       "name": "HARLEY DAVIDSON SADDLEBAG LID BRA KIT 57805-03A",
       "disc": 50,
@@ -13720,16 +12138,6 @@
       "inStock": true,
       "link": "https://www.emc24.fi/tuote/athena-tiivistesarja-taydellinen-xj750-seca-1982-1984-xj750-1984-1985",
       "img": "https://www.emc24.fi/wp-content/uploads/2026/08/P400485850710-300x300.jpg"
-    },
-    {
-      "shop": "Kärkkäinen",
-      "name": "Skullcandy Crusher Evo langattomat kuulokkeet",
-      "disc": 50,
-      "sale": 89.0,
-      "reg": 179.0,
-      "inStock": true,
-      "link": "https://www.karkkainen.com/verkkokauppa/skullcandy-crusher-evo-langattomat-kuulokkeet",
-      "img": "https://img.karkkainen.com/images/e_trim:4/c_pad%2Cf_auto%2Ch_234%2Cq_auto%2Cw_234/v1/tuotekuvat/810015587249/skullcandy-crusher-evo-bassokuuloke-mu.jpg"
     },
     {
       "shop": "EMC24",
@@ -13832,16 +12240,6 @@
       "img": "https://www.emc24.fi/wp-content/uploads/2021/09/DI2037_a-300x300.jpg"
     },
     {
-      "shop": "Kärkkäinen",
-      "name": "Wilfa AF3W-80P Crispier 8 l airfryer",
-      "disc": 50,
-      "sale": 99.0,
-      "reg": 199.0,
-      "inStock": true,
-      "link": "https://www.karkkainen.com/verkkokauppa/wilfa-af3w-80p-crispier-8-l-airfryer",
-      "img": "https://img.karkkainen.com/images/e_trim:4/c_pad%2Cf_auto%2Ch_234%2Cq_auto%2Cw_234/v1/tuotekuvat/7044876023360_1/wilfa-af3w-80p-crispier-8l-airfryer-valk.jpg"
-    },
-    {
       "shop": "EMC24",
       "name": "Gates 41C4313 G-FORCE C12 VARIAATTORINHIHNA 36&#215;1125 mm, Arctic Cat Bearcat/ Pantera 7000 2016-19 (0627-102) (90-808)",
       "disc": 50,
@@ -13880,26 +12278,6 @@
       "inStock": true,
       "link": "https://www.karkkainen.com/verkkokauppa/dunwore-ms-12-v-2000-w-invertteri",
       "img": "https://img.karkkainen.com/images/e_trim:4/c_pad%2Cf_auto%2Ch_234%2Cq_auto%2Cw_234/v1/tuotekuvat/6438014353838_1/dunwore-ms-12v-2000w-invertteri.jpg"
-    },
-    {
-      "shop": "Kärkkäinen",
-      "name": "APEX JT300 Gunmetal avokypärä",
-      "disc": 50,
-      "sale": 99.5,
-      "reg": 199.0,
-      "inStock": true,
-      "link": "https://www.karkkainen.com/verkkokauppa/apex-jt300-gunmetal-avokypara",
-      "img": "https://img.karkkainen.com/images/e_trim:4/c_pad%2Cf_auto%2Ch_234%2Cq_auto%2Cw_234/v1/tuotekuvat/6438235272987_1/apex-kypara-jt300-gunmetal-matt-m.jpg"
-    },
-    {
-      "shop": "Kärkkäinen",
-      "name": "Scorpion EXO-Combat 2 Solid mattamusta umpikypärä",
-      "disc": 50,
-      "sale": 99.5,
-      "reg": 199.0,
-      "inStock": true,
-      "link": "https://www.karkkainen.com/verkkokauppa/scorpion-exo-combat-2-solid-mattamusta-umpikypara",
-      "img": "https://img.karkkainen.com/images/e_trim:4/c_pad%2Cf_auto%2Ch_234%2Cq_auto%2Cw_234/v1/tuotekuvat/3399990109662_1/scorpion-exo-combat-2-musta-kypara-l.jpg"
     },
     {
       "shop": "EMC24",
@@ -13953,26 +12331,6 @@
     },
     {
       "shop": "Kärkkäinen",
-      "name": "Ratioparts Stiga 1812-2533-01 kytkin",
-      "disc": 50,
-      "sale": 114.5,
-      "reg": 229.0,
-      "inStock": true,
-      "link": "https://www.karkkainen.com/verkkokauppa/ratioparts-stiga-1812-2533-01-kytkin",
-      "img": "https://img.karkkainen.com/images/e_trim:4/c_pad%2Cf_auto%2Ch_234%2Cq_auto%2Cw_234/v1/tuotekuvat/4050444178045/stiga-1812-2533-01-kytkin.jpg"
-    },
-    {
-      "shop": "Kärkkäinen",
-      "name": "Ratioparts 122-133 laakeripukki Rider 13,15,16",
-      "disc": 50,
-      "sale": 119.0,
-      "reg": 238.0,
-      "inStock": true,
-      "link": "https://www.karkkainen.com/verkkokauppa/ratioparts-122-133-laakeripukki-rider-13-15-16",
-      "img": "https://img.karkkainen.com/images/e_trim:4/c_pad%2Cf_auto%2Ch_234%2Cq_auto%2Cw_234/v1/tuotekuvat/4050444152878/ratioparts-122-133-laakeripukki.jpg"
-    },
-    {
-      "shop": "Kärkkäinen",
       "name": "CKX 210° Airflow matta musta/keltainen linssi ajolasit sähkölinssillä",
       "disc": 50,
       "sale": 124.5,
@@ -13980,16 +12338,6 @@
       "inStock": true,
       "link": "https://www.karkkainen.com/verkkokauppa/ckx-210-airflow-matta-musta-keltainen-linssi-ajolasit-sahkolinssilla",
       "img": "https://img.karkkainen.com/images/e_trim:4/c_pad%2Cf_auto%2Ch_234%2Cq_auto%2Cw_234/v1/tuotekuvat/779421551483_1/ckx-sahko-ajolasit-210-airflow-matta-mu.jpg"
-    },
-    {
-      "shop": "Kärkkäinen",
-      "name": "GXT DV150 työnnettävä ruohonleikkuri",
-      "disc": 50,
-      "sale": 124.5,
-      "reg": 249.0,
-      "inStock": true,
-      "link": "https://www.karkkainen.com/verkkokauppa/gxt-dv150-tyonnettava-ruohonleikkuri",
-      "img": "https://img.karkkainen.com/images/e_trim:4/c_pad%2Cf_auto%2Ch_234%2Cq_auto%2Cw_234/v1/tuotekuvat/6438014422176_1/gxt-dv150-tyonnettava-ruohonleikkuri.jpg"
     },
     {
       "shop": "EMC24",
@@ -14032,16 +12380,6 @@
       "img": "https://www.emc24.fi/wp-content/uploads/2024/05/KLO3118MK-1-300x300.jpg"
     },
     {
-      "shop": "Kärkkäinen",
-      "name": "SCORPION EXO-Covert FX Solid mattamusta umpikypärä",
-      "disc": 50,
-      "sale": 134.5,
-      "reg": 269.0,
-      "inStock": true,
-      "link": "https://www.karkkainen.com/verkkokauppa/scorpion-exo-covert-fx-solid-mattamusta-umpikypara",
-      "img": "https://img.karkkainen.com/images/e_trim:4/c_pad%2Cf_auto%2Ch_234%2Cq_auto%2Cw_234/v1/tuotekuvat/3399990111771_1/scorpion-exo-covert-fx-musta-kypara-l.jpg"
-    },
-    {
       "shop": "EMC24",
       "name": "Motul MOTOCOOL EXPERT -37C jäähdytinneste 20 litraa",
       "disc": 50,
@@ -14050,16 +12388,6 @@
       "inStock": true,
       "link": "https://www.emc24.fi/tuote/motul-motocool-expert-37c-jaahdytinneste-20-litraa",
       "img": "https://www.emc24.fi/wp-content/uploads/2024/05/103999-300x300.webp"
-    },
-    {
-      "shop": "Kärkkäinen",
-      "name": "Bauer S24 Supreme M30 2E INT jääkiekkoluistimet",
-      "disc": 50,
-      "sale": 144.5,
-      "reg": 289.0,
-      "inStock": true,
-      "link": "https://www.karkkainen.com/verkkokauppa/bauer-s24-supreme-m30-2e-int-jaakiekkoluistimet",
-      "img": "https://img.karkkainen.com/images/e_trim:4/c_pad%2Cf_auto%2Ch_234%2Cq_auto%2Cw_234/v1/tuotekuvat/688698661705_1/bauer-s24-supreme-m30-int-4-5-2e-luistin.jpg"
     },
     {
       "shop": "Kärkkäinen",
@@ -14072,36 +12400,6 @@
       "img": "https://img.karkkainen.com/images/e_trim:4/c_pad%2Cf_auto%2Ch_234%2Cq_auto%2Cw_234/v1/tuotekuvat/6438014427171_1/bandago-simulator-cockpit-ajo-ohjaamo.jpg"
     },
     {
-      "shop": "Kärkkäinen",
-      "name": "Roborock Q7 BF+ robotti-imuri",
-      "disc": 50,
-      "sale": 149.0,
-      "reg": 299.0,
-      "inStock": true,
-      "link": "https://www.karkkainen.com/verkkokauppa/roborock-q7-bf-robotti-imuri",
-      "img": "https://img.karkkainen.com/images/e_trim:4/c_pad%2Cf_auto%2Ch_234%2Cq_auto%2Cw_234/v1/tuotekuvat/6936905901934/roborock-q7-bf-robotti-imuri-valkoinen.jpg"
-    },
-    {
-      "shop": "Kärkkäinen",
-      "name": "Scorpion Exo-Tech Solid mattamusta avattava kypärä",
-      "disc": 50,
-      "sale": 149.5,
-      "reg": 299.0,
-      "inStock": true,
-      "link": "https://www.karkkainen.com/verkkokauppa/scorpion-exo-tech-solid-mattamusta-avattava-kypara",
-      "img": "https://img.karkkainen.com/images/e_trim:4/c_pad%2Cf_auto%2Ch_234%2Cq_auto%2Cw_234/v1/tuotekuvat/3399990073468/scorpion-exo-tech-solid-mattamusta-m.jpg"
-    },
-    {
-      "shop": "Kärkkäinen",
-      "name": "Scorpion EXO-1400 EVO II Air Solid mattamusta umpikypärä",
-      "disc": 50,
-      "sale": 149.5,
-      "reg": 299.0,
-      "inStock": true,
-      "link": "https://www.karkkainen.com/verkkokauppa/scorpion-exo-1400-evo-ii-air-solid-mattamusta-umpikypara",
-      "img": "https://img.karkkainen.com/images/e_trim:4/c_pad%2Cf_auto%2Ch_234%2Cq_auto%2Cw_234/v1/tuotekuvat/3701629100283_1/scorpion-exo-1400-evo-ii-mus-kypara-2xl.jpg"
-    },
-    {
       "shop": "EMC24",
       "name": "Harley-Davidson ETUJARRULEVY, RA1250 and RA1250S / Pan America",
       "disc": 50,
@@ -14110,16 +12408,6 @@
       "inStock": true,
       "link": "https://www.emc24.fi/tuote/harley-davidson-front-brake-rotor-21-later-ra1250-and-ra1250s-pan-america",
       "img": "https://www.emc24.fi/wp-content/uploads/2024/06/41500195_OB-300x300.webp"
-    },
-    {
-      "shop": "Kärkkäinen",
-      "name": "Scorpion EXO-1500 AIR mattamusta umpikypärä",
-      "disc": 50,
-      "sale": 154.5,
-      "reg": 309.0,
-      "inStock": true,
-      "link": "https://www.karkkainen.com/verkkokauppa/scorpion-exo-1500-air-mattamusta-umpikypara",
-      "img": "https://img.karkkainen.com/images/e_trim:4/c_pad%2Cf_auto%2Ch_234%2Cq_auto%2Cw_234/v1/tuotekuvat/3701629129116_1/scorpion-exo-1500-air-mattamusta-xl.jpg"
     },
     {
       "shop": "EMC24",
@@ -14152,16 +12440,6 @@
       "img": "https://www.emc24.fi/wp-content/uploads/2022/07/lt5-300x300.jpg"
     },
     {
-      "shop": "Kärkkäinen",
-      "name": "AMOQ Recoil Carbon ADV Blackout adventure-kypärä sähkövisiirillä",
-      "disc": 50,
-      "sale": 199.5,
-      "reg": 399.0,
-      "inStock": true,
-      "link": "https://www.karkkainen.com/verkkokauppa/amoq-recoil-carbon-adv-blackout-adventure-kypara-sahkovisiirilla",
-      "img": "https://img.karkkainen.com/images/e_trim:4/c_pad%2Cf_auto%2Ch_234%2Cq_auto%2Cw_234/v1/tuotekuvat/6438235264708/amoq-recoil-electric-carbon-kypara-m.jpg"
-    },
-    {
       "shop": "EMC24",
       "name": "Harley-Davidson Boom! Audio 20S Bluetooth helmet single headset",
       "disc": 50,
@@ -14170,16 +12448,6 @@
       "inStock": true,
       "link": "https://www.emc24.fi/tuote/harley-davidson-boom-audio-20s-bluetooth-helmet-single-headset",
       "img": "https://www.emc24.fi/wp-content/uploads/2026/02/76000736A.jpg"
-    },
-    {
-      "shop": "Kärkkäinen",
-      "name": "Scorpion Exo-Tech Carbon Solid avattava kypärä",
-      "disc": 50,
-      "sale": 229.5,
-      "reg": 459.0,
-      "inStock": true,
-      "link": "https://www.karkkainen.com/verkkokauppa/scorpion-exo-tech-carbon-solid-avattava-kypara",
-      "img": "https://img.karkkainen.com/images/e_trim:4/c_pad%2Cf_auto%2Ch_234%2Cq_auto%2Cw_234/v1/tuotekuvat/3399990085614/scorpion-exo-tech-carbon-solid-kypara-xl.jpg"
     },
     {
       "shop": "EMC24",
@@ -14202,16 +12470,6 @@
       "img": "https://img.karkkainen.com/images/e_trim:4/c_pad%2Cf_auto%2Ch_234%2Cq_auto%2Cw_234/v1/tuotekuvat/6438014353951_1/dunwore-ps-12v-3000w-siniaaltoinvertteri.jpg"
     },
     {
-      "shop": "Kärkkäinen",
-      "name": "Coleman Octagon BlackOut 8 hengen teltta",
-      "disc": 50,
-      "sale": 249.5,
-      "reg": 499.0,
-      "inStock": true,
-      "link": "https://www.karkkainen.com/verkkokauppa/coleman-octagon-blackout-8-hengen-teltta",
-      "img": "https://img.karkkainen.com/images/e_trim:4/c_pad%2Cf_auto%2Ch_234%2Cq_auto%2Cw_234/v1/tuotekuvat/3138522113056_1/coleman-octagon-blackout-8h-teltta.jpg"
-    },
-    {
       "shop": "Verkkokauppa.com",
       "name": "iRobot Roomba Combo Plus 575 robotti-imuri, valkoinen",
       "disc": 50,
@@ -14230,16 +12488,6 @@
       "inStock": true,
       "link": "https://www.emc24.fi/tuote/motul-gear-300-75w90-tayssynteettinen-vaihteisto-peraoljy-20-litraa",
       "img": "https://www.emc24.fi/wp-content/uploads/2024/04/bigweb_motul_jerry_can-red_20l_png-1-300x300.png"
-    },
-    {
-      "shop": "Verkkokauppa.com",
-      "name": "Samsung 65\" Q7FA – 4K QLED TV + HW-QS700F 3.1.2 Dolby Atmos Soundbar -tuotepaketti",
-      "disc": 50,
-      "sale": 898.0,
-      "reg": 1798.0,
-      "inStock": true,
-      "link": "https://www.verkkokauppa.com/fi/product/1006090/Samsung-65-Q7FA-4K-QLED-TV-HW-QS700F-3-1-2-Dolby-Atmos-Sound",
-      "img": "https://static.verkcdn.com/kuvastin/w:208/h:128/rt:fit/q:80/exar:1/sh:0.5/t:1/plain/images/73/2_1006090-3017x821.jpg"
     },
     {
       "shop": "EMC24",
