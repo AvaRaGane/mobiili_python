@@ -10,8 +10,7 @@ from bs4 import BeautifulSoup
 from playwright.sync_api import sync_playwright
 
 MIN_DISCOUNT_SAVE = int(os.getenv("MIN_DISCOUNT", "50"))
-MAX_PAGES_KARKKAINEN = int(os.getenv("MAX_PAGES_KARKKAINEN", "15"))
-MAX_PAGES_OTHERS = 8
+MAX_PAGES_KARKKAINEN = int(os.getenv("MAX_PAGES_KARKKAINEN", "25"))
 
 HEADERS = {
     "User-Agent": (
@@ -20,6 +19,24 @@ HEADERS = {
     ),
     "Accept-Language": "fi-FI,fi;q=0.9,en;q=0.8",
 }
+
+WOOCOMMERCE_SHOPS = [
+    {
+        "name": "EMC24",
+        "base_url": "https://www.emc24.fi",
+        "outlet_fallback": "https://www.emc24.fi/tuote-osasto/outlet/page/{page}/",
+    },
+    {
+        "name": "Moposport",
+        "base_url": "https://moposport.fi",
+        "outlet_fallback": None,
+    },
+    {
+        "name": "Hi5Bikes",
+        "base_url": "https://www.hi5bikes.fi",
+        "outlet_fallback": None,
+    },
+]
 
 
 def clean_url(url: str) -> str:
@@ -40,7 +57,9 @@ def parse_price(text: str) -> float:
         return 0.0
 
 
-def scrape_emc24() -> list[dict]:
+def scrape_woocommerce_shop(cfg: dict) -> list[dict]:
+    shop = cfg["name"]
+    base_url = cfg["base_url"].rstrip("/")
     items = []
     seen = set()
 
@@ -48,12 +67,14 @@ def scrape_emc24() -> list[dict]:
     api_ok = False
     while page <= 80:
         url = (
-            f"https://www.emc24.fi/wp-json/wc/store/v1/products"
+            f"{base_url}/wp-json/wc/store/v1/products"
             f"?on_sale=true&per_page=100&page={page}"
         )
         try:
             r = requests.get(url, headers=HEADERS, timeout=25)
             if r.status_code != 200:
+                if page == 1:
+                    print(f"[{shop} API] HTTP {r.status_code} – rajapinta ei avoinna.")
                 break
             data = r.json()
             if not isinstance(data, list) or not data:
@@ -72,7 +93,7 @@ def scrape_emc24() -> list[dict]:
                         seen.add(link)
                         imgs = p.get("images") or []
                         items.append({
-                            "shop": "EMC24",
+                            "shop": shop,
                             "name": p.get("name", ""),
                             "disc": disc,
                             "sale": round(sale, 2),
@@ -86,16 +107,20 @@ def scrape_emc24() -> list[dict]:
             page += 1
             time.sleep(0.25)
         except Exception as e:
-            print(f"[EMC24 API] Virhe sivulla {page}: {e}")
+            print(f"[{shop} API] Virhe sivulla {page}: {e}")
             break
 
-    if api_ok and items:
-        print(f"[EMC24] API valmis: {len(items)} tuotetta")
+    if api_ok:
+        print(f"[{shop}] API valmis: {len(items)} tuotetta")
         return items
 
-    print("[EMC24] Siirrytään Outlet HTML -hakuun...")
+    fallback = cfg.get("outlet_fallback")
+    if not fallback:
+        return items
+
+    print(f"[{shop}] Siirrytään Outlet HTML -hakuun...")
     for p_num in range(1, 50):
-        url = f"https://www.emc24.fi/tuote-osasto/outlet/page/{p_num}/"
+        url = fallback.format(page=p_num)
         try:
             r = requests.get(url, headers=HEADERS, timeout=25)
             if r.status_code == 404:
@@ -127,7 +152,7 @@ def scrape_emc24() -> list[dict]:
                     continue
                 seen.add(link)
                 items.append({
-                    "shop": "EMC24",
+                    "shop": shop,
                     "name": title_el.get_text(strip=True) if title_el else "",
                     "disc": disc,
                     "sale": round(sale, 2),
@@ -138,10 +163,10 @@ def scrape_emc24() -> list[dict]:
                 })
             time.sleep(0.3)
         except Exception as e:
-            print(f"[EMC24 HTML] Virhe sivulla {p_num}: {e}")
+            print(f"[{shop} HTML] Virhe sivulla {p_num}: {e}")
             break
 
-    print(f"[EMC24] HTML valmis: {len(items)} tuotetta")
+    print(f"[{shop}] HTML valmis: {len(items)} tuotetta")
     return items
 
 
@@ -248,27 +273,9 @@ def scrape_playwright_shops() -> dict[str, list[dict]]:
             "name": "Verkkokauppa.com",
             "domain": "https://www.verkkokauppa.com",
             "selector": 'a[href*="/fi/product/"]',
-            "max_pages": 3,
+            "max_pages": 2,
             "urls": [
                 ("https://www.verkkokauppa.com/fi/blackfriday", "page", 1),
-            ],
-        },
-        {
-            "name": "Booztlet",
-            "domain": "https://www.booztlet.com",
-            "selector": 'a[href*="/fi/fi/"]',
-            "max_pages": MAX_PAGES_OTHERS,
-            "urls": [
-                ("https://www.booztlet.com/fi/fi/black-friday", "page", 1),
-            ],
-        },
-        {
-            "name": "Matsmart",
-            "domain": "https://www.matsmart.fi",
-            "selector": 'a[href*="/tuote/"], main a[href]',
-            "max_pages": MAX_PAGES_OTHERS,
-            "urls": [
-                ("https://www.matsmart.fi/tarjoukset", "page", 1),
             ],
         },
     ]
@@ -288,7 +295,7 @@ def scrape_playwright_shops() -> dict[str, list[dict]]:
             shop = cfg["name"]
             seen_links = set()
             seen_names = set()
-            max_pages = cfg.get("max_pages", MAX_PAGES_OTHERS)
+            max_pages = cfg.get("max_pages", 10)
 
             for base_url, param_name, step in cfg["urls"]:
                 empty_streak = 0
@@ -317,10 +324,6 @@ def scrape_playwright_shops() -> dict[str, list[dict]]:
                         results_by_shop[shop].extend(new_items)
                         print(f"[{shop}] Kortteja: {len(extracted)}, uusia ≥{MIN_DISCOUNT_SAVE}%: {len(new_items)} (yht. {len(results_by_shop[shop])})")
 
-                        if idx == 0 and extracted and len(new_items) == 0:
-                            sample = extracted[0]["text"].replace("\n", " | ")[:160]
-                            print(f"[{shop} SAMPLE] {sample}")
-
                         if len(new_items) == 0:
                             empty_streak += 1
                             if empty_streak >= 2:
@@ -338,12 +341,15 @@ def scrape_playwright_shops() -> dict[str, list[dict]]:
 
 
 def main():
-    emc_items = scrape_emc24()
+    all_items = []
+    counts = {}
+
+    for wc_cfg in WOOCOMMERCE_SHOPS:
+        wc_items = scrape_woocommerce_shop(wc_cfg)
+        all_items.extend(wc_items)
+        counts[wc_cfg["name"]] = len(wc_items)
+
     pw_results = scrape_playwright_shops()
-
-    all_items = list(emc_items)
-    counts = {"EMC24": len(emc_items)}
-
     for shop_name, items in pw_results.items():
         all_items.extend(items)
         counts[shop_name] = len(items)
