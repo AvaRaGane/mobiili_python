@@ -10,9 +10,9 @@ on:
       max_pages_karkkainen:
         description: "Kärkkäisen sivumäärä per osasto (1 sivu = 48 tuotetta)"
         required: false
-        default: "15"
+        default: "25"
   schedule:
-    - cron: "0 */6 * * *" # Päivittyy automaattisesti 6 tunnin välein
+    - cron: "0 */6 * * *"
 
 permissions:
   contents: write
@@ -37,7 +37,7 @@ jobs:
       - name: Aja scrape.py
         env:
           MIN_DISCOUNT: ${{ github.event.inputs.min_discount || '50' }}
-          MAX_PAGES_KARKKAINEN: ${{ github.event.inputs.max_pages_karkkainen || '15' }}
+          MAX_PAGES_KARKKAINEN: ${{ github.event.inputs.max_pages_karkkainen || '25' }}
         run: python scrape.py
 
       - name: Tallenna deals.json repoon
@@ -45,6 +45,4 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add deals.json
-          git diff --staged --quiet || git commit -m "Päivitä deals.json"
-          git push
-          
+          git diff --staged --quiet || (git commit -m "Päivitä deals.json" && git pull --rebase origin main && git push)
