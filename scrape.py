@@ -185,7 +185,6 @@ def parse_extracted_items(extracted: list[dict], shop_name: str, base_domain: st
 
         text = raw["text"].replace("\xa0", " ")
 
-        # Etsi hinnat muodoista: 19,90 €, 199 €, 199,-
         price_matches = re.findall(r"(\d[\d\s]*[.,]\d{2})\s*€|(\d[\d\s]*)\s*(?:€|,-)", text)
         prices = []
         for m1, m2 in price_matches:
@@ -194,7 +193,6 @@ def parse_extracted_items(extracted: list[dict], shop_name: str, base_domain: st
                 prices.append(val)
         prices = sorted(set(prices))
 
-        # Etsi myös "Säästä XX €" tai "-XX %"
         disc_match = re.search(r"-\s*(\d{1,2})\s*%", text)
         disc = int(disc_match.group(1)) if disc_match else 0
 
@@ -203,7 +201,6 @@ def parse_extracted_items(extracted: list[dict], shop_name: str, base_domain: st
 
         sale, reg = 0.0, 0.0
         if len(prices) >= 2:
-            # Jos "Säästä X €" oli mukana hinnoissa, suodatetaan se tarvittaessa
             sale = prices[0]
             reg = prices[-1]
             if saved_eur > 0 and abs(sale - saved_eur) < 0.05 and len(prices) >= 3:
@@ -257,21 +254,21 @@ def scrape_playwright_shops() -> dict[str, list[dict]]:
             ],
         },
         {
-            "name": "Jula",
-            "domain": "https://www.jula.fi",
-            "selector": 'a[href*="/catalog/"], main a[href]',
+            "name": "Booztlet",
+            "domain": "https://www.booztlet.com",
+            "selector": 'a[href*="/fi/fi/"]',
             "max_pages": MAX_PAGES_OTHERS,
             "urls": [
-                ("https://www.jula.fi/tarjoukset/black-friday/", "page", 1),
+                ("https://www.booztlet.com/fi/fi/black-friday", "page", 1),
             ],
         },
         {
-            "name": "Rusta",
-            "domain": "https://www.rusta.com",
-            "selector": 'a[href*="/fi-fi/"], main a[href]',
+            "name": "Matsmart",
+            "domain": "https://www.matsmart.fi",
+            "selector": 'a[href*="/tuote/"], main a[href]',
             "max_pages": MAX_PAGES_OTHERS,
             "urls": [
-                ("https://www.rusta.com/fi-fi/kampanja/black-week", "page", 1),
+                ("https://www.matsmart.fi/tarjoukset", "page", 1),
             ],
         },
     ]
